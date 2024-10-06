@@ -10,7 +10,7 @@ Use of GLP-1 receptor agonists and subsequent risk of acute liver injury – A s
 - Study lead forums tag: **gohevelyn669 (https://github.com/gohevelyn669)**
 - Study start date: **October 1, 2024**
 - Study end date: **-**
-- Protocol: **-**
+- Protocol: **https://github.com/ohdsi-studies/Glp1Dili/blob/master/Documents/Protocol_proposal.docx**
 - Publications: **-**
 - Results explorer: **-**
 
