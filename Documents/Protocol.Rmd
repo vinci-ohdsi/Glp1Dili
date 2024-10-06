@@ -1,5 +1,5 @@
 ---
-title: "| RESEARCH PROTOCOL\n| \n| Study Repo Template \n"
+title: "| RESEARCH PROTOCOL\n| \n| Use of GLP-1 receptor agonists and subsequent risk of acute liver injury – A self-controlled case series (SCCS) analyses in the OMOP CDM (GLP1-T2DM) \n"
 fontsize: 12pt
 geometry: margin=1in
 output:
@@ -49,7 +49,7 @@ longtable: yes
 mainfont: Arial
 bibliography: Protocol.bib
 params:
-  date: '28-Mar-2023'
+  date: '6-Oct-2024'
   version: 0.0.1
 subtitle: 'Version: `r params$version`'
 link-citations: yes
