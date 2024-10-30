@@ -11,7 +11,7 @@
 # ##############################################################################
 
 library(dplyr)
-library(Glp1Dili)
+library(Strategus)
 
 resultsDatabaseSchema <- "results"
 
@@ -48,38 +48,38 @@ evidenceSynthesisAnalysisList <- list(metaAnalysisCm, metaAnalysisSccs)
 evidenceSynthesisAnalysisSpecifications <- esModuleSettingsCreator$createModuleSpecifications(
   evidenceSynthesisAnalysisList
 )
-esAnalysisSpecifications <- Glp1Dili::createEmptyAnalysisSpecificiations() |>
-  Glp1Dili::addModuleSpecifications(evidenceSynthesisAnalysisSpecifications)
+esAnalysisSpecifications <- Strategus::createEmptyAnalysisSpecificiations() |>
+  Strategus::addModuleSpecifications(evidenceSynthesisAnalysisSpecifications)
 
 ParallelLogger::saveSettingsToJson(
   esAnalysisSpecifications, 
   file.path("inst/sampleStudy/esAnalysisSpecification.json"))
 
 
-resultsExecutionSettings <- Glp1Dili::createResultsExecutionSettings(
+resultsExecutionSettings <- Strategus::createResultsExecutionSettings(
   resultsDatabaseSchema = resultsDatabaseSchema,
   resultsFolder = file.path("results", "evidence_sythesis", "strategusOutput"),
   workFolder = file.path("results", "evidence_sythesis", "strategusWork")
 )
 
-Glp1Dili::execute(
+Strategus::execute(
   analysisSpecifications = esAnalysisSpecifications,
   executionSettings = resultsExecutionSettings,
   connectionDetails = resultsConnectionDetails
 )
 
-resultsDataModelSettings <- Glp1Dili::createResultsDataModelSettings(
+resultsDataModelSettings <- Strategus::createResultsDataModelSettings(
   resultsDatabaseSchema = resultsDatabaseSchema,
   resultsFolder = resultsExecutionSettings$resultsFolder,
 )
 
-Glp1Dili::createResultDataModel(
+Strategus::createResultDataModel(
   analysisSpecifications = esAnalysisSpecifications,
   resultsDataModelSettings = resultsDataModelSettings,
   resultsConnectionDetails = resultsConnectionDetails
 )
 
-Glp1Dili::uploadResults(
+Strategus::uploadResults(
   analysisSpecifications = esAnalysisSpecifications,
   resultsDataModelSettings = resultsDataModelSettings,
   resultsConnectionDetails = resultsConnectionDetails

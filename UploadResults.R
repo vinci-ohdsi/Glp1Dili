@@ -13,9 +13,9 @@
 # See the Working with results section
 # of the UsingThisTemplate.md for more details.
 # 
-# More information about working with results produced by running Glp1Dili 
+# More information about working with results produced by running Strategus 
 # is found at:
-# https://ohdsi.github.io/Glp1Dili/articles/WorkingWithResults.html
+# https://ohdsi.github.io/Strategus/articles/WorkingWithResults.html
 # ##############################################################################
 
 # Code for uploading results to a Postgres database
@@ -43,12 +43,12 @@ ParallelLogger::addDefaultErrorReportLogger(
 
 # Upload Results ---------------------------------------------------------------
 for (resultFolder in list.dirs(path = "results", full.names = T, recursive = F)) {
-  resultsDataModelSettings <- Glp1Dili::createResultsDataModelSettings(
+  resultsDataModelSettings <- Strategus::createResultsDataModelSettings(
     resultsDatabaseSchema = resultsDatabaseSchema,
     resultsFolder = file.path(resultFolder, "strategusOutput"),
   )
   
-  Glp1Dili::uploadResults(
+  Strategus::uploadResults(
     analysisSpecifications = analysisSpecifications,
     resultsDataModelSettings = resultsDataModelSettings,
     resultsConnectionDetails = resultsDatabaseConnectionDetails

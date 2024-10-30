@@ -1,4 +1,4 @@
-name: E:/git/ohdsi-studies/Glp1DiliStudyRepoTemplate/renv/python/condaenvs/renv-python
+name: E:/git/ohdsi-studies/Glp1Dili/renv/python/condaenvs/renv-python
 channels:
   - conda-forge
   - defaults
