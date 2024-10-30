@@ -1,0 +1,245 @@
+MapIds                  Map covariate and row Ids so they start from 1
+accuracy                Calculate the accuracy
+addDiagnosePlpToDatabase
+                        Insert a diagnostic result into a PLP result
+                        schema database
+addMultipleDiagnosePlpToDatabase
+                        Insert mutliple diagnosePlp results saved to a
+                        directory into a PLP result schema database
+addMultipleRunPlpToDatabase
+                        Populate the PatientLevelPrediction results
+                        tables
+addRunPlpToDatabase     Function to add the run plp (development or
+                        validation) to database
+averagePrecision        Calculate the average precision
+brierScore              brierScore
+calibrationLine         calibrationLine
+computeAuc              Compute the area under the ROC curve
+computeGridPerformance
+                        Computes grid performance with a specified
+                        performance function
+configurePython         Sets up a virtual environment to use for PLP
+                        (can be conda or python)
+covariateSummary        covariateSummary
+createCohortCovariateSettings
+                        Extracts covariates based on cohorts
+createDatabaseDetails   Create a setting that holds the details about
+                        the cdmDatabase connection for data extraction
+createDatabaseList      Create a list with the database details and
+                        database meta data entries
+createDatabaseSchemaSettings
+                        Create the PatientLevelPrediction database
+                        result schema settings
+createDefaultExecuteSettings
+                        Creates default list of settings specifying
+                        what parts of runPlp to execute
+createDefaultSplitSetting
+                        Create the settings for defining how the
+                        plpData are split into test/validation/train
+                        sets using default splitting functions (either
+                        random stratified by outcome, time or subject
+                        splitting)
+createExecuteSettings   Creates list of settings specifying what parts
+                        of runPlp to execute
+createFeatureEngineeringSettings
+                        Create the settings for defining any feature
+                        engineering that will be done
+createLearningCurve     createLearningCurve
+createLogSettings       Create the settings for logging the progression
+                        of the analysis
+createModelDesign       Specify settings for deceloping a single model
+createPlpResultTables   Create the results tables to store
+                        PatientLevelPrediction models and results into
+                        a database
+createPreprocessSettings
+                        Create the settings for preprocessing the
+                        trainData.
+createRandomForestFeatureSelection
+                        Create the settings for random foreat based
+                        feature selection
+createRestrictPlpDataSettings
+                        createRestrictPlpDataSettings define extra
+                        restriction settings when calling getPlpData
+createSampleSettings    Create the settings for defining how the
+                        trainData from 'splitData' are sampled using
+                        default sample functions.
+createSplineSettings    Create the settings for adding a spline for
+                        continuous variables
+createStratifiedImputationSettings
+                        Create the settings for adding a spline for
+                        continuous variables
+createStudyPopulation   Create a study population
+createStudyPopulationSettings
+                        create the study population settings
+createTempModelLoc      Create a temporary model location
+createUnivariateFeatureSelection
+                        Create the settings for defining any feature
+                        selection that will be done
+createValidationDesign
+                        createValidationDesign - Define the validation
+                        design for external validation
+createValidationSettings
+                        createValidationSettings define optional
+                        settings for performing external validation
+diagnoseMultiplePlp     Run a list of predictions diagnoses
+diagnosePlp             diagnostic - Investigates the prediction
+                        problem settings - use before training a model
+diagnosticOddsRatio     Calculate the diagnostic odds ratio
+evaluatePlp             evaluatePlp
+externalValidateDbPlp   externalValidateDbPlp - Validate a model on new
+                        databases
+extractDatabaseToCsv    Exports all the results from a database into
+                        csv files
+f1Score                 Calculate the f1Score
+falseDiscoveryRate      Calculate the falseDiscoveryRate
+falseNegativeRate       Calculate the falseNegativeRate
+falseOmissionRate       Calculate the falseOmissionRate
+falsePositiveRate       Calculate the falsePositiveRate
+fitPlp                  fitPlp
+getCalibrationSummary   Get a sparse summary of the calibration
+getCohortCovariateData
+                        Extracts covariates based on cohorts
+getDemographicSummary   Get a calibration per age/gender groups
+getPlpData              Get the patient level prediction data from the
+                        server
+getPredictionDistribution
+                        Calculates the prediction distribution
+getPredictionDistribution_binary
+                        Calculates the prediction distribution
+getThresholdSummary     Calculate all measures for sparse ROC
+getThresholdSummary_binary
+                        Calculate all measures for sparse ROC when
+                        prediction is bianry classification
+ici                     Calculate the Integrated Calibration
+                        Information from Austin and Steyerberg
+                        https://onlinelibrary.wiley.com/doi/full/10.1002/sim.8281
+insertCsvToDatabase     Function to insert results into a database from
+                        csvs
+insertModelDesignInDatabase
+                        Insert a model design into a PLP result schema
+                        database
+insertResultsToSqlite   Create sqlite database with the results
+listAppend              join two lists
+listCartesian           Cartesian product
+loadPlpAnalysesJson     Load the multiple prediction json settings from
+                        a file
+loadPlpData             Load the cohort data from a folder
+loadPlpModel            loads the plp model
+loadPlpResult           Loads the evalaution dataframe
+loadPlpShareable        Loads the plp result saved as json/csv files
+                        for transparent sharing
+loadPrediction          Loads the prediciton dataframe to csv
+migrateDataModel        Migrate Data model
+modelBasedConcordance   Calculate the model-based concordance, which is
+                        a calculation of the expected discrimination
+                        performance of a model under the assumption the
+                        model predicts the "TRUE" outcome as detailed
+                        in van Klaveren et al.
+                        https://pubmed.ncbi.nlm.nih.gov/27251001/
+negativeLikelihoodRatio
+                        Calculate the negativeLikelihoodRatio
+negativePredictiveValue
+                        Calculate the negativePredictiveValue
+outcomeSurvivalPlot     Plot the outcome incidence over time
+pfi                     pfi
+plotDemographicSummary
+                        Plot the Observed vs. expected incidence, by
+                        age and gender
+plotF1Measure           Plot the F1 measure efficiency frontier using
+                        the sparse thresholdSummary data frame
+plotGeneralizability    Plot the train/test generalizability diagnostic
+plotLearningCurve       plotLearningCurve
+plotPlp                 Plot all the PatientLevelPrediction plots
+plotPrecisionRecall     Plot the precision-recall curve using the
+                        sparse thresholdSummary data frame
+plotPredictedPDF        Plot the Predicted probability density
+                        function, showing prediction overlap between
+                        true and false cases
+plotPredictionDistribution
+                        Plot the side-by-side boxplots of prediction
+                        distribution, by class#'
+plotPreferencePDF       Plot the preference score probability density
+                        function, showing prediction overlap between
+                        true and false cases #'
+plotSmoothCalibration   Plot the smooth calibration as detailed in
+                        Calster et al. "A calibration heirarchy for
+                        risk models was defined: from utopia to
+                        empirical data" (2016)
+plotSparseCalibration   Plot the calibration
+plotSparseCalibration2
+                        Plot the conventional calibration
+plotSparseRoc           Plot the ROC curve using the sparse
+                        thresholdSummary data frame
+plotVariableScatterplot
+                        Plot the variable importance scatterplot
+plpDataSimulationProfile
+                        A simulation profile
+positiveLikelihoodRatio
+                        Calculate the positiveLikelihoodRatio
+positivePredictiveValue
+                        Calculate the positivePredictiveValue
+predictCyclops          Create predictive probabilities
+predictPlp              predictPlp
+preprocessData          A function that wraps around
+                        FeatureExtraction::tidyCovariateData to
+                        normalise the data and remove rare or redundant
+                        features
+recalibratePlp          recalibratePlp
+recalibratePlpRefit     recalibratePlpRefit
+runMultiplePlp          Run a list of predictions analyses
+runPlp                  runPlp - Develop and internally evaluate a
+                        model using specified settings
+savePlpAnalysesJson     Save the modelDesignList to a json file
+savePlpData             Save the cohort data to folder
+savePlpModel            Saves the plp model
+savePlpResult           Saves the result from runPlp into the location
+                        directory
+savePlpShareable        Save the plp result as json files and csv files
+                        for transparent sharing
+savePrediction          Saves the prediction dataframe to RDS
+sensitivity             Calculate the sensitivity
+setAdaBoost             Create setting for AdaBoost with python
+                        DecisionTreeClassifier base estimator
+setCoxModel             Create setting for lasso Cox model
+setDecisionTree         Create setting for the scikit-learn 1.0.1
+                        DecisionTree with python
+setGradientBoostingMachine
+                        Create setting for gradient boosting machine
+                        model using gbm_xgboost implementation
+setIterativeHardThresholding
+                        Create setting for lasso logistic regression
+setKNN                  Create setting for knn model
+setLassoLogisticRegression
+                        Create setting for lasso logistic regression
+setLightGBM             Create setting for gradient boosting machine
+                        model using lightGBM
+                        (https://github.com/microsoft/LightGBM/tree/master/R-package).
+setMLP                  Create setting for neural network model with
+                        python
+setNaiveBayes           Create setting for naive bayes model with
+                        python
+setPythonEnvironment    Use the virtual environment created using
+                        configurePython()
+setRandomForest         Create setting for random forest model with
+                        python (very fast)
+setSVM                  Create setting for the python sklearn SVM (SVC
+                        function)
+simulatePlpData         Generate simulated data
+sklearnFromJson         Loads sklearn python model from json
+sklearnToJson           Saves sklearn python model object to json in
+                        path
+specificity             Calculate the specificity
+splitData               Split the plpData into test/train sets using a
+                        splitting settings of class 'splitSettings'
+toSparseM               Convert the plpData in COO format into a sparse
+                        R matrix
+validateExternal        externalValidatePlp - Validate model
+                        performance on new data
+validateMultiplePlp     externally validate the multiple plp models
+                        across new datasets
+viewDatabaseResultPlp   open a local shiny app for viewing the result
+                        of a PLP analyses from a database
+viewMultiplePlp         open a local shiny app for viewing the result
+                        of a multiple PLP analyses
+viewPlp                 viewPlp - Interactively view the performance
+                        and model settings

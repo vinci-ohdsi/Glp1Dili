@@ -1,0 +1,49 @@
+approximateHierarchicalNormalPosterior
+                        Approximate Bayesian posterior for hierarchical
+                        Normal model
+approximateLikelihood   Approximate a likelihood function
+approximateSimplePosterior
+                        Approximate simple Bayesian posterior
+biasCorrectionInference
+                        Bias Correction with Inference
+computeBayesianMetaAnalysis
+                        Compute a Bayesian random-effects meta-analysis
+computeConfidenceInterval
+                        Compute the point estimate and confidence
+                        interval given a likelihood function
+                        approximation
+computeFixedEffectMetaAnalysis
+                        Compute a fixed-effect meta-analysis
+createSimulationSettings
+                        Create simulation settings
+customFunction          A custom function to approximate a log
+                        likelihood function
+detectApproximationType
+                        Detect the type of likelihood approximation
+                        based on the data format
+fitBiasDistribution     Fit Bias Distribution
+ncLikelihoods           Example profile likelihoods for negative
+                        control outcomes
+ooiLikelihoods          Example profile likelihoods for a synthetic
+                        outcome of interest
+plotBiasCorrectionInference
+                        Plot bias correction inference
+plotBiasDistribution    Plot bias distributions
+plotCovariateBalances   Plot covariate balances
+plotEmpiricalNulls      Plot empirical null distributions
+plotLikelihoodFit       Plot the likelihood approximation
+plotMcmcTrace           Plot MCMC trace
+plotMetaAnalysisForest
+                        Create a forest plot
+plotPerDbMcmcTrace      Plot MCMC trace for individual databases
+plotPerDbPosterior      Plot posterior density per database
+plotPosterior           Plot posterior density
+plotPreparedPs          Plot the propensity score distribution
+preparePsPlot           Prepare to plot the propensity score
+                        distribution
+sequentialFitBiasDistribution
+                        Fit Bias Distribution Sequentially or in Groups
+simulatePopulations     Simulate survival data for multiple databases
+skewNormal              The skew normal function to approximate a log
+                        likelihood function
+supportsJava8           Determine if Java virtual machine supports Java

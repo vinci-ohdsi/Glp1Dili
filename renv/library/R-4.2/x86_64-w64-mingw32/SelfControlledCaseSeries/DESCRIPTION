@@ -1,0 +1,41 @@
+Package: SelfControlledCaseSeries
+Type: Package
+Title: Self-Controlled Case Series
+Version: 5.3.0
+Date: 2024-08-15
+Authors@R: c( person("Martijn", "Schuemie", , "schuemie@ohdsi.org", role = c("aut", "cre")), person("Patrick", "Ryan", role = c("aut")), person("Trevor", "Shaddox", role = c("aut")), person("Marc", "Suchard", role = c("aut"))    )
+Maintainer: Martijn Schuemie <schuemie@ohdsi.org>
+Description: SelfControlledCaseSeries is an R package for performing self- controlled case series (SCCS) analyses in an observational database in the OMOP Common Data Model. It extracts all necessary data from the database and  transforms it to the format required for SCCS. Age and season can be modeled using splines assuming constant hazard within calendar months. Event-dependent  censoring of the observation period can be corrected for. Many exposures can be included at once (MSCCS), with regularization on all coefficients except for the exposure of interest.
+VignetteBuilder: knitr
+URL: https://ohdsi.github.io/SelfControlledCaseSeries/,
+    https://github.com/OHDSI/SelfControlledCaseSeries
+BugReports: https://github.com/OHDSI/SelfControlledCaseSeries/issues
+Depends: R (>= 4.0.0), Cyclops (>= 3.4.0), DatabaseConnector (>= 6.0.0),
+    Andromeda
+Imports: SqlRender (>= 1.16.0), dplyr (>= 1.0.0), Rcpp (>= 1.0.9),
+    ParallelLogger (>= 3.1.0), EmpiricalCalibration, splines, ggplot2 (>=
+    3.4.0), methods, utils, cli, pillar, checkmate, readr, ResultModelManager,
+    zip, jsonlite, digest
+Suggests: testthat, knitr, rmarkdown, Eunomia, withr
+License: Apache License 2.0
+LinkingTo: Rcpp
+NeedsCompilation: yes
+RoxygenNote: 7.3.2
+Roxygen: list(markdown = TRUE)
+Encoding: UTF-8
+Author: Martijn Schuemie [aut, cre], Patrick Ryan [aut], Trevor Shaddox [aut], Marc Suchard [aut]
+Built: R 4.2.3; x86_64-w64-mingw32; 2024-10-30 21:58:27 UTC; windows
+ExperimentalWindowsRuntime: ucrt
+Archs: x64
+RemoteType: github
+RemoteHost: api.github.com
+RemoteUsername: OHDSI
+RemoteRepo: SelfControlledCaseSeries
+RemoteRef: v5.3.0
+RemoteSha: c8ea06494f39064dc9d126fd08e197ba49f25b49
+GithubHost: api.github.com
+GithubRepo: SelfControlledCaseSeries
+GithubUsername: OHDSI
+GithubRef: v5.3.0
+GithubSHA1: c8ea06494f39064dc9d126fd08e197ba49f25b49
+Remotes: ohdsi/ResultModelManager

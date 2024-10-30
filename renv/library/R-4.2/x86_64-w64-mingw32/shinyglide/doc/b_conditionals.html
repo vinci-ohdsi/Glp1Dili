@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<meta name="author" content="Julien Barnier" />
+
+<meta name="date" content="2023-02-15" />
+
+<title>Conditional controls and screen output</title>
+
+<script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
+// be compatible with the behavior of Pandoc < 2.8).
+document.addEventListener('DOMContentLoaded', function(e) {
+  var hs = document.querySelectorAll("div.section[class*='level'] > :first-child");
+  var i, h, a;
+  for (i = 0; i < hs.length; i++) {
+    h = hs[i];
+    if (!/^h[1-6]$/i.test(h.tagName)) continue;  // it should be a header h1-h6
+    a = h.attributes;
+    while (a.length > 0) h.removeAttribute(a[0].name);
+  }
+});
+</script>
+<script>// Hide empty <a> tag within highlighted CodeBlock for screen reader accessibility (see https://github.com/jgm/pandoc/issues/6352#issuecomment-626106786) -->
+// v0.0.1
+// Written by JooYoung Seo (jooyoung@psu.edu) and Atsushi Yasumoto on June 1st, 2020.
+
+document.addEventListener('DOMContentLoaded', function() {
+  const codeList = document.getElementsByClassName("sourceCode");
+  for (var i = 0; i < codeList.length; i++) {
+    var linkList = codeList[i].getElementsByTagName('a');
+    for (var j = 0; j < linkList.length; j++) {
+      if (linkList[j].innerHTML === "") {
+        linkList[j].setAttribute('aria-hidden', 'true');
+      }
+    }
+  }
+});
+</script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+<style type="text/css">
+  code {
+    white-space: pre;
+  }
+  .sourceCode {
+    overflow: visible;
+  }
+</style>
+<style type="text/css" data-origin="pandoc">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+
+</style>
+<script>
+// apply pandoc div.sourceCode style to pre.sourceCode instead
+(function() {
+  var sheets = document.styleSheets;
+  for (var i = 0; i < sheets.length; i++) {
+    if (sheets[i].ownerNode.dataset["origin"] !== "pandoc") continue;
+    try { var rules = sheets[i].cssRules; } catch (e) { continue; }
+    var j = 0;
+    while (j < rules.length) {
+      var rule = rules[j];
+      // check if there is a div.sourceCode rule
+      if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") {
+        j++;
+        continue;
+      }
+      var style = rule.style.cssText;
+      // check if color or background-color is set
+      if (rule.style.color === '' && rule.style.backgroundColor === '') {
+        j++;
+        continue;
+      }
+      // replace div.sourceCode by a pre.sourceCode rule
+      sheets[i].deleteRule(j);
+      sheets[i].insertRule('pre.sourceCode{' + style + '}', j);
+    }
+  }
+})();
+</script>
+
+
+
+
+<style type="text/css">body {
+background-color: #fff;
+margin: 1em auto;
+max-width: 700px;
+overflow: visible;
+padding-left: 2em;
+padding-right: 2em;
+font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
+line-height: 1.35;
+}
+#TOC {
+clear: both;
+margin: 0 0 10px 10px;
+padding: 4px;
+width: 400px;
+border: 1px solid #CCCCCC;
+border-radius: 5px;
+background-color: #f6f6f6;
+font-size: 13px;
+line-height: 1.3;
+}
+#TOC .toctitle {
+font-weight: bold;
+font-size: 15px;
+margin-left: 5px;
+}
+#TOC ul {
+padding-left: 40px;
+margin-left: -1.5em;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+#TOC ul ul {
+margin-left: -2em;
+}
+#TOC li {
+line-height: 16px;
+}
+table {
+margin: 1em auto;
+border-width: 1px;
+border-color: #DDDDDD;
+border-style: outset;
+border-collapse: collapse;
+}
+table th {
+border-width: 2px;
+padding: 5px;
+border-style: inset;
+}
+table td {
+border-width: 1px;
+border-style: inset;
+line-height: 18px;
+padding: 5px 5px;
+}
+table, table th, table td {
+border-left-style: none;
+border-right-style: none;
+}
+table thead, table tr.even {
+background-color: #f7f7f7;
+}
+p {
+margin: 0.5em 0;
+}
+blockquote {
+background-color: #f6f6f6;
+padding: 0.25em 0.75em;
+}
+hr {
+border-style: solid;
+border: none;
+border-top: 1px solid #777;
+margin: 28px 0;
+}
+dl {
+margin-left: 0;
+}
+dl dd {
+margin-bottom: 13px;
+margin-left: 13px;
+}
+dl dt {
+font-weight: bold;
+}
+ul {
+margin-top: 0;
+}
+ul li {
+list-style: circle outside;
+}
+ul ul {
+margin-bottom: 0;
+}
+pre, code {
+background-color: #f7f7f7;
+border-radius: 3px;
+color: #333;
+white-space: pre-wrap; 
+}
+pre {
+border-radius: 3px;
+margin: 5px 0px 10px 0px;
+padding: 10px;
+}
+pre:not([class]) {
+background-color: #f7f7f7;
+}
+code {
+font-family: Consolas, Monaco, 'Courier New', monospace;
+font-size: 85%;
+}
+p > code, li > code {
+padding: 2px 0px;
+}
+div.figure {
+text-align: center;
+}
+img {
+background-color: #FFFFFF;
+padding: 2px;
+border: 1px solid #DDDDDD;
+border-radius: 3px;
+border: 1px solid #CCCCCC;
+margin: 0 5px;
+}
+h1 {
+margin-top: 0;
+font-size: 35px;
+line-height: 40px;
+}
+h2 {
+border-bottom: 4px solid #f7f7f7;
+padding-top: 10px;
+padding-bottom: 2px;
+font-size: 145%;
+}
+h3 {
+border-bottom: 2px solid #f7f7f7;
+padding-top: 10px;
+font-size: 120%;
+}
+h4 {
+border-bottom: 1px solid #f7f7f7;
+margin-left: 8px;
+font-size: 105%;
+}
+h5, h6 {
+border-bottom: 1px solid #ccc;
+font-size: 105%;
+}
+a {
+color: #0033dd;
+text-decoration: none;
+}
+a:hover {
+color: #6666ff; }
+a:visited {
+color: #800080; }
+a:visited:hover {
+color: #BB00BB; }
+a[href^="http:"] {
+text-decoration: underline; }
+a[href^="https:"] {
+text-decoration: underline; }
+
+code > span.kw { color: #555; font-weight: bold; } 
+code > span.dt { color: #902000; } 
+code > span.dv { color: #40a070; } 
+code > span.bn { color: #d14; } 
+code > span.fl { color: #d14; } 
+code > span.ch { color: #d14; } 
+code > span.st { color: #d14; } 
+code > span.co { color: #888888; font-style: italic; } 
+code > span.ot { color: #007020; } 
+code > span.al { color: #ff0000; font-weight: bold; } 
+code > span.fu { color: #900; font-weight: bold; } 
+code > span.er { color: #a61717; background-color: #e3d2d2; } 
+</style>
+
+
+
+
+</head>
+
+<body>
+
+
+
+
+<h1 class="title toc-ignore">Conditional controls and screen output</h1>
+<h4 class="author">Julien Barnier</h4>
+<h4 class="date">2023-02-15</h4>
+
+
+
+<div id="conditional-controls" class="section level2">
+<h2>Conditional controls</h2>
+<p>Sometimes you don’t want your user to be able to go to the next screen if a condition based on inputs is not met. This can be done in <code>shinyglide</code> with the <code>next_condition</code> argument of the <code>screen</code> function. This option takes exactly the same syntax has the one used in <code>shiny::conditionalPanel</code>.</p>
+<p>For example, in the following app, the <em>Next</em> button is disabled until the <em>n</em> value is greater then zero :</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a>ui &lt;-<span class="st"> </span><span class="kw">fluidPage</span>(</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a>  <span class="kw">glide</span>(</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true"></a>    <span class="kw">screen</span>(</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true"></a>      <span class="dt">next_condition =</span> <span class="st">&quot;input.n &gt; 0&quot;</span>,</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true"></a>      </span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true"></a>      <span class="kw">p</span>(<span class="st">&quot;Please choose a value for n :&quot;</span>),</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true"></a>      <span class="kw">numericInput</span>(<span class="st">&quot;n&quot;</span>, <span class="st">&quot;n :&quot;</span>, <span class="dt">value =</span> <span class="dv">0</span>)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true"></a>    ),</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true"></a>    <span class="kw">screen</span>(</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true"></a>      <span class="kw">p</span>(<span class="st">&quot;Here is your plot :&quot;</span>),</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true"></a>      <span class="kw">plotOutput</span>(<span class="st">&quot;plot&quot;</span>)</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true"></a>    )</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true"></a>  )</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true"></a>)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true"></a>server &lt;-<span class="st"> </span><span class="cf">function</span>(input, output, session) {</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true"></a>  output<span class="op">$</span>plot &lt;-<span class="st"> </span><span class="kw">renderPlot</span>({</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true"></a>    <span class="kw">hist</span>(<span class="kw">rnorm</span>(input<span class="op">$</span>n), <span class="dt">main =</span> <span class="kw">paste</span>(<span class="st">&quot;n =&quot;</span>, input<span class="op">$</span>n))</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true"></a>  })</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true"></a>}</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true"></a></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true"></a><span class="kw">shinyApp</span>(ui, server)</span></code></pre></div>
+<p>You can do the same for the <em>Back</em> button with the <code>previous_condition</code> argument.</p>
+<p>By default the button is disabled when the condition is not met (more precisely, the button gets a <code>disabled = &quot;disabled&quot;</code> argument and a <code>disabled</code> CSS class). If you prefer to hide it entirely, you can add <code>disable_type = &quot;hide&quot;</code> to your <code>glide()</code> definition :</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a>ui &lt;-<span class="st"> </span><span class="kw">fluidPage</span>(</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true"></a>  <span class="kw">glide</span>(</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true"></a>    <span class="dt">disable_type =</span> <span class="st">&quot;hide&quot;</span>,</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true"></a>    </span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true"></a>    <span class="kw">screen</span>(</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true"></a>      <span class="dt">next_condition =</span> <span class="st">&quot;input.n &gt; 0&quot;</span>,</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true"></a>      </span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true"></a>      <span class="kw">p</span>(<span class="st">&quot;Please choose a value for n :&quot;</span>),</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true"></a>      <span class="kw">numericInput</span>(<span class="st">&quot;n&quot;</span>, <span class="st">&quot;n :&quot;</span>, <span class="dt">value =</span> <span class="dv">0</span>)</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true"></a>    ),</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true"></a>    <span class="kw">screen</span>(</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true"></a>      <span class="kw">p</span>(<span class="st">&quot;Here is your plot :&quot;</span>),</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true"></a>      <span class="kw">plotOutput</span>(<span class="st">&quot;plot&quot;</span>)</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true"></a>    )</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true"></a>  )</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true"></a>)</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true"></a></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true"></a>server &lt;-<span class="st"> </span><span class="cf">function</span>(input, output, session) {</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true"></a>  output<span class="op">$</span>plot &lt;-<span class="st"> </span><span class="kw">renderPlot</span>({</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true"></a>    <span class="kw">hist</span>(<span class="kw">rnorm</span>(input<span class="op">$</span>n), <span class="dt">main =</span> <span class="kw">paste</span>(<span class="st">&quot;n =&quot;</span>, input<span class="op">$</span>n))</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true"></a>  })</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true"></a>}</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true"></a></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true"></a><span class="kw">shinyApp</span>(ui, server)</span></code></pre></div>
+</div>
+<div id="screen-output" class="section level2">
+<h2>Screen output</h2>
+<p>Sometimes you want to show a screen only if certain conditions are met based on inputs. For example, if a user chooses a value which is not present in a dataset, you would like to display a specific screen to alert him.</p>
+<p>This is possible by using a <code>screenOutput</code> call in you app UI, associated to a <code>renderUI</code> in your app server. If <code>renderUI</code> returns <code>NULL</code>, the screen will be hidden.</p>
+<p>Here is an example :</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true"></a>ui &lt;-<span class="st"> </span><span class="kw">fluidPage</span>(</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true"></a>  <span class="kw">glide</span>(</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true"></a>    <span class="dt">disable_type =</span> <span class="st">&quot;hide&quot;</span>,</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true"></a>    </span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true"></a>    <span class="kw">screen</span>(</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true"></a>      <span class="kw">p</span>(<span class="st">&quot;Do you want to see the next screen ?&quot;</span>),</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true"></a>      <span class="kw">checkboxInput</span>(<span class="st">&quot;check&quot;</span>, <span class="st">&quot;Yes, of course !&quot;</span>, <span class="dt">value =</span> <span class="ot">FALSE</span>)</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true"></a>    ),</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true"></a>    <span class="kw">screenOutput</span>(<span class="st">&quot;check_screen&quot;</span>),</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true"></a>    <span class="kw">screen</span>(</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true"></a>      <span class="kw">p</span>(<span class="st">&quot;And this is the last screen&quot;</span>)</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true"></a>    )</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true"></a>  )</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true"></a>)</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true"></a></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true"></a>server &lt;-<span class="st"> </span><span class="cf">function</span>(input, output, session) {</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true"></a>  output<span class="op">$</span>check_screen &lt;-<span class="st"> </span><span class="kw">renderUI</span>({</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true"></a>    <span class="cf">if</span>(<span class="op">!</span>input<span class="op">$</span>check) <span class="kw">return</span>(<span class="ot">NULL</span>)</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true"></a>    <span class="kw">p</span>(<span class="st">&quot;Here it is !&quot;</span>)</span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true"></a>  })</span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true"></a>  <span class="kw">outputOptions</span>(output, <span class="st">&quot;check_screen&quot;</span>, <span class="dt">suspendWhenHidden =</span> <span class="ot">FALSE</span>)</span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true"></a>}</span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true"></a></span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true"></a><span class="kw">shinyApp</span>(ui, server)</span></code></pre></div>
+<p><strong>Important :</strong> for the <code>screenOutput</code> to work, it is mandatory to add the following line in your app server :</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true"></a><span class="kw">outputOptions</span>(output, <span class="st">&quot;your_screen_id&quot;</span>, <span class="dt">suspendWhenHidden =</span> <span class="ot">FALSE</span>)</span></code></pre></div>
+<p>Otherwise, it won’t be updated when hidden.</p>
+<p>Sometimes the <code>screenOutput</code> computation takes some time. In these cases, with the default controls, the <em>Next</em> button is disabled and a <em>Loading</em> message is shown until the next screens computations is done. You can see it in the following example, which is the same as the previous one but with an articial 2 seconds waiting time :</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true"></a>ui &lt;-<span class="st"> </span><span class="kw">fluidPage</span>(</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true"></a>  <span class="kw">glide</span>(</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true"></a>    <span class="dt">disable_type =</span> <span class="st">&quot;hide&quot;</span>,</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true"></a>    </span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true"></a>    <span class="kw">screen</span>(</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true"></a>      <span class="kw">p</span>(<span class="st">&quot;Do you want to see the next screen ?&quot;</span>),</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true"></a>      <span class="kw">checkboxInput</span>(<span class="st">&quot;check&quot;</span>, <span class="st">&quot;Yes, of course !&quot;</span>, <span class="dt">value =</span> <span class="ot">FALSE</span>)</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true"></a>    ),</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true"></a>    <span class="kw">screenOutput</span>(<span class="st">&quot;check_screen&quot;</span>),</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true"></a>    <span class="kw">screen</span>(</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true"></a>      <span class="kw">p</span>(<span class="st">&quot;And this is the last screen&quot;</span>)</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true"></a>    )</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true"></a>  )</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true"></a>)</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true"></a></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true"></a>server &lt;-<span class="st"> </span><span class="cf">function</span>(input, output, session) {</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true"></a>  output<span class="op">$</span>check_screen &lt;-<span class="st"> </span><span class="kw">renderUI</span>({</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true"></a>    <span class="kw">Sys.sleep</span>(<span class="dv">2</span>)</span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true"></a>    <span class="cf">if</span>(<span class="op">!</span>input<span class="op">$</span>check) <span class="kw">return</span>(<span class="ot">NULL</span>)</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true"></a>    <span class="kw">p</span>(<span class="st">&quot;Here it is !&quot;</span>)</span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true"></a>  })</span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true"></a>  <span class="kw">outputOptions</span>(output, <span class="st">&quot;check_screen&quot;</span>, <span class="dt">suspendWhenHidden =</span> <span class="ot">FALSE</span>)</span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true"></a>}</span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true"></a></span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true"></a><span class="kw">shinyApp</span>(ui, server)</span></code></pre></div>
+<div id="customizing-loading" class="section level3">
+<h3>Customizing loading</h3>
+<p>You can customize the loading label and animation with options passed to <code>glide()</code> :</p>
+<ul>
+<li><code>loading_class</code> (default value : <code>&quot;loading&quot;</code>) : a CSS class passed to the <em>Next</em> button when in loading state</li>
+<li><code>loading_label</code> : the label of the <em>Next</em> button while in loading state. This can be any HTML, and you can insert a <code>span(class = &quot;shinyglide-spinner&quot;)</code> in it if you want to display the defautl animated spinner somewhere.</li>
+</ul>
+<p>You can take a look at the <a href="https://data.nozav.org/app/shinyglide/04_custom_controls/">custom controls sample app</a> for an example of loading customization with <a href="https://juba.github.io/shinyglide/articles/c_custom_controls.html">custom controls</a> and CSS.</p>
+</div>
+</div>
+
+
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

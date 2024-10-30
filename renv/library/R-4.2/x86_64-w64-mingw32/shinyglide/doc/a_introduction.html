@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<meta name="author" content="Julien Barnier" />
+
+<meta name="date" content="2023-02-15" />
+
+<title>Introduction to shinyglide</title>
+
+<script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
+// be compatible with the behavior of Pandoc < 2.8).
+document.addEventListener('DOMContentLoaded', function(e) {
+  var hs = document.querySelectorAll("div.section[class*='level'] > :first-child");
+  var i, h, a;
+  for (i = 0; i < hs.length; i++) {
+    h = hs[i];
+    if (!/^h[1-6]$/i.test(h.tagName)) continue;  // it should be a header h1-h6
+    a = h.attributes;
+    while (a.length > 0) h.removeAttribute(a[0].name);
+  }
+});
+</script>
+<script>// Hide empty <a> tag within highlighted CodeBlock for screen reader accessibility (see https://github.com/jgm/pandoc/issues/6352#issuecomment-626106786) -->
+// v0.0.1
+// Written by JooYoung Seo (jooyoung@psu.edu) and Atsushi Yasumoto on June 1st, 2020.
+
+document.addEventListener('DOMContentLoaded', function() {
+  const codeList = document.getElementsByClassName("sourceCode");
+  for (var i = 0; i < codeList.length; i++) {
+    var linkList = codeList[i].getElementsByTagName('a');
+    for (var j = 0; j < linkList.length; j++) {
+      if (linkList[j].innerHTML === "") {
+        linkList[j].setAttribute('aria-hidden', 'true');
+      }
+    }
+  }
+});
+</script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+<style type="text/css">
+  code {
+    white-space: pre;
+  }
+  .sourceCode {
+    overflow: visible;
+  }
+</style>
+<style type="text/css" data-origin="pandoc">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+
+</style>
+<script>
+// apply pandoc div.sourceCode style to pre.sourceCode instead
+(function() {
+  var sheets = document.styleSheets;
+  for (var i = 0; i < sheets.length; i++) {
+    if (sheets[i].ownerNode.dataset["origin"] !== "pandoc") continue;
+    try { var rules = sheets[i].cssRules; } catch (e) { continue; }
+    var j = 0;
+    while (j < rules.length) {
+      var rule = rules[j];
+      // check if there is a div.sourceCode rule
+      if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") {
+        j++;
+        continue;
+      }
+      var style = rule.style.cssText;
+      // check if color or background-color is set
+      if (rule.style.color === '' && rule.style.backgroundColor === '') {
+        j++;
+        continue;
+      }
+      // replace div.sourceCode by a pre.sourceCode rule
+      sheets[i].deleteRule(j);
+      sheets[i].insertRule('pre.sourceCode{' + style + '}', j);
+    }
+  }
+})();
+</script>
+
+
+
+
+<style type="text/css">body {
+background-color: #fff;
+margin: 1em auto;
+max-width: 700px;
+overflow: visible;
+padding-left: 2em;
+padding-right: 2em;
+font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
+line-height: 1.35;
+}
+#TOC {
+clear: both;
+margin: 0 0 10px 10px;
+padding: 4px;
+width: 400px;
+border: 1px solid #CCCCCC;
+border-radius: 5px;
+background-color: #f6f6f6;
+font-size: 13px;
+line-height: 1.3;
+}
+#TOC .toctitle {
+font-weight: bold;
+font-size: 15px;
+margin-left: 5px;
+}
+#TOC ul {
+padding-left: 40px;
+margin-left: -1.5em;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+#TOC ul ul {
+margin-left: -2em;
+}
+#TOC li {
+line-height: 16px;
+}
+table {
+margin: 1em auto;
+border-width: 1px;
+border-color: #DDDDDD;
+border-style: outset;
+border-collapse: collapse;
+}
+table th {
+border-width: 2px;
+padding: 5px;
+border-style: inset;
+}
+table td {
+border-width: 1px;
+border-style: inset;
+line-height: 18px;
+padding: 5px 5px;
+}
+table, table th, table td {
+border-left-style: none;
+border-right-style: none;
+}
+table thead, table tr.even {
+background-color: #f7f7f7;
+}
+p {
+margin: 0.5em 0;
+}
+blockquote {
+background-color: #f6f6f6;
+padding: 0.25em 0.75em;
+}
+hr {
+border-style: solid;
+border: none;
+border-top: 1px solid #777;
+margin: 28px 0;
+}
+dl {
+margin-left: 0;
+}
+dl dd {
+margin-bottom: 13px;
+margin-left: 13px;
+}
+dl dt {
+font-weight: bold;
+}
+ul {
+margin-top: 0;
+}
+ul li {
+list-style: circle outside;
+}
+ul ul {
+margin-bottom: 0;
+}
+pre, code {
+background-color: #f7f7f7;
+border-radius: 3px;
+color: #333;
+white-space: pre-wrap; 
+}
+pre {
+border-radius: 3px;
+margin: 5px 0px 10px 0px;
+padding: 10px;
+}
+pre:not([class]) {
+background-color: #f7f7f7;
+}
+code {
+font-family: Consolas, Monaco, 'Courier New', monospace;
+font-size: 85%;
+}
+p > code, li > code {
+padding: 2px 0px;
+}
+div.figure {
+text-align: center;
+}
+img {
+background-color: #FFFFFF;
+padding: 2px;
+border: 1px solid #DDDDDD;
+border-radius: 3px;
+border: 1px solid #CCCCCC;
+margin: 0 5px;
+}
+h1 {
+margin-top: 0;
+font-size: 35px;
+line-height: 40px;
+}
+h2 {
+border-bottom: 4px solid #f7f7f7;
+padding-top: 10px;
+padding-bottom: 2px;
+font-size: 145%;
+}
+h3 {
+border-bottom: 2px solid #f7f7f7;
+padding-top: 10px;
+font-size: 120%;
+}
+h4 {
+border-bottom: 1px solid #f7f7f7;
+margin-left: 8px;
+font-size: 105%;
+}
+h5, h6 {
+border-bottom: 1px solid #ccc;
+font-size: 105%;
+}
+a {
+color: #0033dd;
+text-decoration: none;
+}
+a:hover {
+color: #6666ff; }
+a:visited {
+color: #800080; }
+a:visited:hover {
+color: #BB00BB; }
+a[href^="http:"] {
+text-decoration: underline; }
+a[href^="https:"] {
+text-decoration: underline; }
+
+code > span.kw { color: #555; font-weight: bold; } 
+code > span.dt { color: #902000; } 
+code > span.dv { color: #40a070; } 
+code > span.bn { color: #d14; } 
+code > span.fl { color: #d14; } 
+code > span.ch { color: #d14; } 
+code > span.st { color: #d14; } 
+code > span.co { color: #888888; font-style: italic; } 
+code > span.ot { color: #007020; } 
+code > span.al { color: #ff0000; font-weight: bold; } 
+code > span.fu { color: #900; font-weight: bold; } 
+code > span.er { color: #a61717; background-color: #e3d2d2; } 
+</style>
+
+
+
+
+</head>
+
+<body>
+
+
+
+
+<h1 class="title toc-ignore">Introduction to shinyglide</h1>
+<h4 class="author">Julien Barnier</h4>
+<h4 class="date">2023-02-15</h4>
+
+
+
+<p><code>shinyglide</code> allows to add carousel-like components to shiny applications thanks to the <a href="https://www.glidejs.com">Glide</a> Javascript library.</p>
+<div id="creating-a-glide" class="section level2">
+<h2>Creating a glide</h2>
+<p>To add a <em>glide</em> component to an app, you must call the <code>glide()</code> function in you application UI declaration :</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a>ui &lt;-<span class="st"> </span><span class="kw">fluidPage</span>(</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a>  <span class="kw">titlePanel</span>(<span class="st">&quot;App title&quot;</span>),</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true"></a>  <span class="kw">glide</span>(</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true"></a>    ...</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true"></a>  )</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true"></a>)</span></code></pre></div>
+</div>
+<div id="adding-screens" class="section level2">
+<h2>Adding screens</h2>
+<p>Once your glide is created, you have to add <em>screens</em> to it. This is done by calling the <code>screen()</code> function :</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a>ui &lt;-<span class="st"> </span><span class="kw">fluidPage</span>(</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true"></a>  <span class="kw">titlePanel</span>(<span class="st">&quot;App title&quot;</span>),</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true"></a>  <span class="kw">glide</span>(</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true"></a>    <span class="kw">screen</span>(</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true"></a>      <span class="kw">p</span>(<span class="st">&quot;This is the first screen of this glide.&quot;</span>)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true"></a>    ),</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true"></a>    <span class="kw">screen</span>(</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true"></a>      <span class="kw">p</span>(<span class="st">&quot;This is the second and final screen.&quot;</span>)</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true"></a>    )</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true"></a>  )</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true"></a>)</span></code></pre></div>
+<p>Of course, <em>screens</em> can contain anything you want, including shiny inputs and outputs. Here is a very basic complete app :</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true"></a>ui &lt;-<span class="st"> </span><span class="kw">fluidPage</span>(</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true"></a>  <span class="kw">titlePanel</span>(<span class="st">&quot;Basic shinyglide app&quot;</span>),</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true"></a>  <span class="kw">glide</span>(</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true"></a>    <span class="kw">screen</span>(</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true"></a>      <span class="kw">p</span>(<span class="st">&quot;Please choose a value for n :&quot;</span>),</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true"></a>      <span class="kw">numericInput</span>(<span class="st">&quot;n&quot;</span>, <span class="st">&quot;n :&quot;</span>, <span class="dt">value =</span> <span class="dv">100</span>)</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true"></a>    ),</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true"></a>    <span class="kw">screen</span>(</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true"></a>      <span class="kw">p</span>(<span class="st">&quot;Here is your plot :&quot;</span>),</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true"></a>      <span class="kw">plotOutput</span>(<span class="st">&quot;plot&quot;</span>)</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true"></a>    )</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true"></a>  )</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true"></a>)</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true"></a></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true"></a>server &lt;-<span class="st"> </span><span class="cf">function</span>(input, output, session) {</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true"></a>  output<span class="op">$</span>plot &lt;-<span class="st"> </span><span class="kw">renderPlot</span>({</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true"></a>    <span class="kw">hist</span>(<span class="kw">rnorm</span>(input<span class="op">$</span>n), <span class="dt">main =</span> <span class="kw">paste</span>(<span class="st">&quot;n =&quot;</span>, input<span class="op">$</span>n))</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true"></a>  })</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true"></a>}</span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true"></a></span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true"></a><span class="kw">shinyApp</span>(ui, server)</span></code></pre></div>
+<p>You can see that default controls are added to your glide in the form of a “next” button (which doesn’t appear on last screen) and a “back” button (which doesn’t appear on the first one). There are different ways to customize these controls, which are explained in the <a href="https://juba.github.io/shinyglide/articles/c_custom_controls.html">custom controls</a> vignette.</p>
+</div>
+<div id="customizing-glide" class="section level2">
+<h2>Customizing glide</h2>
+<p>The <code>glide()</code> function accepts several arguments to modify its behavior or appearance :</p>
+<ul>
+<li><code>id</code> : allows to ass an HTML <code>id</code> to the glide root</li>
+<li><code>height</code> : height of the glide in any CSS unit</li>
+<li><code>keyboard</code> : set to <code>FALSE</code> to disable keyboard arrows navigation</li>
+<li><code>controls_position</code> : wether to place the controls on <code>&quot;top&quot;</code> or <code>&quot;bottom&quot;</code> of the glide.</li>
+<li><code>next_label</code>, <code>previous_label</code> : allow to specify custom labels for the “Back” and “Next” buttons. You can use text, HTML, <code>icon()</code>, etc.</li>
+</ul>
+<p>The <code>loading_label</code>, <code>label_class</code> and <code>disable_type</code> options will be described in the <a href="https://juba.github.io/shinyglide/articles/b_conditionals.html">conditional controls and screen output</a> vignette, and the <code>custom_controls</code> argument is explained in the <a href="https://juba.github.io/shinyglide/articles/c_custom_controls.html">custom controls</a> vignette.</p>
+<p>Here is an example of glide customization :</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true"></a>ui &lt;-<span class="st"> </span><span class="kw">fluidPage</span>(</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true"></a>  <span class="kw">glide</span>(</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true"></a>    <span class="dt">id =</span> <span class="st">&quot;plot-glide&quot;</span>,</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true"></a>    <span class="dt">height =</span> <span class="st">&quot;450px&quot;</span>,</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true"></a>    <span class="dt">controls_position =</span> <span class="st">&quot;top&quot;</span>,</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true"></a>    <span class="dt">next_label =</span> <span class="st">&quot;Go to next screen&quot;</span>,</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true"></a>    <span class="dt">previous_label =</span> <span class="st">&quot;Go back&quot;</span>,</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true"></a>    </span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true"></a>    <span class="kw">screen</span>(</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true"></a>      <span class="kw">p</span>(<span class="st">&quot;Please choose a value for n :&quot;</span>),</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true"></a>      <span class="kw">numericInput</span>(<span class="st">&quot;n&quot;</span>, <span class="st">&quot;n :&quot;</span>, <span class="dt">value =</span> <span class="dv">100</span>)</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true"></a>    ),</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true"></a>    <span class="kw">screen</span>(</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true"></a>      <span class="kw">p</span>(<span class="st">&quot;Here is your plot :&quot;</span>),</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true"></a>      <span class="kw">plotOutput</span>(<span class="st">&quot;plot&quot;</span>)</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true"></a>    )</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true"></a>  )</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true"></a>)</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true"></a></span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true"></a>server &lt;-<span class="st"> </span><span class="cf">function</span>(input, output, session) {</span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true"></a>  output<span class="op">$</span>plot &lt;-<span class="st"> </span><span class="kw">renderPlot</span>({</span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true"></a>    <span class="kw">hist</span>(<span class="kw">rnorm</span>(input<span class="op">$</span>n), <span class="dt">main =</span> <span class="kw">paste</span>(<span class="st">&quot;n =&quot;</span>, input<span class="op">$</span>n))</span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true"></a>  })</span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true"></a>}</span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true"></a></span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true"></a><span class="kw">shinyApp</span>(ui, server)</span></code></pre></div>
+</div>
+<div id="customizing-screens" class="section level2">
+<h2>Customizing screens</h2>
+<p>You can also use arguments with <code>screen()</code> :</p>
+<ul>
+<li><code>class</code> : allows to add a CSS class to the current screen</li>
+<li><code>next_label</code>, <code>previous_label</code> : change the “back” and “next” controls labels for this screen</li>
+</ul>
+<p>The <code>next_condition</code> and <code>previous_condition</code> arguments are explained in the <a href="https://juba.github.io/shinyglide/articles/b_conditionals.html">conditional inputs and screen outputs</a> vignette.</p>
+</div>
+<div id="in-app-controls" class="section level2">
+<h2>In app controls</h2>
+<p>It’s possible to add controls inside the content of screens, such as a button which send the user back to the first screen, a link to go two screens forward, etc.</p>
+<p>To do this, you have to create an element (usually a link or a button) with a <code>data-glide-dir</code> attribute, and wrap it inside an element (usually a <code>&lt;div&gt;</code>) with a <code></code>data-glide-el=“controls”` attribute.</p>
+<p>For example, the following will create a link which will go back one screen :</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true"></a><span class="kw">div</span>(<span class="st">`</span><span class="dt">data-glide-el</span><span class="st">`</span>=<span class="st">&quot;controls&quot;</span>,</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true"></a>  <span class="kw">a</span>(<span class="st">`</span><span class="dt">data-glide-dir</span><span class="st">`</span>=<span class="st">&quot;&lt;&quot;</span>, <span class="dt">href=</span><span class="st">&quot;#&quot;</span>, <span class="st">&quot;Go back&quot;</span>)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true"></a>)</span></code></pre></div>
+<p>And this will create a button that will go back to the first screen :</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true"></a><span class="kw">div</span>(<span class="st">`</span><span class="dt">data-glide-el</span><span class="st">`</span>=<span class="st">&quot;controls&quot;</span>,</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true"></a>  tags<span class="op">$</span><span class="kw">button</span>(<span class="st">`</span><span class="dt">data-glide-dir</span><span class="st">`</span>=<span class="st">&quot;&lt;&lt;&quot;</span>, <span class="dt">href=</span><span class="st">&quot;#&quot;</span>, <span class="st">&quot;Back to start&quot;</span>)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true"></a>)</span></code></pre></div>
+<p>The <code>data-glide-dir</code> attribute accepts the following values :</p>
+<ul>
+<li><code>&lt;</code>, <code>&gt;</code> : move one screen backward/forward</li>
+<li><code>&lt;&lt;</code>, <code>&gt;&gt;</code> : go to the first/last screen</li>
+<li><code>=n</code> : go to the screen at index <em>n</em> (starting at 0)</li>
+</ul>
+</div>
+<div id="getting-back-the-current-slide-index-into-shiny" class="section level2">
+<h2>Getting back the current slide index into Shiny</h2>
+<p><code>shinyglide</code> automatically updates a Shiny input with the current slide index. If you gave an <code>id</code> to your <code>glide()</code> element, you can access it with <code>input$shinyglide_index_id</code>, otherwise the variable name is <code>input$shinyglide_index</code>. Here is a quick example :</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true"></a>ui &lt;-<span class="st"> </span><span class="kw">fluidPage</span>(</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true"></a>  <span class="kw">glide</span>(</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true"></a>    <span class="dt">id =</span> <span class="st">&quot;myglide&quot;</span>,</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true"></a>    <span class="kw">screen</span>(<span class="kw">h1</span>(<span class="st">&quot;First screen&quot;</span>)),</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true"></a>    <span class="kw">screen</span>(<span class="kw">h1</span>(<span class="st">&quot;Second screen&quot;</span>)),</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true"></a>    <span class="kw">screen</span>(<span class="kw">h1</span>(<span class="st">&quot;Third screen&quot;</span>))</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true"></a>  ),</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true"></a>  <span class="kw">textOutput</span>(<span class="st">&quot;index&quot;</span>)</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true"></a>)</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true"></a></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true"></a>server &lt;-<span class="st"> </span><span class="cf">function</span>(input, output, session){</span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true"></a>  output<span class="op">$</span>index &lt;-<span class="st"> </span><span class="kw">renderText</span>(</span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true"></a>    input<span class="op">$</span>shinyglide_index_myglide</span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true"></a>  )</span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true"></a>}</span></code></pre></div>
+<p>Note that this won’t work if you put an hyphen in your glide <code>id</code>.</p>
+</div>
+
+
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

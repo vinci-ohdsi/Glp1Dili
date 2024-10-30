@@ -1,0 +1,30 @@
+Package: ResultModelManager
+Title: Result Model Manager
+Version: 0.5.8
+Authors@R: person("Jamie", "Gilbert", , "gilbert@ohdsi.org", role = c("aut", "cre"))
+Description: Database data model management utilities for OHDSI packages.
+License: Apache License (== 2.0)
+Encoding: UTF-8
+VignetteBuilder: knitr
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: R (>= 4.1.0), R6, DatabaseConnector (>= 6.0.0)
+Imports: SqlRender, ParallelLogger, checkmate, DBI, pool, readr, zip, dplyr,
+    dbplyr, rlang, lubridate, fastmap
+Suggests: testthat (>= 3.0.0), RSQLite, duckdb, RPostgres, withr, knitr,
+    rmarkdown, keyring, devtools, pkgdown, remotes, styler, Andromeda
+Config/testthat/edition: 3
+Author: Jamie Gilbert [aut, cre]
+Maintainer: Jamie Gilbert <gilbert@ohdsi.org>
+Built: R 4.2.3; ; 2024-07-29 17:34:58 UTC; windows
+RemoteType: github
+RemoteHost: api.github.com
+RemoteUsername: OHDSI
+RemoteRepo: ResultModelManager
+RemoteRef: v0.5.8
+RemoteSha: ad706b4396d8285a8930c9b99ec09e927e403b00
+GithubHost: api.github.com
+GithubRepo: ResultModelManager
+GithubUsername: OHDSI
+GithubRef: v0.5.8
+GithubSHA1: ad706b4396d8285a8930c9b99ec09e927e403b00

@@ -1,0 +1,43 @@
+Package: Strategus
+Type: Package
+Title: Coordinate and Execute OHDSI HADES Modules
+Version: 1.0.0
+Date: 2024-10-08
+Authors@R: c( person("Anthony", "Sena", email = "sena@ohdsi.org", role = c("aut", "cre")), person("Martijn", "Schuemie", email = "schuemie@ohdsi.org", role = c("aut")), person("Jamie", "Gilbert", role = c("aut")), person("Observational Health Data Science and Informatics", role = c("cph")) )
+Maintainer: Anthony Sena <sena@ohdsi.org>
+Description: Coordinate and execute large scale analytics using OHDSI Health Analytics Data-to-Evidence Suite (HADES) (<https://ohdsi.github.io/Hades/>)  modules.
+Depends: R (>= 4.2.0), CohortGenerator (>= 0.11.0), DatabaseConnector (>=
+    6.2.3), R6
+Imports: checkmate, cli, digest, dplyr, methods, ParallelLogger (>= 3.1.0),
+    purrr, readr, ResultModelManager (>= 0.5.8), rlang, SqlRender (>= 1.18.0)
+Suggests: Characterization, CirceR, CohortDiagnostics, CohortIncidence,
+    CohortMethod, Cyclops, Eunomia, EvidenceSynthesis, FeatureExtraction, fs,
+    knitr, PatientLevelPrediction, rmarkdown, RSQLite,
+    SelfControlledCaseSeries, testthat (>= 3.0.0), withr
+License: Apache License 2.0
+VignetteBuilder: knitr
+URL: https://ohdsi.github.io/Strategus, https://github.com/OHDSI/Strategus
+BugReports: https://github.com/OHDSI/Strategus/issues
+NeedsCompilation: no
+RoxygenNote: 7.3.2
+Roxygen: list(markdown = TRUE)
+Encoding: UTF-8
+Language: en-US
+Config/testthat/edition: 3
+Author: Anthony Sena [aut, cre], Martijn Schuemie [aut], Jamie Gilbert [aut], Observational Health Data Science and Informatics [cph]
+Built: R 4.2.3; ; 2024-10-30 21:59:44 UTC; windows
+RemoteType: github
+RemoteHost: api.github.com
+RemoteUsername: OHDSI
+RemoteRepo: Strategus
+RemoteRef: v1.0.0
+RemoteSha: f01bd49b9a25a1d863d47b64e07420b60996b96b
+GithubHost: api.github.com
+GithubRepo: Strategus
+GithubUsername: OHDSI
+GithubRef: v1.0.0
+GithubSHA1: f01bd49b9a25a1d863d47b64e07420b60996b96b
+Remotes: ohdsi/Characterization, ohdsi/CohortDiagnostics,
+    ohdsi/CohortGenerator, ohdsi/CohortIncidence, ohdsi/CohortMethod,
+    ohdsi/PatientLevelPrediction, ohdsi/ResultModelManager,
+    ohdsi/SelfControlledCaseSeries

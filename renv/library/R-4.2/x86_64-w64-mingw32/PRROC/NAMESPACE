@@ -1,0 +1,6 @@
+importFrom("grDevices", "grey", "hsv")
+importFrom("graphics", "axis", "image", "layout", "lcm", "lines", "par", "plot", "polygon", "segments")
+             
+export(pr.curve,roc.curve);
+S3method(print,PRROC);
+S3method(plot,PRROC);

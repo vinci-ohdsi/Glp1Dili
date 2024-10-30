@@ -1,0 +1,36 @@
+Package: Characterization
+Type: Package
+Title: Characterizations of Cohorts
+Version: 2.0.1
+Date: 2024-08-21
+Authors@R: c( person("Jenna", "Reps", , "reps@ohdsi.org", role = c("aut", "cre")), person("Patrick", "Ryan", , "ryan@ohdsi.org", role = c("aut")), person("Chris", "Knoll", , "knoll@ohdsi.org", role = c("aut")) )
+Maintainer: Jenna Reps <reps@ohdsi.org>
+Description: Various characterizations of target and outcome cohorts.
+License: Apache License 2.0
+URL: https://ohdsi.github.io/Characterization,
+    https://github.com/OHDSI/Characterization
+BugReports: https://github.com/OHDSI/Characterization/issues
+Depends: R (>= 4.0.0)
+Imports: Andromeda, DatabaseConnector (>= 6.3.1), FeatureExtraction (>= 3.6.0),
+    SqlRender (>= 1.9.0), ParallelLogger (>= 3.0.0), ResultModelManager,
+    checkmate, dplyr, readr, rlang
+Suggests: devtools, testthat, Eunomia, kableExtra, knitr, markdown, rmarkdown,
+    ShinyAppBuilder, shiny, withr
+NeedsCompilation: no
+RoxygenNote: 7.3.1
+Encoding: UTF-8
+VignetteBuilder: knitr
+Author: Jenna Reps [aut, cre], Patrick Ryan [aut], Chris Knoll [aut]
+Built: R 4.2.3; ; 2024-10-30 21:35:03 UTC; windows
+RemoteType: github
+RemoteHost: api.github.com
+RemoteUsername: OHDSI
+RemoteRepo: Characterization
+RemoteRef: v2.0.1
+RemoteSha: 67613dcfd0d8a676de2ecfbea84f812a90bac5d8
+GithubHost: api.github.com
+GithubRepo: Characterization
+GithubUsername: OHDSI
+GithubRef: v2.0.1
+GithubSHA1: 67613dcfd0d8a676de2ecfbea84f812a90bac5d8
+Remotes: ohdsi/ShinyAppBuilder

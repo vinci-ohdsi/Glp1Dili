@@ -1,0 +1,7 @@
+firstButton             Create a glide control only shown on first or
+                        last screen
+glide                   Glide component creation
+glideControls           Default controls layout
+nextButton              Code for the default controls
+screen                  Screen creation
+screenOutput            Create a screen output element
