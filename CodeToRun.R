@@ -50,7 +50,7 @@ analysisSpecifications <- ParallelLogger::loadSettingsFromJson(
   fileName = "inst/fullStudyAnalysisSpecification.json"
 )
 
-executionSettings <- Glp1Dili::createCdmExecutionSettings(
+executionSettings <- Strategus::createCdmExecutionSettings(
   workDatabaseSchema = workDatabaseSchema,
   cdmDatabaseSchema = cdmDatabaseSchema,
   cohortTableNames = CohortGenerator::getCohortTableNames(cohortTable = cohortTableName),
@@ -67,7 +67,7 @@ ParallelLogger::saveSettingsToJson(
   fileName = file.path(outputLocation, databaseName, "executionSettings.json")
 )
 
-Glp1Dili::execute(
+Strategus::execute(
   analysisSpecifications = analysisSpecifications,
   executionSettings = executionSettings,
   connectionDetails = connectionDetails

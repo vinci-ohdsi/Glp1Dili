@@ -6,9 +6,9 @@
 # See the Working with results section
 # of the UsingThisTemplate.md for more details.
 # 
-# More information about working with results produced by running Glp1Dili 
+# More information about working with results produced by running Strategus 
 # is found at:
-# https://ohdsi.github.io/Glp1Dili/articles/WorkingWithResults.html
+# https://ohdsi.github.io/Strategus/articles/WorkingWithResults.html
 # ##############################################################################
 
 # Code for creating the result schema and tables in a PostgreSQL database
@@ -28,12 +28,12 @@ resultsDatabaseConnectionDetails <- DatabaseConnector::createConnectionDetails(
 
 # Use the 1st results folder to define the results data model
 resultsFolder <- list.dirs(path = "results", full.names = T, recursive = F)[1]
-resultsDataModelSettings <- Glp1Dili::createResultsDataModelSettings(
+resultsDataModelSettings <- Strategus::createResultsDataModelSettings(
   resultsDatabaseSchema = resultsDatabaseSchema,
   resultsFolder = file.path(resultsFolder, "strategusOutput")
 )
 
-Glp1Dili::createResultDataModel(
+Strategus::createResultDataModel(
   analysisSpecifications = analysisSpecifications,
   resultsDataModelSettings = resultsDataModelSettings,
   resultsConnectionDetails = resultsDatabaseConnectionDetails

@@ -13,7 +13,7 @@ userName <- "[user name provided by the study coordinator: eg: study-data-site-c
 outputLocation <- file.path(outputLocation, "results", databaseName, "strategusOutput")
 zipFile <- file.path(outputLocation, paste0(databaseName, ".zip"))
 
-Glp1Dili::zipResults(
+Strategus::zipResults(
   resultsFolder = outputLocation,
   zipFile = zipFile
 )
