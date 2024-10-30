@@ -47,7 +47,7 @@ connectionDetails <- Eunomia::getEunomiaConnectionDetails()
 
 ##=========== END OF INPUTS ==========
 analysisSpecifications <- ParallelLogger::loadSettingsFromJson(
-  fileName = "inst/sampleStudy/sampleStudyAnalysisSpecification.json"
+  fileName = "inst/fullStudyAnalysisSpecification.json"
 )
 
 executionSettings <- Glp1Dili::createCdmExecutionSettings(
