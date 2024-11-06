@@ -21,6 +21,6 @@ Strategus::zipResults(
 OhdsiSharing::sftpUploadFile(
   privateKeyFileName = keyFileName, 
   userName = userName,
-  remoteFolder = "/your-study/",
+  remoteFolder = "/sema-naion/",
   fileName = zipFile
 )
