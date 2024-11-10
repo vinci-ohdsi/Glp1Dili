@@ -97,6 +97,12 @@ cohortGeneratorModuleSpecifications <- cgModuleSettingsCreator$createModuleSpeci
 
 # CharacterizationModule Settings ---------------------------------------------
 cModuleSettingsCreator <- CharacterizationModule$new()
+
+covariateSettings <- FeatureExtraction::createDefaultCovariateSettings(
+  addDescendantsToExclude = TRUE # Keep TRUE because you're excluding concepts
+)
+covariateSettings$useMeasurementValueShortTerm = TRUE #Adding measurement values to adjusting variables when they are available
+
 characterizationModuleSpecifications <- cModuleSettingsCreator$createModuleSpecifications(
   targetIds = cohortDefinitionSet$cohortId, # NOTE: This is all T/C/I/O
   outcomeIds = oList$outcomeCohortId,
@@ -105,9 +111,8 @@ characterizationModuleSpecifications <- cModuleSettingsCreator$createModuleSpeci
   dechallengeEvaluationWindow = 30,
   # timeAtRisk = timeAtRisks,
   minPriorObservation = 365,
-  covariateSettings = FeatureExtraction::createDefaultCovariateSettings()
+  covariateSettings = covariateSettings
 )
-
 
 # CohortIncidenceModule --------------------------------------------------------
 ciModuleSettingsCreator <- CohortIncidenceModule$new()
@@ -178,6 +183,8 @@ cmModuleSettingsCreator <- CohortMethodModule$new()
 covariateSettings <- FeatureExtraction::createDefaultCovariateSettings(
   addDescendantsToExclude = TRUE # Keep TRUE because you're excluding concepts
 )
+covariateSettings$useMeasurementValueShortTerm = TRUE #Adding measurement values to adjusting variables when they are available
+
 outcomeList <- append(
   lapply(seq_len(nrow(oList)), function(i) {
     if (useCleanWindowForPriorOutcomeLookback)

@@ -620,11 +620,12 @@
                   "includedCovariateIds": [],
                   "addDescendantsToInclude": false,
                   "excludedCovariateConceptIds": [],
-                  "addDescendantsToExclude": false,
+                  "addDescendantsToExclude": true,
                   "shortTermStartDays": -30,
                   "mediumTermStartDays": -180,
                   "endDays": 0,
                   "longTermStartDays": -365,
+                  "useMeasurementValueShortTerm": true,
                   "attr_class": "covariateSettings",
                   "attr_fun": "getDbDefaultCovariateData"
                 }
@@ -698,11 +699,12 @@
                   "includedCovariateIds": [],
                   "addDescendantsToInclude": false,
                   "excludedCovariateConceptIds": [],
-                  "addDescendantsToExclude": false,
+                  "addDescendantsToExclude": true,
                   "shortTermStartDays": -30,
                   "mediumTermStartDays": -180,
                   "endDays": 0,
                   "longTermStartDays": -365,
+                  "useMeasurementValueShortTerm": true,
                   "attr_class": "covariateSettings",
                   "attr_fun": "getDbDefaultCovariateData"
                 }
@@ -882,6 +884,7 @@
                 "mediumTermStartDays": -180,
                 "endDays": 0,
                 "longTermStartDays": -365,
+                "useMeasurementValueShortTerm": true,
                 "attr_class": "covariateSettings",
                 "attr_fun": "getDbDefaultCovariateData"
               },
@@ -1075,6 +1078,7 @@
                 "mediumTermStartDays": -180,
                 "endDays": 0,
                 "longTermStartDays": -365,
+                "useMeasurementValueShortTerm": true,
                 "attr_class": "covariateSettings",
                 "attr_fun": "getDbDefaultCovariateData"
               },
@@ -1266,6 +1270,7 @@
                 "mediumTermStartDays": -180,
                 "endDays": 0,
                 "longTermStartDays": -365,
+                "useMeasurementValueShortTerm": true,
                 "attr_class": "covariateSettings",
                 "attr_fun": "getDbDefaultCovariateData"
               },
@@ -1459,6 +1464,7 @@
                 "mediumTermStartDays": -180,
                 "endDays": 0,
                 "longTermStartDays": -365,
+                "useMeasurementValueShortTerm": true,
                 "attr_class": "covariateSettings",
                 "attr_fun": "getDbDefaultCovariateData"
               },
