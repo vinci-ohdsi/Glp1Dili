@@ -1778,7 +1778,14 @@
 			"Offset" : 0
 		}
 	},
-	"CensoringCriteria" : [],
+	"CensoringCriteria" : [
+		{
+			"DrugExposure" : {
+				"CodesetId" : 2,
+				"DrugTypeExclude" : false
+			}
+		}
+	],
 	"CollapseSettings" : {
 		"CollapseType" : "ERA",
 		"EraPad" : 0

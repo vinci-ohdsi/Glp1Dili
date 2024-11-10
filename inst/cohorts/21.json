@@ -136,7 +136,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 40239216,
-							"CONCEPT_NAME" : "linagliptin",
+							"CONCEPT_NAME" : "Linagliptin",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -263,7 +263,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 44506754,
-							"CONCEPT_NAME" : "lixisenatide",
+							"CONCEPT_NAME" : "Lixisenatide",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -398,7 +398,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1594973,
-							"CONCEPT_NAME" : "chlorpropamide",
+							"CONCEPT_NAME" : "Chlorpropamide",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -432,7 +432,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1560171,
-							"CONCEPT_NAME" : "glipizide",
+							"CONCEPT_NAME" : "Glipizide",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -466,7 +466,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1559684,
-							"CONCEPT_NAME" : "glyburide",
+							"CONCEPT_NAME" : "Glyburide",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -483,7 +483,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1502809,
-							"CONCEPT_NAME" : "tolazamide",
+							"CONCEPT_NAME" : "Tolazamide",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -500,7 +500,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1502855,
-							"CONCEPT_NAME" : "tolbutamide",
+							"CONCEPT_NAME" : "Tolbutamide",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -525,7 +525,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1529331,
-							"CONCEPT_NAME" : "acarbose",
+							"CONCEPT_NAME" : "Acarbose",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -542,7 +542,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1530014,
-							"CONCEPT_NAME" : "acetohexamide",
+							"CONCEPT_NAME" : "Acetohexamide",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -559,7 +559,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 730548,
-							"CONCEPT_NAME" : "bromocriptine",
+							"CONCEPT_NAME" : "Bromocriptine",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -576,7 +576,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 19033498,
-							"CONCEPT_NAME" : "carbutamide",
+							"CONCEPT_NAME" : "Carbutamide",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -610,7 +610,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 19059796,
-							"CONCEPT_NAME" : "gliclazide",
+							"CONCEPT_NAME" : "Gliclazide",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -754,7 +754,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1596977,
-							"CONCEPT_NAME" : "insulin, regular, human",
+							"CONCEPT_NAME" : "Regular Insulin, Human",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -771,7 +771,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1550023,
-							"CONCEPT_NAME" : "insulin lispro",
+							"CONCEPT_NAME" : "Insulin Lispro",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -788,7 +788,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1567198,
-							"CONCEPT_NAME" : "insulin aspart, human",
+							"CONCEPT_NAME" : "Insulin, Aspart, Human",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -805,7 +805,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1502905,
-							"CONCEPT_NAME" : "insulin glargine",
+							"CONCEPT_NAME" : "Insulin Glargine",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -822,7 +822,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1513876,
-							"CONCEPT_NAME" : "insulin lispro protamine, human",
+							"CONCEPT_NAME" : "Insulin, Protamine Lispro, Human",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -839,7 +839,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1531601,
-							"CONCEPT_NAME" : "insulin aspart protamine, human",
+							"CONCEPT_NAME" : "Insulin, Aspart Protamine, Human",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -856,7 +856,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1586346,
-							"CONCEPT_NAME" : "insulin, regular, pork",
+							"CONCEPT_NAME" : "Insulin, Regular, Pork",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -873,7 +873,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1544838,
-							"CONCEPT_NAME" : "insulin glulisine, human",
+							"CONCEPT_NAME" : "Insulin, Glulisine, Human",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -924,7 +924,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1513849,
-							"CONCEPT_NAME" : "lente insulin, human",
+							"CONCEPT_NAME" : "Insulin, Zinc, Human",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -941,7 +941,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1562586,
-							"CONCEPT_NAME" : "lente insulin, pork",
+							"CONCEPT_NAME" : "Insulin, Zinc, Pork",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -975,7 +975,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1513843,
-							"CONCEPT_NAME" : "lente insulin, beef-pork",
+							"CONCEPT_NAME" : "Lente Insulin, Beef-Pork",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -992,7 +992,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1586369,
-							"CONCEPT_NAME" : "ultralente insulin, human",
+							"CONCEPT_NAME" : "Ultralente Insulin, Human",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -1060,7 +1060,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 19078608,
-							"CONCEPT_NAME" : "insulin, protamine zinc, beef-pork 100 UNT/ML Injectable Suspension",
+							"CONCEPT_NAME" : "Insulin, Protamine Zinc, Beef-Pork 100 UNT/ML Injectable Suspension",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -1085,7 +1085,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1503297,
-							"CONCEPT_NAME" : "metformin",
+							"CONCEPT_NAME" : "Metformin",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -1135,7 +1135,7 @@
 							"CONCEPT_CODE" : "138811000119100",
 							"DOMAIN_ID" : "Condition",
 							"VOCABULARY_ID" : "SNOMED",
-							"CONCEPT_CLASS_ID" : "Disorder"
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
 						},
 						"isExcluded" : false,
 						"includeDescendants" : true,
@@ -1525,7 +1525,7 @@
 							"CONCEPT_CODE" : "609566000",
 							"DOMAIN_ID" : "Condition",
 							"VOCABULARY_ID" : "SNOMED",
-							"CONCEPT_CLASS_ID" : "Disorder"
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
 						},
 						"isExcluded" : true,
 						"includeDescendants" : true,
@@ -1542,7 +1542,7 @@
 							"CONCEPT_CODE" : "11687002",
 							"DOMAIN_ID" : "Condition",
 							"VOCABULARY_ID" : "SNOMED",
-							"CONCEPT_CLASS_ID" : "Disorder"
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
 						},
 						"isExcluded" : true,
 						"includeDescendants" : true,
@@ -1610,7 +1610,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 44506754,
-							"CONCEPT_NAME" : "lixisenatide",
+							"CONCEPT_NAME" : "Lixisenatide",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -1735,43 +1735,7 @@
 			}
 		},
 		{
-			"name" : "No prior DPP4 inhibitor exposure",
-			"expression" : {
-				"Type" : "ALL",
-				"CriteriaList" : [
-					{
-						"Criteria" : {
-							"DrugExposure" : {
-								"CodesetId" : 1,
-								"DrugTypeExclude" : false
-							}
-						},
-						"StartWindow" : {
-							"Start" : {
-								"Coeff" : -1
-							},
-							"End" : {
-								"Days" : 0,
-								"Coeff" : -1
-							},
-							"UseIndexEnd" : false,
-							"UseEventEnd" : false
-						},
-						"RestrictVisit" : false,
-						"IgnoreObservationPeriod" : true,
-						"Occurrence" : {
-							"Type" : 0,
-							"Count" : 0,
-							"IsDistinct" : false
-						}
-					}
-				],
-				"DemographicCriteriaList" : [],
-				"Groups" : []
-			}
-		},
-		{
-			"name" : "No prior SGLT-2 inhibitor exposure",
+			"name" : "No prior SGLT2 inhibitor exposure",
 			"expression" : {
 				"Type" : "ALL",
 				"CriteriaList" : [
@@ -1805,144 +1769,6 @@
 				"DemographicCriteriaList" : [],
 				"Groups" : []
 			}
-		},
-		{
-			"name" : "No prior SU exposure",
-			"expression" : {
-				"Type" : "ALL",
-				"CriteriaList" : [
-					{
-						"Criteria" : {
-							"DrugExposure" : {
-								"CodesetId" : 4,
-								"DrugTypeExclude" : false
-							}
-						},
-						"StartWindow" : {
-							"Start" : {
-								"Coeff" : -1
-							},
-							"End" : {
-								"Days" : 0,
-								"Coeff" : -1
-							},
-							"UseIndexEnd" : false,
-							"UseEventEnd" : false
-						},
-						"RestrictVisit" : false,
-						"IgnoreObservationPeriod" : true,
-						"Occurrence" : {
-							"Type" : 0,
-							"Count" : 0,
-							"IsDistinct" : false
-						}
-					}
-				],
-				"DemographicCriteriaList" : [],
-				"Groups" : []
-			}
-		},
-		{
-			"name" : "No prior other anti-diabetic exposure",
-			"expression" : {
-				"Type" : "ALL",
-				"CriteriaList" : [
-					{
-						"Criteria" : {
-							"DrugExposure" : {
-								"CodesetId" : 5,
-								"DrugTypeExclude" : false
-							}
-						},
-						"StartWindow" : {
-							"Start" : {
-								"Coeff" : -1
-							},
-							"End" : {
-								"Days" : 0,
-								"Coeff" : -1
-							},
-							"UseIndexEnd" : false,
-							"UseEventEnd" : false
-						},
-						"RestrictVisit" : false,
-						"IgnoreObservationPeriod" : true,
-						"Occurrence" : {
-							"Type" : 0,
-							"Count" : 0,
-							"IsDistinct" : false
-						}
-					}
-				],
-				"DemographicCriteriaList" : [],
-				"Groups" : []
-			}
-		},
-		{
-			"name" : "No prior insulin use or combo initiation",
-			"description" : "Proxy for < 30 days drug era anytime before index and no combination use on index",
-			"expression" : {
-				"Type" : "ALL",
-				"CriteriaList" : [
-					{
-						"Criteria" : {
-							"DrugEra" : {
-								"CodesetId" : 6,
-								"EraLength" : {
-									"Value" : 30,
-									"Op" : "gt"
-								}
-							}
-						},
-						"StartWindow" : {
-							"Start" : {
-								"Coeff" : -1
-							},
-							"End" : {
-								"Days" : 30,
-								"Coeff" : -1
-							},
-							"UseIndexEnd" : false,
-							"UseEventEnd" : false
-						},
-						"RestrictVisit" : false,
-						"IgnoreObservationPeriod" : true,
-						"Occurrence" : {
-							"Type" : 0,
-							"Count" : 0,
-							"IsDistinct" : false
-						}
-					},
-					{
-						"Criteria" : {
-							"DrugEra" : {
-								"CodesetId" : 6
-							}
-						},
-						"StartWindow" : {
-							"Start" : {
-								"Days" : 30,
-								"Coeff" : -1
-							},
-							"End" : {
-								"Days" : 0,
-								"Coeff" : 1
-							},
-							"UseIndexEnd" : false,
-							"UseEventEnd" : false
-						},
-						"RestrictVisit" : false,
-						"IgnoreObservationPeriod" : true,
-						"Occurrence" : {
-							"Type" : 0,
-							"Count" : 0,
-							"IsDistinct" : false
-						}
-					}
-				],
-				"DemographicCriteriaList" : [],
-				"Groups" : []
-			}
 		}
 	],
 	"EndStrategy" : {
@@ -1952,7 +1778,14 @@
 			"Offset" : 0
 		}
 	},
-	"CensoringCriteria" : [],
+	"CensoringCriteria" : [
+		{
+			"DrugExposure" : {
+				"CodesetId" : 3,
+				"DrugTypeExclude" : false
+			}
+		}
+	],
 	"CollapseSettings" : {
 		"CollapseType" : "ERA",
 		"EraPad" : 0

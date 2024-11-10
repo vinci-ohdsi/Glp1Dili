@@ -1,10 +1,11 @@
 atlas_id,cohort_id,cohort_name,logic_description,generate_stats
-465,21,New user of GLP1 receptor agonists as 2nd-line treatment with prior T2DM and prior metformin,NA,TRUE
-466,22,New user of DPP4 inhibitors as 2nd-line treatment with prior T2DM and prior metformin,NA,TRUE
-467,11,New user of GLP1 receptor agonists with prior T2DM and prior metformin,NA,TRUE
-468,12,New user of DPP4 inhibitors with prior T2DM and prior metformin,NA,TRUE
+467,11,GLP1R user (vs DPP4i),NA,TRUE
+468,12,DPP4 user (vs GLP1Ra),NA,TRUE
+475,21,GLP1R user (vs SGLT2i),NA,TRUE
+477,22,SGLT2i user (vs GLR1Ra),NA,TRUE
 469,101,"All events of Acute Liver Injury, NO viral hepatitis or alcoholic hepatic failure",https://ohdsi.github.io/PhenotypeLibrary/articles/CohortDefinitionsInOhdsiPhenotypeLibrary.html,TRUE
 470,102,Newly developed abnormal liver test ,NA,TRUE
 471,201,GLP-1 receptor agonists exposures,NA,TRUE
 472,202,DPP4 inhibitors exposures,NA,TRUE
+479,479,SGLT2 inhibitors exposures,NA,TRUE
 473,301,Persons with Type 2 diabetes mellitus and no prior T1DM or secondary diabetes,NA,TRUE

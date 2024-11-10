@@ -96,8 +96,8 @@ concept_id,concept_name,standard_concept,standard_concept_caption,invalid_reason
 21069050,0.5 ML dulaglutide 1.5 MG/ML Prefilled Syringe [Trulicity],S,Standard,V,Valid,OMOP286560,Drug,RxNorm Extension,Quant Branded Drug
 21127764,0.5 ML dulaglutide 1.5 MG/ML Prefilled Syringe [Trulicity] Box of 4,S,Standard,V,Valid,OMOP286562,Drug,RxNorm Extension,Quant Branded Box
 36781838,0.5 ML dulaglutide 1.5 MG/ML Prefilled Syringe [Trulicity] Box of 4 by Eli Lilly,S,Standard,V,Valid,OMOP4770124,Drug,RxNorm Extension,Marketed Product
-44197236,0.5 ML dulaglutide 1.5 MG/ML Prefilled Syringe [Trulicity] Box of 4 by European,S,Standard,V,Valid,OMOP3073959,Drug,RxNorm Extension,Marketed Product
 41410255,0.5 ML dulaglutide 1.5 MG/ML Prefilled Syringe [Trulicity] Box of 4 by European,S,Standard,V,Valid,OMOP2608217,Drug,RxNorm Extension,Marketed Product
+44197236,0.5 ML dulaglutide 1.5 MG/ML Prefilled Syringe [Trulicity] Box of 4 by European,S,Standard,V,Valid,OMOP3073959,Drug,RxNorm Extension,Marketed Product
 43153987,0.5 ML dulaglutide 1.5 MG/ML Prefilled Syringe [Trulicity] Box of 4 by Lilly,S,Standard,V,Valid,OMOP506937,Drug,RxNorm Extension,Marketed Product
 21157455,0.5 ML dulaglutide 1.5 MG/ML Prefilled Syringe [Trulicity] by Lilly,S,Standard,V,Valid,OMOP286561,Drug,RxNorm Extension,Marketed Product
 45774446,0.5 ML dulaglutide 3 MG/ML Auto-Injector,S,Standard,V,Valid,1551304,Drug,RxNorm,Quant Clinical Drug
@@ -292,6 +292,32 @@ concept_id,concept_name,standard_concept,standard_concept_caption,invalid_reason
 40229050,24 HR Metformin hydrochloride 500 MG / saxagliptin 5 MG Extended Release Oral Tablet [Kombiglyze],S,Standard,V,Valid,1043582,Drug,RxNorm,Quant Branded Drug
 42708174,24 HR Metformin hydrochloride 500 MG / sitagliptin 50 MG Extended Release Oral Tablet,S,Standard,V,Valid,1243846,Drug,RxNorm,Quant Clinical Drug
 42708175,24 HR Metformin hydrochloride 500 MG / sitagliptin 50 MG Extended Release Oral Tablet [Janumet],S,Standard,V,Valid,1243848,Drug,RxNorm,Quant Branded Drug
+1718899,24 HR canagliflozin 150 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet,S,Standard,V,Valid,1810997,Drug,RxNorm,Quant Clinical Drug
+1718901,24 HR canagliflozin 150 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet [Invokamet],S,Standard,V,Valid,1810999,Drug,RxNorm,Quant Branded Drug
+1718904,24 HR canagliflozin 150 MG / Metformin hydrochloride 500 MG Extended Release Oral Tablet,S,Standard,V,Valid,1811002,Drug,RxNorm,Quant Clinical Drug
+1718905,24 HR canagliflozin 150 MG / Metformin hydrochloride 500 MG Extended Release Oral Tablet [Invokamet],S,Standard,V,Valid,1811003,Drug,RxNorm,Quant Branded Drug
+1718908,24 HR canagliflozin 50 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet,S,Standard,V,Valid,1811006,Drug,RxNorm,Quant Clinical Drug
+1718909,24 HR canagliflozin 50 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet [Invokamet],S,Standard,V,Valid,1811007,Drug,RxNorm,Quant Branded Drug
+1718912,24 HR canagliflozin 50 MG / Metformin hydrochloride 500 MG Extended Release Oral Tablet,S,Standard,V,Valid,1811010,Drug,RxNorm,Quant Clinical Drug
+1718913,24 HR canagliflozin 50 MG / Metformin hydrochloride 500 MG Extended Release Oral Tablet [Invokamet],S,Standard,V,Valid,1811011,Drug,RxNorm,Quant Branded Drug
+45775455,24 HR dapagliflozin 10 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet,S,Standard,V,Valid,1593058,Drug,RxNorm,Quant Clinical Drug
+45775860,24 HR dapagliflozin 10 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet [Xigduo],S,Standard,V,Valid,1593775,Drug,RxNorm,Quant Branded Drug
+45775619,24 HR dapagliflozin 10 MG / Metformin hydrochloride 500 MG Extended Release Oral Tablet,S,Standard,V,Valid,1593068,Drug,RxNorm,Quant Clinical Drug
+45776000,24 HR dapagliflozin 10 MG / Metformin hydrochloride 500 MG Extended Release Oral Tablet [Xigduo],S,Standard,V,Valid,1593835,Drug,RxNorm,Quant Branded Drug
+793826,24 HR dapagliflozin 2.5 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet,S,Standard,V,Valid,1940496,Drug,RxNorm,Quant Clinical Drug
+793828,24 HR dapagliflozin 2.5 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet [Xigduo],S,Standard,V,Valid,1940498,Drug,RxNorm,Quant Branded Drug
+45775621,24 HR dapagliflozin 5 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet,S,Standard,V,Valid,1593070,Drug,RxNorm,Quant Clinical Drug
+45775999,24 HR dapagliflozin 5 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet [Xigduo],S,Standard,V,Valid,1593833,Drug,RxNorm,Quant Branded Drug
+45775623,24 HR dapagliflozin 5 MG / Metformin hydrochloride 500 MG Extended Release Oral Tablet,S,Standard,V,Valid,1593072,Drug,RxNorm,Quant Clinical Drug
+45775867,24 HR dapagliflozin 5 MG / Metformin hydrochloride 500 MG Extended Release Oral Tablet [Xigduo],S,Standard,V,Valid,1593831,Drug,RxNorm,Quant Branded Drug
+1592653,24 HR empagliflozin 10 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet,S,Standard,V,Valid,1862685,Drug,RxNorm,Quant Clinical Drug
+1592656,24 HR empagliflozin 10 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet [Synjardy],S,Standard,V,Valid,1862688,Drug,RxNorm,Quant Branded Drug
+1592794,24 HR empagliflozin 12.5 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet,S,Standard,V,Valid,1862691,Drug,RxNorm,Quant Clinical Drug
+1592795,24 HR empagliflozin 12.5 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet [Synjardy],S,Standard,V,Valid,1862692,Drug,RxNorm,Quant Branded Drug
+1592798,24 HR empagliflozin 25 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet,S,Standard,V,Valid,1862695,Drug,RxNorm,Quant Clinical Drug
+1592800,24 HR empagliflozin 25 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet [Synjardy],S,Standard,V,Valid,1862697,Drug,RxNorm,Quant Branded Drug
+1592803,24 HR empagliflozin 5 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet,S,Standard,V,Valid,1862700,Drug,RxNorm,Quant Clinical Drug
+1592804,24 HR empagliflozin 5 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet [Synjardy],S,Standard,V,Valid,1862701,Drug,RxNorm,Quant Branded Drug
 784293,3 ML Insulin Glargine 100 UNT/ML / Lixisenatide 0.033 MG/ML Injectable Solution,S,Standard,V,Valid,OMOP4832115,Drug,RxNorm Extension,Quant Clinical Drug
 784294,3 ML Insulin Glargine 100 UNT/ML / Lixisenatide 0.033 MG/ML Injectable Solution Box of 5,S,Standard,V,Valid,OMOP4832116,Drug,RxNorm Extension,Quant Clinical Box
 784290,3 ML Insulin Glargine 100 UNT/ML / Lixisenatide 0.033 MG/ML Injectable Solution [Suliqua],S,Standard,V,Valid,OMOP4832112,Drug,RxNorm Extension,Quant Branded Drug
@@ -511,6 +537,8 @@ concept_id,concept_name,standard_concept,standard_concept_caption,invalid_reason
 38003279,Clinic - General Classification,S,Standard,V,Valid,0510,Revenue Code,Revenue Code,Revenue Code
 2614744,"Disposable drug delivery system, flow rate of 50 ml or greater per hour",S,Standard,V,Valid,A4305,Procedure,HCPCS,HCPCS
 38003354,Drugs Identification - Drugs Requiring Detailed Coding,S,Standard,V,Valid,0636,Revenue Code,Revenue Code,Revenue Code
+36247907,Farxiga Oral Product,C,Classification,V,Valid,1486975,Drug,RxNorm,Branded Dose Group
+36247908,Farxiga Pill,C,Classification,V,Valid,1486976,Drug,RxNorm,Branded Dose Group
 4036803,General examination of patient,S,Standard,V,Valid,162673000,Procedure,SNOMED,Procedure
 36248789,Glyxambi Oral Product,C,Classification,V,Valid,1602113,Drug,RxNorm,Branded Dose Group
 36248790,Glyxambi Pill,C,Classification,V,Valid,1602114,Drug,RxNorm,Branded Dose Group
@@ -562,11 +590,17 @@ concept_id,concept_name,standard_concept,standard_concept_caption,invalid_reason
 42740992,"Intravenous infusion, for therapy, prophylaxis, or diagnosis (specify substance or drug); initial, up to 1 hour",S,Standard,V,Valid,90765,Procedure,CPT4,CPT4
 2786181,"Introduction of Serum, Toxoid and Vaccine into Muscle, Percutaneous Approach",S,Standard,V,Valid,3E0234Z,Procedure,ICD10PCS,ICD10PCS
 2108054,"Introduction of needle or intracatheter, vein",S,Standard,V,Valid,36000,Procedure,CPT4,CPT4
+36246877,Invokamet Oral Product,C,Classification,V,Valid,1545154,Drug,RxNorm,Branded Dose Group
+36246878,Invokamet Pill,C,Classification,V,Valid,1545155,Drug,RxNorm,Branded Dose Group
+36246430,Invokana Oral Product,C,Classification,V,Valid,1373467,Drug,RxNorm,Branded Dose Group
+36246431,Invokana Pill,C,Classification,V,Valid,1373468,Drug,RxNorm,Branded Dose Group
 2616748,Iv pole,S,Standard,V,Valid,E0776,Procedure,HCPCS,HCPCS
 36221230,Janumet Oral Product,C,Classification,V,Valid,1167810,Drug,RxNorm,Branded Dose Group
 36221231,Janumet Pill,C,Classification,V,Valid,1167811,Drug,RxNorm,Branded Dose Group
 36221232,Januvia Oral Product,C,Classification,V,Valid,1167814,Drug,RxNorm,Branded Dose Group
 36221233,Januvia Pill,C,Classification,V,Valid,1167815,Drug,RxNorm,Branded Dose Group
+36246886,Jardiance Oral Product,C,Classification,V,Valid,1545662,Drug,RxNorm,Branded Dose Group
+36246887,Jardiance Pill,C,Classification,V,Valid,1545663,Drug,RxNorm,Branded Dose Group
 36238286,Jentadueto Oral Product,C,Classification,V,Valid,1243038,Drug,RxNorm,Branded Dose Group
 36238287,Jentadueto Pill,C,Classification,V,Valid,1243039,Drug,RxNorm,Branded Dose Group
 36240263,Juvisync Oral Product,C,Classification,V,Valid,1189812,Drug,RxNorm,Branded Dose Group
@@ -972,8 +1006,8 @@ concept_id,concept_name,standard_concept,standard_concept_caption,invalid_reason
 40936967,Metformin 1000 MG / vildagliptin 50 MG Oral Tablet [Eucreas] Box of 180,S,Standard,V,Valid,OMOP2134929,Drug,RxNorm Extension,Branded Drug Box
 41321735,Metformin 1000 MG / vildagliptin 50 MG Oral Tablet [Eucreas] Box of 180 by Cc,S,Standard,V,Valid,OMOP2519697,Drug,RxNorm Extension,Marketed Product
 41166096,Metformin 1000 MG / vildagliptin 50 MG Oral Tablet [Eucreas] Box of 180 by Eurim-Pharm,S,Standard,V,Valid,OMOP2364058,Drug,RxNorm Extension,Marketed Product
-44186088,Metformin 1000 MG / vildagliptin 50 MG Oral Tablet [Eucreas] Box of 180 by European,S,Standard,V,Valid,OMOP3062811,Drug,RxNorm Extension,Marketed Product
 41321734,Metformin 1000 MG / vildagliptin 50 MG Oral Tablet [Eucreas] Box of 180 by European,S,Standard,V,Valid,OMOP2519696,Drug,RxNorm Extension,Marketed Product
+44186088,Metformin 1000 MG / vildagliptin 50 MG Oral Tablet [Eucreas] Box of 180 by European,S,Standard,V,Valid,OMOP3062811,Drug,RxNorm Extension,Marketed Product
 40947288,Metformin 1000 MG / vildagliptin 50 MG Oral Tablet [Eucreas] Box of 180 by Novartis,S,Standard,V,Valid,OMOP2145250,Drug,RxNorm Extension,Marketed Product
 41071948,Metformin 1000 MG / vildagliptin 50 MG Oral Tablet [Eucreas] Box of 180 by Orifarm Leverkus,S,Standard,V,Valid,OMOP2269910,Drug,RxNorm Extension,Marketed Product
 40968095,Metformin 1000 MG / vildagliptin 50 MG Oral Tablet [Eucreas] Box of 30,S,Standard,V,Valid,OMOP2166057,Drug,RxNorm Extension,Branded Drug Box
@@ -1228,6 +1262,8 @@ concept_id,concept_name,standard_concept,standard_concept_caption,invalid_reason
 38003196,Radiology - Therapeutic - Chemotherapy - IV,S,Standard,V,Valid,0335,Revenue Code,Revenue Code,Revenue Code
 38003390,Recovery Room - General Classification,S,Standard,V,Valid,0710,Revenue Code,Revenue Code,Revenue Code
 36248956,Saxenda Injectable Product,C,Classification,V,Valid,1598267,Drug,RxNorm,Branded Dose Group
+793304,Segluromet Oral Product,C,Classification,V,Valid,1992689,Drug,RxNorm,Branded Dose Group
+793305,Segluromet Pill,C,Classification,V,Valid,1992690,Drug,RxNorm,Branded Dose Group
 36240261,Simvastatin / sitagliptin Oral Product,C,Classification,V,Valid,1189800,Drug,RxNorm,Clinical Dose Group
 40243622,Simvastatin / sitagliptin Oral Tablet,S,Standard,V,Valid,1189802,Drug,RxNorm,Clinical Drug Form
 43274005,Simvastatin / sitagliptin Oral Tablet [Juvicor],S,Standard,V,Valid,OMOP549004,Drug,RxNorm Extension,Branded Drug Form
@@ -1265,12 +1301,16 @@ concept_id,concept_name,standard_concept,standard_concept_caption,invalid_reason
 42900902,Simvastatin 40 MG / sitagliptin 50 MG [Juvisync],S,Standard,V,Valid,1312425,Drug,RxNorm,Branded Drug Comp
 967823,Sodium Chloride,S,Standard,V,Valid,9863,Drug,RxNorm,Ingredient
 1718603,Soliqua Injectable Product,C,Classification,V,Valid,1858999,Drug,RxNorm,Branded Dose Group
+793325,Steglatro Oral Product,C,Classification,V,Valid,1992814,Drug,RxNorm,Branded Dose Group
+793326,Steglatro Pill,C,Classification,V,Valid,1992815,Drug,RxNorm,Branded Dose Group
 793339,Steglujan Oral Product,C,Classification,V,Valid,1992830,Drug,RxNorm,Branded Dose Group
 793340,Steglujan Pill,C,Classification,V,Valid,1992831,Drug,RxNorm,Branded Dose Group
 2614696,"Sterile water, saline and/or dextrose, diluent/flush, 10 ml",S,Standard,V,Valid,A4216,Procedure,HCPCS,HCPCS
 2614697,"Sterile water/saline, 500 ml",S,Standard,V,Valid,A4217,Procedure,HCPCS,HCPCS
 4102748,Subcutaneous infusion,S,Standard,V,Valid,300036000,Procedure,SNOMED,Procedure
 2614700,"Supplies for maintenance of non-insulin drug infusion catheter, per week (list drugs separately)",S,Standard,V,Valid,A4221,Procedure,HCPCS,HCPCS
+36248376,Synjardy Oral Product,C,Classification,V,Valid,1664319,Drug,RxNorm,Branded Dose Group
+36248377,Synjardy Pill,C,Classification,V,Valid,1664320,Drug,RxNorm,Branded Dose Group
 2614693,"Syringe, sterile, 20 cc or greater, each",S,Standard,V,Valid,A4213,Procedure,HCPCS,HCPCS
 36246906,Tanzeum Injectable Product,C,Classification,V,Valid,1534804,Drug,RxNorm,Branded Dose Group
 42738325,"Therapeutic, prophylactic or diagnostic injection (specify material injected); subcutaneous or intramuscular",S,Standard,V,Valid,90782,Procedure,CPT4,CPT4
@@ -1282,6 +1322,8 @@ concept_id,concept_name,standard_concept,standard_concept_caption,invalid_reason
 38003409,Treatment/Observation Room - Other,S,Standard,V,Valid,0769,Revenue Code,Revenue Code,Revenue Code
 36247186,Trulicity Injectable Product,C,Classification,V,Valid,1551299,Drug,RxNorm,Branded Dose Group
 36241903,Victoza Injectable Product,C,Classification,V,Valid,1186578,Drug,RxNorm,Branded Dose Group
+36248559,Xigduo Oral Product,C,Classification,V,Valid,1592716,Drug,RxNorm,Branded Dose Group
+36248560,Xigduo Pill,C,Classification,V,Valid,1592717,Drug,RxNorm,Branded Dose Group
 1718710,Xultophy Injectable Product,C,Classification,V,Valid,1860171,Drug,RxNorm,Branded Dose Group
 44816332,albiglutide,S,Standard,V,Valid,1534763,Drug,RxNorm,Ingredient
 44816093,albiglutide 100 MG/ML,S,Standard,V,Valid,1534819,Drug,RxNorm,Clinical Drug Comp
@@ -1580,10 +1622,239 @@ concept_id,concept_name,standard_concept,standard_concept_caption,invalid_reason
 43013932,alogliptin Oral Tablet [Nesina],S,Standard,V,Valid,1368009,Drug,RxNorm,Branded Drug Form
 21056656,alogliptin Oral Tablet [Vipidia],S,Standard,V,Valid,OMOP273890,Drug,RxNorm Extension,Branded Drug Form
 36246194,alogliptin Pill,C,Classification,V,Valid,1368004,Drug,RxNorm,Clinical Dose Group
+43526465,canagliflozin,S,Standard,V,Valid,1373458,Drug,RxNorm,Ingredient
+36785134,canagliflozin / Metformin Delayed Release Oral Tablet,S,Standard,V,Valid,OMOP4773415,Drug,RxNorm Extension,Clinical Drug Form
+36785133,canagliflozin / Metformin Delayed Release Oral Tablet [Vokanamet],S,Standard,V,Valid,OMOP4773414,Drug,RxNorm Extension,Branded Drug Form
+1718898,canagliflozin / Metformin Extended Release Oral Tablet,S,Standard,V,Valid,1810996,Drug,RxNorm,Clinical Drug Form
+1718900,canagliflozin / Metformin Extended Release Oral Tablet [Invokamet],S,Standard,V,Valid,1810998,Drug,RxNorm,Branded Drug Form
+35770563,canagliflozin / Metformin Extended Release Oral Tablet [Vokanamet],S,Standard,V,Valid,OMOP2772024,Drug,RxNorm Extension,Branded Drug Form
+36247438,canagliflozin / Metformin Oral Product,C,Classification,V,Valid,1545146,Drug,RxNorm,Clinical Dose Group
+45774709,canagliflozin / Metformin Oral Tablet,S,Standard,V,Valid,1545148,Drug,RxNorm,Clinical Drug Form
+35142436,canagliflozin / Metformin Oral Tablet [Canalia],S,Standard,V,Valid,OMOP4799548,Drug,RxNorm Extension,Branded Drug Form
+45774713,canagliflozin / Metformin Oral Tablet [Invokamet],S,Standard,V,Valid,1545153,Drug,RxNorm,Branded Drug Form
+21169724,canagliflozin / Metformin Oral Tablet [Vokanamet],S,Standard,V,Valid,OMOP351624,Drug,RxNorm Extension,Branded Drug Form
+36247439,canagliflozin / Metformin Pill,C,Classification,V,Valid,1545147,Drug,RxNorm,Clinical Dose Group
+43526466,canagliflozin 100 MG,S,Standard,V,Valid,1373459,Drug,RxNorm,Clinical Drug Comp
+36782049,canagliflozin 100 MG Delayed Release Oral Tablet,S,Standard,V,Valid,OMOP4770334,Drug,RxNorm Extension,Clinical Drug
+36782048,canagliflozin 100 MG Delayed Release Oral Tablet Box of 30,S,Standard,V,Valid,OMOP4770333,Drug,RxNorm Extension,Clinical Drug Box
+36782047,canagliflozin 100 MG Delayed Release Oral Tablet Box of 90,S,Standard,V,Valid,OMOP4770332,Drug,RxNorm Extension,Clinical Drug Box
+36782046,canagliflozin 100 MG Delayed Release Oral Tablet [Invokana],S,Standard,V,Valid,OMOP4770331,Drug,RxNorm Extension,Branded Drug
+36782045,canagliflozin 100 MG Delayed Release Oral Tablet [Invokana] Box of 30,S,Standard,V,Valid,OMOP4770330,Drug,RxNorm Extension,Branded Drug Box
+36782044,canagliflozin 100 MG Delayed Release Oral Tablet [Invokana] Box of 30 by Mundipharma,S,Standard,V,Valid,OMOP4770329,Drug,RxNorm Extension,Marketed Product
+36782043,canagliflozin 100 MG Delayed Release Oral Tablet [Invokana] Box of 90,S,Standard,V,Valid,OMOP4770328,Drug,RxNorm Extension,Branded Drug Box
+36782042,canagliflozin 100 MG Delayed Release Oral Tablet [Invokana] Box of 90 by Mundipharma,S,Standard,V,Valid,OMOP4770327,Drug,RxNorm Extension,Marketed Product
+43526467,canagliflozin 100 MG Oral Tablet,S,Standard,V,Valid,1373463,Drug,RxNorm,Clinical Drug
+40930896,canagliflozin 100 MG Oral Tablet Box of 100,S,Standard,V,Valid,OMOP2128858,Drug,RxNorm Extension,Clinical Drug Box
+21056726,canagliflozin 100 MG Oral Tablet Box of 30,S,Standard,V,Valid,OMOP275144,Drug,RxNorm Extension,Clinical Drug Box
+21125282,canagliflozin 100 MG Oral Tablet Box of 30 by Colorama,S,Standard,V,Valid,OMOP275146,Drug,RxNorm Extension,Marketed Product
+21076479,canagliflozin 100 MG Oral Tablet Box of 30 by J M McGill,S,Standard,V,Valid,OMOP275145,Drug,RxNorm Extension,Marketed Product
+21046998,canagliflozin 100 MG Oral Tablet Box of 30 by Niche,S,Standard,V,Valid,OMOP275147,Drug,RxNorm Extension,Marketed Product
+36274846,canagliflozin 100 MG Oral Tablet Box of 90,S,Standard,V,Valid,OMOP3125721,Drug,RxNorm Extension,Clinical Drug Box
+35155579,canagliflozin 100 MG Oral Tablet [Canaglu],S,Standard,V,Valid,OMOP4812594,Drug,RxNorm Extension,Branded Drug
+43526468,canagliflozin 100 MG Oral Tablet [Invokana],S,Standard,V,Valid,1373469,Drug,RxNorm,Branded Drug
+41285598,canagliflozin 100 MG Oral Tablet [Invokana] Box of 100,S,Standard,V,Valid,OMOP2483560,Drug,RxNorm Extension,Branded Drug Box
+40856479,canagliflozin 100 MG Oral Tablet [Invokana] Box of 100 by Janssen,S,Standard,V,Valid,OMOP2054441,Drug,RxNorm Extension,Marketed Product
+41137648,canagliflozin 100 MG Oral Tablet [Invokana] Box of 100 by Orifarm Leverkus,S,Standard,V,Valid,OMOP2335610,Drug,RxNorm Extension,Marketed Product
+21164839,canagliflozin 100 MG Oral Tablet [Invokana] Box of 30,S,Standard,V,Valid,OMOP275150,Drug,RxNorm Extension,Branded Drug Box
+21066569,canagliflozin 100 MG Oral Tablet [Invokana] Box of 30 by Janssen,S,Standard,V,Valid,OMOP275151,Drug,RxNorm Extension,Marketed Product
+784070,canagliflozin 100 MG Oral Tablet [Invokana] Box of 30 by Mundipharma,S,Standard,V,Valid,OMOP4831897,Drug,RxNorm Extension,Marketed Product
+40721261,canagliflozin 100 MG Oral Tablet [Invokana] Box of 30 by Napp,S,Standard,V,Valid,OMOP4736848,Drug,RxNorm Extension,Marketed Product
+41293190,canagliflozin 100 MG Oral Tablet [Invokana] Box of 30 by Orifarm Leverkus,S,Standard,V,Valid,OMOP2491152,Drug,RxNorm Extension,Marketed Product
+36275199,canagliflozin 100 MG Oral Tablet [Invokana] Box of 90,S,Standard,V,Valid,OMOP3126074,Drug,RxNorm Extension,Branded Drug Box
+36273902,canagliflozin 100 MG Oral Tablet [Invokana] Box of 90 by Janssen,S,Standard,V,Valid,OMOP3124777,Drug,RxNorm Extension,Marketed Product
+784071,canagliflozin 100 MG Oral Tablet [Invokana] Box of 90 by Mundipharma,S,Standard,V,Valid,OMOP4831898,Drug,RxNorm Extension,Marketed Product
+21037079,canagliflozin 100 MG Oral Tablet [Invokana] by Janssen,S,Standard,V,Valid,OMOP275148,Drug,RxNorm Extension,Marketed Product
+40721262,canagliflozin 100 MG Oral Tablet [Invokana] by Napp,S,Standard,V,Valid,OMOP4736847,Drug,RxNorm Extension,Marketed Product
+21046997,canagliflozin 100 MG Oral Tablet by Colorama,S,Standard,V,Valid,OMOP275142,Drug,RxNorm Extension,Marketed Product
+21125281,canagliflozin 100 MG Oral Tablet by J M McGill,S,Standard,V,Valid,OMOP275141,Drug,RxNorm Extension,Marketed Product
+21076478,canagliflozin 100 MG Oral Tablet by Niche,S,Standard,V,Valid,OMOP275143,Drug,RxNorm Extension,Marketed Product
+35141352,canagliflozin 100 MG [Canaglu],S,Standard,V,Valid,OMOP4798481,Drug,RxNorm Extension,Branded Drug Comp
+43526469,canagliflozin 100 MG [Invokana],S,Standard,V,Valid,1373465,Drug,RxNorm,Branded Drug Comp
+45774708,canagliflozin 150 MG,S,Standard,V,Valid,1545145,Drug,RxNorm,Clinical Drug Comp
+36785132,canagliflozin 150 MG / Metformin 1000 MG Delayed Release Oral Tablet,S,Standard,V,Valid,OMOP4773413,Drug,RxNorm Extension,Clinical Drug
+36785130,canagliflozin 150 MG / Metformin 1000 MG Delayed Release Oral Tablet Box of 180,S,Standard,V,Valid,OMOP4773411,Drug,RxNorm Extension,Clinical Drug Box
+36785131,canagliflozin 150 MG / Metformin 1000 MG Delayed Release Oral Tablet Box of 60,S,Standard,V,Valid,OMOP4773412,Drug,RxNorm Extension,Clinical Drug Box
+36785129,canagliflozin 150 MG / Metformin 1000 MG Delayed Release Oral Tablet [Vokanamet],S,Standard,V,Valid,OMOP4773410,Drug,RxNorm Extension,Branded Drug
+36785126,canagliflozin 150 MG / Metformin 1000 MG Delayed Release Oral Tablet [Vokanamet] Box of 180,S,Standard,V,Valid,OMOP4773407,Drug,RxNorm Extension,Branded Drug Box
+36785125,canagliflozin 150 MG / Metformin 1000 MG Delayed Release Oral Tablet [Vokanamet] Box of 180 by Mundipharma,S,Standard,V,Valid,OMOP4773406,Drug,RxNorm Extension,Marketed Product
+36785128,canagliflozin 150 MG / Metformin 1000 MG Delayed Release Oral Tablet [Vokanamet] Box of 60,S,Standard,V,Valid,OMOP4773409,Drug,RxNorm Extension,Branded Drug Box
+36785127,canagliflozin 150 MG / Metformin 1000 MG Delayed Release Oral Tablet [Vokanamet] Box of 60 by Mundipharma,S,Standard,V,Valid,OMOP4773408,Drug,RxNorm Extension,Marketed Product
+41149902,canagliflozin 150 MG / Metformin 1000 MG Oral Tablet Box of 180,S,Standard,V,Valid,OMOP2347864,Drug,RxNorm Extension,Clinical Drug Box
+41024376,canagliflozin 150 MG / Metformin 1000 MG Oral Tablet Box of 60,S,Standard,V,Valid,OMOP2222338,Drug,RxNorm Extension,Clinical Drug Box
+44090000,canagliflozin 150 MG / Metformin 1000 MG Oral Tablet [Invokamet] by Janssen,S,Standard,V,Valid,OMOP1084631,Drug,RxNorm Extension,Marketed Product
+40942528,canagliflozin 150 MG / Metformin 1000 MG Oral Tablet [Vokanamet],S,Standard,V,Valid,OMOP2140490,Drug,RxNorm Extension,Branded Drug
+41316938,canagliflozin 150 MG / Metformin 1000 MG Oral Tablet [Vokanamet] Box of 180,S,Standard,V,Valid,OMOP2514900,Drug,RxNorm Extension,Branded Drug Box
+41293189,canagliflozin 150 MG / Metformin 1000 MG Oral Tablet [Vokanamet] Box of 180 by Janssen,S,Standard,V,Valid,OMOP2491151,Drug,RxNorm Extension,Marketed Product
+783439,canagliflozin 150 MG / Metformin 1000 MG Oral Tablet [Vokanamet] Box of 180 by Mundipharma,S,Standard,V,Valid,OMOP4831269,Drug,RxNorm Extension,Marketed Product
+41004868,canagliflozin 150 MG / Metformin 1000 MG Oral Tablet [Vokanamet] Box of 60,S,Standard,V,Valid,OMOP2202830,Drug,RxNorm Extension,Branded Drug Box
+36266526,canagliflozin 150 MG / Metformin 1000 MG Oral Tablet [Vokanamet] Box of 60 by Janssen,S,Standard,V,Valid,OMOP3117401,Drug,RxNorm Extension,Marketed Product
+783438,canagliflozin 150 MG / Metformin 1000 MG Oral Tablet [Vokanamet] Box of 60 by Mundipharma,S,Standard,V,Valid,OMOP4831268,Drug,RxNorm Extension,Marketed Product
+41204783,canagliflozin 150 MG / Metformin 1000 MG [Vokanamet],S,Standard,V,Valid,OMOP2402745,Drug,RxNorm Extension,Branded Drug Comp
+44077112,canagliflozin 150 MG / Metformin 500 MG Oral Tablet [Invokamet] by Janssen,S,Standard,V,Valid,OMOP1071743,Drug,RxNorm Extension,Marketed Product
+36785115,canagliflozin 150 MG / Metformin 850 MG Delayed Release Oral Tablet,S,Standard,V,Valid,OMOP4773397,Drug,RxNorm Extension,Clinical Drug
+36785113,canagliflozin 150 MG / Metformin 850 MG Delayed Release Oral Tablet Box of 180,S,Standard,V,Valid,OMOP4773395,Drug,RxNorm Extension,Clinical Drug Box
+36785114,canagliflozin 150 MG / Metformin 850 MG Delayed Release Oral Tablet Box of 60,S,Standard,V,Valid,OMOP4773396,Drug,RxNorm Extension,Clinical Drug Box
+36785112,canagliflozin 150 MG / Metformin 850 MG Delayed Release Oral Tablet [Vokanamet],S,Standard,V,Valid,OMOP4773394,Drug,RxNorm Extension,Branded Drug
+36785109,canagliflozin 150 MG / Metformin 850 MG Delayed Release Oral Tablet [Vokanamet] Box of 180,S,Standard,V,Valid,OMOP4773391,Drug,RxNorm Extension,Branded Drug Box
+36785108,canagliflozin 150 MG / Metformin 850 MG Delayed Release Oral Tablet [Vokanamet] Box of 180 by Mundipharma,S,Standard,V,Valid,OMOP4773390,Drug,RxNorm Extension,Marketed Product
+36785111,canagliflozin 150 MG / Metformin 850 MG Delayed Release Oral Tablet [Vokanamet] Box of 60,S,Standard,V,Valid,OMOP4773393,Drug,RxNorm Extension,Branded Drug Box
+36785110,canagliflozin 150 MG / Metformin 850 MG Delayed Release Oral Tablet [Vokanamet] Box of 60 by Mundipharma,S,Standard,V,Valid,OMOP4773392,Drug,RxNorm Extension,Marketed Product
+44123708,canagliflozin 150 MG / Metformin 850 MG Oral Tablet,S,Standard,V,Valid,OMOP1118339,Drug,RxNorm Extension,Clinical Drug
+41305331,canagliflozin 150 MG / Metformin 850 MG Oral Tablet Box of 180,S,Standard,V,Valid,OMOP2503293,Drug,RxNorm Extension,Clinical Drug Box
+40837560,canagliflozin 150 MG / Metformin 850 MG Oral Tablet Box of 60,S,Standard,V,Valid,OMOP2035522,Drug,RxNorm Extension,Clinical Drug Box
+44074012,canagliflozin 150 MG / Metformin 850 MG Oral Tablet [Invokamet],S,Standard,V,Valid,OMOP1068643,Drug,RxNorm Extension,Branded Drug
+44064379,canagliflozin 150 MG / Metformin 850 MG Oral Tablet [Invokamet] by Janssen,S,Standard,V,Valid,OMOP1059010,Drug,RxNorm Extension,Marketed Product
+41067153,canagliflozin 150 MG / Metformin 850 MG Oral Tablet [Vokanamet],S,Standard,V,Valid,OMOP2265115,Drug,RxNorm Extension,Branded Drug
+41223590,canagliflozin 150 MG / Metformin 850 MG Oral Tablet [Vokanamet] Box of 180,S,Standard,V,Valid,OMOP2421552,Drug,RxNorm Extension,Branded Drug Box
+40856478,canagliflozin 150 MG / Metformin 850 MG Oral Tablet [Vokanamet] Box of 180 by Janssen,S,Standard,V,Valid,OMOP2054440,Drug,RxNorm Extension,Marketed Product
+783437,canagliflozin 150 MG / Metformin 850 MG Oral Tablet [Vokanamet] Box of 180 by Mundipharma,S,Standard,V,Valid,OMOP4831267,Drug,RxNorm Extension,Marketed Product
+41161397,canagliflozin 150 MG / Metformin 850 MG Oral Tablet [Vokanamet] Box of 60,S,Standard,V,Valid,OMOP2359359,Drug,RxNorm Extension,Branded Drug Box
+41324537,canagliflozin 150 MG / Metformin 850 MG Oral Tablet [Vokanamet] Box of 60 by Janssen,S,Standard,V,Valid,OMOP2522499,Drug,RxNorm Extension,Marketed Product
+783436,canagliflozin 150 MG / Metformin 850 MG Oral Tablet [Vokanamet] Box of 60 by Mundipharma,S,Standard,V,Valid,OMOP4831266,Drug,RxNorm Extension,Marketed Product
+44093817,canagliflozin 150 MG / Metformin 850 MG [Invokamet],S,Standard,V,Valid,OMOP1088448,Drug,RxNorm Extension,Branded Drug Comp
+40923221,canagliflozin 150 MG / Metformin 850 MG [Vokanamet],S,Standard,V,Valid,OMOP2121183,Drug,RxNorm Extension,Branded Drug Comp
+1718902,canagliflozin 150 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet,S,Standard,V,Valid,1811000,Drug,RxNorm,Clinical Drug
+1718903,canagliflozin 150 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet [Invokamet],S,Standard,V,Valid,1811001,Drug,RxNorm,Branded Drug
+45774710,canagliflozin 150 MG / Metformin hydrochloride 1000 MG Oral Tablet,S,Standard,V,Valid,1545150,Drug,RxNorm,Clinical Drug
+45774714,canagliflozin 150 MG / Metformin hydrochloride 1000 MG Oral Tablet [Invokamet],S,Standard,V,Valid,1545156,Drug,RxNorm,Branded Drug
+45774712,canagliflozin 150 MG / Metformin hydrochloride 1000 MG [Invokamet],S,Standard,V,Valid,1545152,Drug,RxNorm,Branded Drug Comp
+1718906,canagliflozin 150 MG / Metformin hydrochloride 500 MG Extended Release Oral Tablet,S,Standard,V,Valid,1811004,Drug,RxNorm,Clinical Drug
+1718907,canagliflozin 150 MG / Metformin hydrochloride 500 MG Extended Release Oral Tablet [Invokamet],S,Standard,V,Valid,1811005,Drug,RxNorm,Branded Drug
+45774715,canagliflozin 150 MG / Metformin hydrochloride 500 MG Oral Tablet,S,Standard,V,Valid,1545157,Drug,RxNorm,Clinical Drug
+45774717,canagliflozin 150 MG / Metformin hydrochloride 500 MG Oral Tablet [Invokamet],S,Standard,V,Valid,1545159,Drug,RxNorm,Branded Drug
+45774716,canagliflozin 150 MG / Metformin hydrochloride 500 MG [Invokamet],S,Standard,V,Valid,1545158,Drug,RxNorm,Branded Drug Comp
+35137912,canagliflozin 20 MG,S,Standard,V,Valid,OMOP4795083,Drug,RxNorm Extension,Clinical Drug Comp
+35155065,canagliflozin 20 MG Oral Tablet,S,Standard,V,Valid,OMOP4812086,Drug,RxNorm Extension,Clinical Drug
+35133449,canagliflozin 20 MG Oral Tablet [TENELIA],S,Standard,V,Valid,OMOP4790658,Drug,RxNorm Extension,Branded Drug
+35133042,canagliflozin 20 MG [TENELIA],S,Standard,V,Valid,OMOP4790259,Drug,RxNorm Extension,Branded Drug Comp
+43526470,canagliflozin 300 MG,S,Standard,V,Valid,1373470,Drug,RxNorm,Clinical Drug Comp
+36782057,canagliflozin 300 MG Delayed Release Oral Tablet,S,Standard,V,Valid,OMOP4770342,Drug,RxNorm Extension,Clinical Drug
+36782056,canagliflozin 300 MG Delayed Release Oral Tablet Box of 30,S,Standard,V,Valid,OMOP4770341,Drug,RxNorm Extension,Clinical Drug Box
+36782055,canagliflozin 300 MG Delayed Release Oral Tablet Box of 90,S,Standard,V,Valid,OMOP4770340,Drug,RxNorm Extension,Clinical Drug Box
+36782054,canagliflozin 300 MG Delayed Release Oral Tablet [Invokana],S,Standard,V,Valid,OMOP4770339,Drug,RxNorm Extension,Branded Drug
+36782053,canagliflozin 300 MG Delayed Release Oral Tablet [Invokana] Box of 30,S,Standard,V,Valid,OMOP4770338,Drug,RxNorm Extension,Branded Drug Box
+36782052,canagliflozin 300 MG Delayed Release Oral Tablet [Invokana] Box of 30 by Mundipharma,S,Standard,V,Valid,OMOP4770337,Drug,RxNorm Extension,Marketed Product
+36782051,canagliflozin 300 MG Delayed Release Oral Tablet [Invokana] Box of 90,S,Standard,V,Valid,OMOP4770336,Drug,RxNorm Extension,Branded Drug Box
+36782050,canagliflozin 300 MG Delayed Release Oral Tablet [Invokana] Box of 90 by Mundipharma,S,Standard,V,Valid,OMOP4770335,Drug,RxNorm Extension,Marketed Product
+43526471,canagliflozin 300 MG Oral Tablet,S,Standard,V,Valid,1373471,Drug,RxNorm,Clinical Drug
+40962151,canagliflozin 300 MG Oral Tablet Box of 100,S,Standard,V,Valid,OMOP2160113,Drug,RxNorm Extension,Clinical Drug Box
+21105864,canagliflozin 300 MG Oral Tablet Box of 30,S,Standard,V,Valid,OMOP275154,Drug,RxNorm Extension,Clinical Drug Box
+21145066,canagliflozin 300 MG Oral Tablet Box of 30 by Colorama,S,Standard,V,Valid,OMOP275155,Drug,RxNorm Extension,Marketed Product
+36274847,canagliflozin 300 MG Oral Tablet Box of 90,S,Standard,V,Valid,OMOP3125722,Drug,RxNorm Extension,Clinical Drug Box
+43526472,canagliflozin 300 MG Oral Tablet [Invokana],S,Standard,V,Valid,1373473,Drug,RxNorm,Branded Drug
+40880199,canagliflozin 300 MG Oral Tablet [Invokana] Box of 100,S,Standard,V,Valid,OMOP2078161,Drug,RxNorm Extension,Branded Drug Box
+41074785,canagliflozin 300 MG Oral Tablet [Invokana] Box of 100 by Janssen,S,Standard,V,Valid,OMOP2272747,Drug,RxNorm Extension,Marketed Product
+40981050,canagliflozin 300 MG Oral Tablet [Invokana] Box of 100 by Orifarm Leverkus,S,Standard,V,Valid,OMOP2179012,Drug,RxNorm Extension,Marketed Product
+21125283,canagliflozin 300 MG Oral Tablet [Invokana] Box of 30,S,Standard,V,Valid,OMOP275158,Drug,RxNorm Extension,Branded Drug Box
+21145067,canagliflozin 300 MG Oral Tablet [Invokana] Box of 30 by Janssen,S,Standard,V,Valid,OMOP275159,Drug,RxNorm Extension,Marketed Product
+784068,canagliflozin 300 MG Oral Tablet [Invokana] Box of 30 by Mundipharma,S,Standard,V,Valid,OMOP4831895,Drug,RxNorm Extension,Marketed Product
+40721263,canagliflozin 300 MG Oral Tablet [Invokana] Box of 30 by Napp,S,Standard,V,Valid,OMOP4736846,Drug,RxNorm Extension,Marketed Product
+40981049,canagliflozin 300 MG Oral Tablet [Invokana] Box of 30 by Orifarm Leverkus,S,Standard,V,Valid,OMOP2179011,Drug,RxNorm Extension,Marketed Product
+36262387,canagliflozin 300 MG Oral Tablet [Invokana] Box of 90,S,Standard,V,Valid,OMOP3113262,Drug,RxNorm Extension,Branded Drug Box
+36258765,canagliflozin 300 MG Oral Tablet [Invokana] Box of 90 by Janssen,S,Standard,V,Valid,OMOP3109640,Drug,RxNorm Extension,Marketed Product
+784069,canagliflozin 300 MG Oral Tablet [Invokana] Box of 90 by Mundipharma,S,Standard,V,Valid,OMOP4831896,Drug,RxNorm Extension,Marketed Product
+21056727,canagliflozin 300 MG Oral Tablet [Invokana] by Janssen,S,Standard,V,Valid,OMOP275157,Drug,RxNorm Extension,Marketed Product
+40721264,canagliflozin 300 MG Oral Tablet [Invokana] by Napp,S,Standard,V,Valid,OMOP4736845,Drug,RxNorm Extension,Marketed Product
+21105863,canagliflozin 300 MG Oral Tablet by Colorama,S,Standard,V,Valid,OMOP275153,Drug,RxNorm Extension,Marketed Product
+43526473,canagliflozin 300 MG [Invokana],S,Standard,V,Valid,1373472,Drug,RxNorm,Branded Drug Comp
+45774718,canagliflozin 50 MG,S,Standard,V,Valid,1545160,Drug,RxNorm,Clinical Drug Comp
+36785124,canagliflozin 50 MG / Metformin 1000 MG Delayed Release Oral Tablet,S,Standard,V,Valid,OMOP4773405,Drug,RxNorm Extension,Clinical Drug
+36785121,canagliflozin 50 MG / Metformin 1000 MG Delayed Release Oral Tablet Box of 180,S,Standard,V,Valid,OMOP4773403,Drug,RxNorm Extension,Clinical Drug Box
+36785123,canagliflozin 50 MG / Metformin 1000 MG Delayed Release Oral Tablet Box of 60,S,Standard,V,Valid,OMOP4773404,Drug,RxNorm Extension,Clinical Drug Box
+36785120,canagliflozin 50 MG / Metformin 1000 MG Delayed Release Oral Tablet [Vokanamet],S,Standard,V,Valid,OMOP4773402,Drug,RxNorm Extension,Branded Drug
+36785117,canagliflozin 50 MG / Metformin 1000 MG Delayed Release Oral Tablet [Vokanamet] Box of 180,S,Standard,V,Valid,OMOP4773399,Drug,RxNorm Extension,Branded Drug Box
+36785116,canagliflozin 50 MG / Metformin 1000 MG Delayed Release Oral Tablet [Vokanamet] Box of 180 by Mundipharma,S,Standard,V,Valid,OMOP4773398,Drug,RxNorm Extension,Marketed Product
+36785119,canagliflozin 50 MG / Metformin 1000 MG Delayed Release Oral Tablet [Vokanamet] Box of 60,S,Standard,V,Valid,OMOP4773401,Drug,RxNorm Extension,Branded Drug Box
+36785118,canagliflozin 50 MG / Metformin 1000 MG Delayed Release Oral Tablet [Vokanamet] Box of 60 by Mundipharma,S,Standard,V,Valid,OMOP4773400,Drug,RxNorm Extension,Marketed Product
+44165113,canagliflozin 50 MG / Metformin 1000 MG Extended Release Oral Tablet Box of 180,S,Standard,V,Valid,OMOP3041836,Drug,RxNorm Extension,Clinical Drug Box
+35758235,canagliflozin 50 MG / Metformin 1000 MG Extended Release Oral Tablet Box of 60,S,Standard,V,Valid,OMOP2759696,Drug,RxNorm Extension,Clinical Drug Box
+35750437,canagliflozin 50 MG / Metformin 1000 MG Extended Release Oral Tablet [Vokanamet],S,Standard,V,Valid,OMOP2751898,Drug,RxNorm Extension,Branded Drug
+44188969,canagliflozin 50 MG / Metformin 1000 MG Extended Release Oral Tablet [Vokanamet] Box of 180,S,Standard,V,Valid,OMOP3065692,Drug,RxNorm Extension,Branded Drug Box
+35754668,canagliflozin 50 MG / Metformin 1000 MG Extended Release Oral Tablet [Vokanamet] Box of 60,S,Standard,V,Valid,OMOP2756129,Drug,RxNorm Extension,Branded Drug Box
+35769765,canagliflozin 50 MG / Metformin 1000 MG Extended Release Oral Tablet [Vokanamet] Box of 60 by Janssen,S,Standard,V,Valid,OMOP2771226,Drug,RxNorm Extension,Marketed Product
+35765463,canagliflozin 50 MG / Metformin 1000 MG Extended Release Oral Tablet [Vokanamet] by Janssen,S,Standard,V,Valid,OMOP2766924,Drug,RxNorm Extension,Marketed Product
+41149903,canagliflozin 50 MG / Metformin 1000 MG Oral Tablet Box of 180,S,Standard,V,Valid,OMOP2347865,Drug,RxNorm Extension,Clinical Drug Box
+21130195,canagliflozin 50 MG / Metformin 1000 MG Oral Tablet Box of 60,S,Standard,V,Valid,OMOP351634,Drug,RxNorm Extension,Clinical Drug Box
+44090001,canagliflozin 50 MG / Metformin 1000 MG Oral Tablet [Invokamet] by Janssen,S,Standard,V,Valid,OMOP1084632,Drug,RxNorm Extension,Marketed Product
+21091001,canagliflozin 50 MG / Metformin 1000 MG Oral Tablet [Vokanamet],S,Standard,V,Valid,OMOP351635,Drug,RxNorm Extension,Branded Drug
+41098623,canagliflozin 50 MG / Metformin 1000 MG Oral Tablet [Vokanamet] Box of 180,S,Standard,V,Valid,OMOP2296585,Drug,RxNorm Extension,Branded Drug Box
+36258692,canagliflozin 50 MG / Metformin 1000 MG Oral Tablet [Vokanamet] Box of 180 by Janssen,S,Standard,V,Valid,OMOP3109567,Drug,RxNorm Extension,Marketed Product
+783435,canagliflozin 50 MG / Metformin 1000 MG Oral Tablet [Vokanamet] Box of 180 by Mundipharma,S,Standard,V,Valid,OMOP4831265,Drug,RxNorm Extension,Marketed Product
+21042083,canagliflozin 50 MG / Metformin 1000 MG Oral Tablet [Vokanamet] Box of 60,S,Standard,V,Valid,OMOP351638,Drug,RxNorm Extension,Branded Drug Box
+21042084,canagliflozin 50 MG / Metformin 1000 MG Oral Tablet [Vokanamet] Box of 60 by Janssen,S,Standard,V,Valid,OMOP351639,Drug,RxNorm Extension,Marketed Product
+783434,canagliflozin 50 MG / Metformin 1000 MG Oral Tablet [Vokanamet] Box of 60 by Mundipharma,S,Standard,V,Valid,OMOP4831264,Drug,RxNorm Extension,Marketed Product
+40733353,canagliflozin 50 MG / Metformin 1000 MG Oral Tablet [Vokanamet] Box of 60 by Napp,S,Standard,V,Valid,OMOP4724212,Drug,RxNorm Extension,Marketed Product
+21022405,canagliflozin 50 MG / Metformin 1000 MG Oral Tablet [Vokanamet] by Janssen,S,Standard,V,Valid,OMOP351637,Drug,RxNorm Extension,Marketed Product
+40733354,canagliflozin 50 MG / Metformin 1000 MG Oral Tablet [Vokanamet] by Napp,S,Standard,V,Valid,OMOP4724211,Drug,RxNorm Extension,Marketed Product
+21042082,canagliflozin 50 MG / Metformin 1000 MG [Vokanamet],S,Standard,V,Valid,OMOP351633,Drug,RxNorm Extension,Branded Drug Comp
+44103028,canagliflozin 50 MG / Metformin 500 MG Oral Tablet [Invokamet] by Janssen,S,Standard,V,Valid,OMOP1097659,Drug,RxNorm Extension,Marketed Product
+36785107,canagliflozin 50 MG / Metformin 850 MG Delayed Release Oral Tablet,S,Standard,V,Valid,OMOP4773389,Drug,RxNorm Extension,Clinical Drug
+36785105,canagliflozin 50 MG / Metformin 850 MG Delayed Release Oral Tablet Box of 180,S,Standard,V,Valid,OMOP4773387,Drug,RxNorm Extension,Clinical Drug Box
+36785106,canagliflozin 50 MG / Metformin 850 MG Delayed Release Oral Tablet Box of 60,S,Standard,V,Valid,OMOP4773388,Drug,RxNorm Extension,Clinical Drug Box
+36785104,canagliflozin 50 MG / Metformin 850 MG Delayed Release Oral Tablet [Vokanamet],S,Standard,V,Valid,OMOP4773386,Drug,RxNorm Extension,Branded Drug
+36785101,canagliflozin 50 MG / Metformin 850 MG Delayed Release Oral Tablet [Vokanamet] Box of 180,S,Standard,V,Valid,OMOP4773383,Drug,RxNorm Extension,Branded Drug Box
+36785100,canagliflozin 50 MG / Metformin 850 MG Delayed Release Oral Tablet [Vokanamet] Box of 180 by Mundipharma,S,Standard,V,Valid,OMOP4773382,Drug,RxNorm Extension,Marketed Product
+36785103,canagliflozin 50 MG / Metformin 850 MG Delayed Release Oral Tablet [Vokanamet] Box of 60,S,Standard,V,Valid,OMOP4773385,Drug,RxNorm Extension,Branded Drug Box
+36785102,canagliflozin 50 MG / Metformin 850 MG Delayed Release Oral Tablet [Vokanamet] Box of 60 by Mundipharma,S,Standard,V,Valid,OMOP4773384,Drug,RxNorm Extension,Marketed Product
+21022404,canagliflozin 50 MG / Metformin 850 MG Oral Tablet,S,Standard,V,Valid,OMOP351627,Drug,RxNorm Extension,Clinical Drug
+40823309,canagliflozin 50 MG / Metformin 850 MG Oral Tablet Box of 180,S,Standard,V,Valid,OMOP2021271,Drug,RxNorm Extension,Clinical Drug Box
+21130194,canagliflozin 50 MG / Metformin 850 MG Oral Tablet Box of 60,S,Standard,V,Valid,OMOP351628,Drug,RxNorm Extension,Clinical Drug Box
+44112687,canagliflozin 50 MG / Metformin 850 MG Oral Tablet [Invokamet],S,Standard,V,Valid,OMOP1107318,Drug,RxNorm Extension,Branded Drug
+44115849,canagliflozin 50 MG / Metformin 850 MG Oral Tablet [Invokamet] by Janssen,S,Standard,V,Valid,OMOP1110480,Drug,RxNorm Extension,Marketed Product
+21169725,canagliflozin 50 MG / Metformin 850 MG Oral Tablet [Vokanamet],S,Standard,V,Valid,OMOP351629,Drug,RxNorm Extension,Branded Drug
+41223591,canagliflozin 50 MG / Metformin 850 MG Oral Tablet [Vokanamet] Box of 180,S,Standard,V,Valid,OMOP2421553,Drug,RxNorm Extension,Branded Drug Box
+36266395,canagliflozin 50 MG / Metformin 850 MG Oral Tablet [Vokanamet] Box of 180 by Janssen,S,Standard,V,Valid,OMOP3117270,Drug,RxNorm Extension,Marketed Product
+783433,canagliflozin 50 MG / Metformin 850 MG Oral Tablet [Vokanamet] Box of 180 by Mundipharma,S,Standard,V,Valid,OMOP4831263,Drug,RxNorm Extension,Marketed Product
+21071551,canagliflozin 50 MG / Metformin 850 MG Oral Tablet [Vokanamet] Box of 60,S,Standard,V,Valid,OMOP351631,Drug,RxNorm Extension,Branded Drug Box
+21071552,canagliflozin 50 MG / Metformin 850 MG Oral Tablet [Vokanamet] Box of 60 by Janssen,S,Standard,V,Valid,OMOP351632,Drug,RxNorm Extension,Marketed Product
+783432,canagliflozin 50 MG / Metformin 850 MG Oral Tablet [Vokanamet] Box of 60 by Mundipharma,S,Standard,V,Valid,OMOP4831262,Drug,RxNorm Extension,Marketed Product
+40733355,canagliflozin 50 MG / Metformin 850 MG Oral Tablet [Vokanamet] Box of 60 by Napp,S,Standard,V,Valid,OMOP4724210,Drug,RxNorm Extension,Marketed Product
+21149976,canagliflozin 50 MG / Metformin 850 MG Oral Tablet [Vokanamet] by Janssen,S,Standard,V,Valid,OMOP351630,Drug,RxNorm Extension,Marketed Product
+40733356,canagliflozin 50 MG / Metformin 850 MG Oral Tablet [Vokanamet] by Napp,S,Standard,V,Valid,OMOP4724209,Drug,RxNorm Extension,Marketed Product
+44080802,canagliflozin 50 MG / Metformin 850 MG [Invokamet],S,Standard,V,Valid,OMOP1075433,Drug,RxNorm Extension,Branded Drug Comp
+21159928,canagliflozin 50 MG / Metformin 850 MG [Vokanamet],S,Standard,V,Valid,OMOP351625,Drug,RxNorm Extension,Branded Drug Comp
+1718910,canagliflozin 50 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet,S,Standard,V,Valid,1811008,Drug,RxNorm,Clinical Drug
+1718911,canagliflozin 50 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet [Invokamet],S,Standard,V,Valid,1811009,Drug,RxNorm,Branded Drug
+45774719,canagliflozin 50 MG / Metformin hydrochloride 1000 MG Oral Tablet,S,Standard,V,Valid,1545161,Drug,RxNorm,Clinical Drug
+45774721,canagliflozin 50 MG / Metformin hydrochloride 1000 MG Oral Tablet [Invokamet],S,Standard,V,Valid,1545163,Drug,RxNorm,Branded Drug
+45774720,canagliflozin 50 MG / Metformin hydrochloride 1000 MG [Invokamet],S,Standard,V,Valid,1545162,Drug,RxNorm,Branded Drug Comp
+1718914,canagliflozin 50 MG / Metformin hydrochloride 500 MG Extended Release Oral Tablet,S,Standard,V,Valid,1811012,Drug,RxNorm,Clinical Drug
+1718915,canagliflozin 50 MG / Metformin hydrochloride 500 MG Extended Release Oral Tablet [Invokamet],S,Standard,V,Valid,1811013,Drug,RxNorm,Branded Drug
+45774722,canagliflozin 50 MG / Metformin hydrochloride 500 MG Oral Tablet,S,Standard,V,Valid,1545164,Drug,RxNorm,Clinical Drug
+45774724,canagliflozin 50 MG / Metformin hydrochloride 500 MG Oral Tablet [Invokamet],S,Standard,V,Valid,1545166,Drug,RxNorm,Branded Drug
+45774723,canagliflozin 50 MG / Metformin hydrochloride 500 MG [Invokamet],S,Standard,V,Valid,1545165,Drug,RxNorm,Branded Drug Comp
+36782059,canagliflozin Delayed Release Oral Tablet,S,Standard,V,Valid,OMOP4770344,Drug,RxNorm Extension,Clinical Drug Form
+36782058,canagliflozin Delayed Release Oral Tablet [Invokana],S,Standard,V,Valid,OMOP4770343,Drug,RxNorm Extension,Branded Drug Form
+36246400,canagliflozin Oral Product,C,Classification,V,Valid,1373460,Drug,RxNorm,Clinical Dose Group
+43526474,canagliflozin Oral Tablet,S,Standard,V,Valid,1373462,Drug,RxNorm,Clinical Drug Form
+35155816,canagliflozin Oral Tablet [Canaglu],S,Standard,V,Valid,OMOP4812830,Drug,RxNorm Extension,Branded Drug Form
+43526475,canagliflozin Oral Tablet [Invokana],S,Standard,V,Valid,1373466,Drug,RxNorm,Branded Drug Form
+35143968,canagliflozin Oral Tablet [TENELIA],S,Standard,V,Valid,OMOP4801064,Drug,RxNorm Extension,Branded Drug Form
+36246401,canagliflozin Pill,C,Classification,V,Valid,1373461,Drug,RxNorm,Clinical Dose Group
+44785829,dapagliflozin,S,Standard,V,Valid,1488564,Drug,RxNorm,Ingredient
+36788778,dapagliflozin / Metformin Delayed Release Oral Tablet,S,Standard,V,Valid,OMOP4777030,Drug,RxNorm Extension,Clinical Drug Form
+36788777,dapagliflozin / Metformin Delayed Release Oral Tablet [Xigduo],S,Standard,V,Valid,OMOP4777029,Drug,RxNorm Extension,Branded Drug Form
+45775454,dapagliflozin / Metformin Extended Release Oral Tablet,S,Standard,V,Valid,1593057,Drug,RxNorm,Clinical Drug Form
+45775859,dapagliflozin / Metformin Extended Release Oral Tablet [Xigduo],S,Standard,V,Valid,1593774,Drug,RxNorm,Branded Drug Form
+36248557,dapagliflozin / Metformin Oral Product,C,Classification,V,Valid,1592709,Drug,RxNorm,Clinical Dose Group
+42480777,dapagliflozin / Metformin Oral Tablet,S,Standard,V,Valid,OMOP418941,Drug,RxNorm Extension,Clinical Drug Form
+42482550,dapagliflozin / Metformin Oral Tablet [Xigduo],S,Standard,V,Valid,OMOP418942,Drug,RxNorm Extension,Branded Drug Form
+36248558,dapagliflozin / Metformin Pill,C,Classification,V,Valid,1592710,Drug,RxNorm,Clinical Dose Group
 1592314,dapagliflozin / saxagliptin Oral Product,C,Classification,V,Valid,1925495,Drug,RxNorm,Clinical Dose Group
 1592316,dapagliflozin / saxagliptin Oral Tablet,S,Standard,V,Valid,1925497,Drug,RxNorm,Clinical Drug Form
 1592320,dapagliflozin / saxagliptin Oral Tablet [Qtern],S,Standard,V,Valid,1925501,Drug,RxNorm,Branded Drug Form
 1592315,dapagliflozin / saxagliptin Pill,C,Classification,V,Valid,1925496,Drug,RxNorm,Clinical Dose Group
+44785830,dapagliflozin 10 MG,S,Standard,V,Valid,1488565,Drug,RxNorm,Clinical Drug Comp
+43289020,dapagliflozin 10 MG / Metformin 1000 MG Extended Release Oral Tablet Box of 28,S,Standard,V,Valid,OMOP538373,Drug,RxNorm Extension,Clinical Drug Box
+43256458,dapagliflozin 10 MG / Metformin 1000 MG Extended Release Oral Tablet [Xigduo] Box of 28,S,Standard,V,Valid,OMOP538374,Drug,RxNorm Extension,Branded Drug Box
+43278243,dapagliflozin 10 MG / Metformin 500 MG Extended Release Oral Tablet Box of 28,S,Standard,V,Valid,OMOP538370,Drug,RxNorm Extension,Clinical Drug Box
+43289019,dapagliflozin 10 MG / Metformin 500 MG Extended Release Oral Tablet [Xigduo] Box of 28,S,Standard,V,Valid,OMOP538371,Drug,RxNorm Extension,Branded Drug Box
+45775456,dapagliflozin 10 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet,S,Standard,V,Valid,1593059,Drug,RxNorm,Clinical Drug
+45775861,dapagliflozin 10 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet [Xigduo],S,Standard,V,Valid,1593776,Drug,RxNorm,Branded Drug
+45775388,dapagliflozin 10 MG / Metformin hydrochloride 1000 MG [Xigduo],S,Standard,V,Valid,1592722,Drug,RxNorm,Branded Drug Comp
+45775620,dapagliflozin 10 MG / Metformin hydrochloride 500 MG Extended Release Oral Tablet,S,Standard,V,Valid,1593069,Drug,RxNorm,Clinical Drug
+45775863,dapagliflozin 10 MG / Metformin hydrochloride 500 MG Extended Release Oral Tablet [Xigduo],S,Standard,V,Valid,1593827,Drug,RxNorm,Branded Drug
+45775862,dapagliflozin 10 MG / Metformin hydrochloride 500 MG [Xigduo],S,Standard,V,Valid,1593826,Drug,RxNorm,Branded Drug Comp
 1592317,dapagliflozin 10 MG / saxagliptin 5 MG Oral Tablet,S,Standard,V,Valid,1925498,Drug,RxNorm,Clinical Drug
 40749312,dapagliflozin 10 MG / saxagliptin 5 MG Oral Tablet Box of 28,S,Standard,V,Valid,OMOP4707958,Drug,RxNorm Extension,Clinical Drug Box
 1592323,dapagliflozin 10 MG / saxagliptin 5 MG Oral Tablet [Qtern],S,Standard,V,Valid,1925504,Drug,RxNorm,Branded Drug
@@ -1591,9 +1862,131 @@ concept_id,concept_name,standard_concept,standard_concept_caption,invalid_reason
 40749309,dapagliflozin 10 MG / saxagliptin 5 MG Oral Tablet [Qtern] Box of 28 by Astrazeneca,S,Standard,V,Valid,OMOP4707961,Drug,RxNorm Extension,Marketed Product
 40749311,dapagliflozin 10 MG / saxagliptin 5 MG Oral Tablet [Qtern] by Astrazeneca,S,Standard,V,Valid,OMOP4707959,Drug,RxNorm Extension,Marketed Product
 1592319,dapagliflozin 10 MG / saxagliptin 5 MG [Qtern],S,Standard,V,Valid,1925500,Drug,RxNorm,Branded Drug Comp
+36788787,dapagliflozin 10 MG Delayed Release Oral Tablet,S,Standard,V,Valid,OMOP4777038,Drug,RxNorm Extension,Clinical Drug
+36788786,dapagliflozin 10 MG Delayed Release Oral Tablet Box of 28,S,Standard,V,Valid,OMOP4777037,Drug,RxNorm Extension,Clinical Drug Box
+36788784,dapagliflozin 10 MG Delayed Release Oral Tablet Box of 98,S,Standard,V,Valid,OMOP4777036,Drug,RxNorm Extension,Clinical Drug Box
+36788783,dapagliflozin 10 MG Delayed Release Oral Tablet [Forxiga],S,Standard,V,Valid,OMOP4777035,Drug,RxNorm Extension,Branded Drug
+36788782,dapagliflozin 10 MG Delayed Release Oral Tablet [Forxiga] Box of 28,S,Standard,V,Valid,OMOP4777034,Drug,RxNorm Extension,Branded Drug Box
+36788781,dapagliflozin 10 MG Delayed Release Oral Tablet [Forxiga] Box of 28 by Astrazeneca,S,Standard,V,Valid,OMOP4777033,Drug,RxNorm Extension,Marketed Product
+36788780,dapagliflozin 10 MG Delayed Release Oral Tablet [Forxiga] Box of 98,S,Standard,V,Valid,OMOP4777032,Drug,RxNorm Extension,Branded Drug Box
+36788779,dapagliflozin 10 MG Delayed Release Oral Tablet [Forxiga] Box of 98 by Astrazeneca,S,Standard,V,Valid,OMOP4777031,Drug,RxNorm Extension,Marketed Product
+44785831,dapagliflozin 10 MG Oral Tablet,S,Standard,V,Valid,1488569,Drug,RxNorm,Clinical Drug
+21115639,dapagliflozin 10 MG Oral Tablet Box of 28,S,Standard,V,Valid,OMOP275133,Drug,RxNorm Extension,Clinical Drug Box
+43291260,dapagliflozin 10 MG Oral Tablet Box of 7,S,Standard,V,Valid,OMOP558729,Drug,RxNorm Extension,Clinical Drug Box
+41023709,dapagliflozin 10 MG Oral Tablet Box of 98,S,Standard,V,Valid,OMOP2221671,Drug,RxNorm Extension,Clinical Drug Box
+44785473,dapagliflozin 10 MG Oral Tablet [Farxiga],S,Standard,V,Valid,1486977,Drug,RxNorm,Branded Drug
+44128622,dapagliflozin 10 MG Oral Tablet [Farxiga] by Astrazeneca,S,Standard,V,Valid,OMOP1123253,Drug,RxNorm Extension,Marketed Product
+21037076,dapagliflozin 10 MG Oral Tablet [Forxiga],S,Standard,V,Valid,OMOP275135,Drug,RxNorm Extension,Branded Drug
+21037078,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 28,S,Standard,V,Valid,OMOP275138,Drug,RxNorm Extension,Branded Drug Box
+21046996,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 28 by Astrazeneca,S,Standard,V,Valid,OMOP275140,Drug,RxNorm Extension,Marketed Product
+40887126,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 28 by Eurim-Pharm,S,Standard,V,Valid,OMOP2085088,Drug,RxNorm Extension,Marketed Product
+41042795,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 28 by European,S,Standard,V,Valid,OMOP2240757,Drug,RxNorm Extension,Marketed Product
+44182774,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 28 by European,S,Standard,V,Valid,OMOP3059497,Drug,RxNorm Extension,Marketed Product
+21174561,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 28 by Waymade,S,Standard,V,Valid,OMOP275139,Drug,RxNorm Extension,Marketed Product
+43258637,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 7,S,Standard,V,Valid,OMOP558730,Drug,RxNorm Extension,Branded Drug Box
+41097250,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 98,S,Standard,V,Valid,OMOP2295212,Drug,RxNorm Extension,Branded Drug Box
+40855800,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 98 by Astrazeneca,S,Standard,V,Valid,OMOP2053762,Drug,RxNorm Extension,Marketed Product
+41042796,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 98 by Eurim-Pharm,S,Standard,V,Valid,OMOP2240758,Drug,RxNorm Extension,Marketed Product
+44160227,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 98 by European,S,Standard,V,Valid,OMOP3036950,Drug,RxNorm Extension,Marketed Product
+40980366,dapagliflozin 10 MG Oral Tablet [Forxiga] Box of 98 by European,S,Standard,V,Valid,OMOP2178328,Drug,RxNorm Extension,Marketed Product
+21056725,dapagliflozin 10 MG Oral Tablet [Forxiga] by Astrazeneca,S,Standard,V,Valid,OMOP275137,Drug,RxNorm Extension,Marketed Product
+21037077,dapagliflozin 10 MG Oral Tablet [Forxiga] by Waymade,S,Standard,V,Valid,OMOP275136,Drug,RxNorm Extension,Marketed Product
+44816049,dapagliflozin 10 MG [Farxiga],S,Standard,V,Valid,1534397,Drug,RxNorm,Branded Drug Comp
+21046995,dapagliflozin 10 MG [Forxiga],S,Standard,V,Valid,OMOP275132,Drug,RxNorm Extension,Branded Drug Comp
+793825,dapagliflozin 2.5 MG,S,Standard,V,Valid,1940495,Drug,RxNorm,Clinical Drug Comp
+793829,dapagliflozin 2.5 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet,S,Standard,V,Valid,1940499,Drug,RxNorm,Clinical Drug
+793830,dapagliflozin 2.5 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet [Xigduo],S,Standard,V,Valid,1940500,Drug,RxNorm,Branded Drug
+793827,dapagliflozin 2.5 MG / Metformin hydrochloride 1000 MG [Xigduo],S,Standard,V,Valid,1940497,Drug,RxNorm,Branded Drug Comp
+44785832,dapagliflozin 5 MG,S,Standard,V,Valid,1488573,Drug,RxNorm,Clinical Drug Comp
+36788776,dapagliflozin 5 MG / Metformin 1000 MG Delayed Release Oral Tablet,S,Standard,V,Valid,OMOP4777028,Drug,RxNorm Extension,Clinical Drug
+36788774,dapagliflozin 5 MG / Metformin 1000 MG Delayed Release Oral Tablet Box of 196,S,Standard,V,Valid,OMOP4777026,Drug,RxNorm Extension,Clinical Drug Box
+36788775,dapagliflozin 5 MG / Metformin 1000 MG Delayed Release Oral Tablet Box of 56,S,Standard,V,Valid,OMOP4777027,Drug,RxNorm Extension,Clinical Drug Box
+36788773,dapagliflozin 5 MG / Metformin 1000 MG Delayed Release Oral Tablet [Xigduo],S,Standard,V,Valid,OMOP4777025,Drug,RxNorm Extension,Branded Drug
+36788770,dapagliflozin 5 MG / Metformin 1000 MG Delayed Release Oral Tablet [Xigduo] Box of 196,S,Standard,V,Valid,OMOP4777022,Drug,RxNorm Extension,Branded Drug Box
+36788769,dapagliflozin 5 MG / Metformin 1000 MG Delayed Release Oral Tablet [Xigduo] Box of 196 by Astrazeneca,S,Standard,V,Valid,OMOP4777021,Drug,RxNorm Extension,Marketed Product
+36788772,dapagliflozin 5 MG / Metformin 1000 MG Delayed Release Oral Tablet [Xigduo] Box of 56,S,Standard,V,Valid,OMOP4777024,Drug,RxNorm Extension,Branded Drug Box
+36788771,dapagliflozin 5 MG / Metformin 1000 MG Delayed Release Oral Tablet [Xigduo] Box of 56 by Astrazeneca,S,Standard,V,Valid,OMOP4777023,Drug,RxNorm Extension,Marketed Product
+36788768,dapagliflozin 5 MG / Metformin 1000 MG Extended Release Oral Tablet Box of 196,S,Standard,V,Valid,OMOP4777020,Drug,RxNorm Extension,Clinical Drug Box
+43256459,dapagliflozin 5 MG / Metformin 1000 MG Extended Release Oral Tablet Box of 56,S,Standard,V,Valid,OMOP538375,Drug,RxNorm Extension,Clinical Drug Box
+44183834,dapagliflozin 5 MG / Metformin 1000 MG Extended Release Oral Tablet Box of 60,S,Standard,V,Valid,OMOP3060557,Drug,RxNorm Extension,Clinical Drug Box
+36788767,dapagliflozin 5 MG / Metformin 1000 MG Extended Release Oral Tablet [Xigduo] Box of 196,S,Standard,V,Valid,OMOP4777019,Drug,RxNorm Extension,Branded Drug Box
+36788766,dapagliflozin 5 MG / Metformin 1000 MG Extended Release Oral Tablet [Xigduo] Box of 196 by Astrazeneca,S,Standard,V,Valid,OMOP4777018,Drug,RxNorm Extension,Marketed Product
+43289021,dapagliflozin 5 MG / Metformin 1000 MG Extended Release Oral Tablet [Xigduo] Box of 56,S,Standard,V,Valid,OMOP538376,Drug,RxNorm Extension,Branded Drug Box
+35761407,dapagliflozin 5 MG / Metformin 1000 MG Extended Release Oral Tablet [Xigduo] Box of 56 by Astrazeneca,S,Standard,V,Valid,OMOP2762868,Drug,RxNorm Extension,Marketed Product
+44181253,dapagliflozin 5 MG / Metformin 1000 MG Extended Release Oral Tablet [Xigduo] Box of 60,S,Standard,V,Valid,OMOP3057976,Drug,RxNorm Extension,Branded Drug Box
+44164006,dapagliflozin 5 MG / Metformin 1000 MG Extended Release Oral Tablet [Xigduo] Box of 60 by Astrazeneca,S,Standard,V,Valid,OMOP3040729,Drug,RxNorm Extension,Marketed Product
+35769766,dapagliflozin 5 MG / Metformin 1000 MG Extended Release Oral Tablet [Xigduo] by Astrazeneca,S,Standard,V,Valid,OMOP2771227,Drug,RxNorm Extension,Marketed Product
+42482012,dapagliflozin 5 MG / Metformin 1000 MG Oral Tablet,S,Standard,V,Valid,OMOP418943,Drug,RxNorm Extension,Clinical Drug
+41273536,dapagliflozin 5 MG / Metformin 1000 MG Oral Tablet Box of 196,S,Standard,V,Valid,OMOP2471498,Drug,RxNorm Extension,Clinical Drug Box
+21140133,dapagliflozin 5 MG / Metformin 1000 MG Oral Tablet Box of 56,S,Standard,V,Valid,OMOP351620,Drug,RxNorm Extension,Clinical Drug Box
+41273537,dapagliflozin 5 MG / Metformin 1000 MG Oral Tablet Box of 60,S,Standard,V,Valid,OMOP2471499,Drug,RxNorm Extension,Clinical Drug Box
+42480778,dapagliflozin 5 MG / Metformin 1000 MG Oral Tablet [Xigduo],S,Standard,V,Valid,OMOP418944,Drug,RxNorm Extension,Branded Drug
+40972105,dapagliflozin 5 MG / Metformin 1000 MG Oral Tablet [Xigduo] Box of 196,S,Standard,V,Valid,OMOP2170067,Drug,RxNorm Extension,Branded Drug Box
+40918011,dapagliflozin 5 MG / Metformin 1000 MG Oral Tablet [Xigduo] Box of 196 by Astrazeneca,S,Standard,V,Valid,OMOP2115973,Drug,RxNorm Extension,Marketed Product
+21081256,dapagliflozin 5 MG / Metformin 1000 MG Oral Tablet [Xigduo] Box of 56,S,Standard,V,Valid,OMOP351622,Drug,RxNorm Extension,Branded Drug Box
+21169723,dapagliflozin 5 MG / Metformin 1000 MG Oral Tablet [Xigduo] Box of 56 by Astrazeneca,S,Standard,V,Valid,OMOP351623,Drug,RxNorm Extension,Marketed Product
+41128589,dapagliflozin 5 MG / Metformin 1000 MG Oral Tablet [Xigduo] Box of 60,S,Standard,V,Valid,OMOP2326551,Drug,RxNorm Extension,Branded Drug Box
+41230652,dapagliflozin 5 MG / Metformin 1000 MG Oral Tablet [Xigduo] Box of 60 by Astrazeneca,S,Standard,V,Valid,OMOP2428614,Drug,RxNorm Extension,Marketed Product
+21149975,dapagliflozin 5 MG / Metformin 1000 MG Oral Tablet [Xigduo] by Astrazeneca,S,Standard,V,Valid,OMOP351621,Drug,RxNorm Extension,Marketed Product
+36788765,dapagliflozin 5 MG / Metformin 850 MG Delayed Release Oral Tablet,S,Standard,V,Valid,OMOP4777017,Drug,RxNorm Extension,Clinical Drug
+36788763,dapagliflozin 5 MG / Metformin 850 MG Delayed Release Oral Tablet Box of 196,S,Standard,V,Valid,OMOP4777015,Drug,RxNorm Extension,Clinical Drug Box
+36788764,dapagliflozin 5 MG / Metformin 850 MG Delayed Release Oral Tablet Box of 56,S,Standard,V,Valid,OMOP4777016,Drug,RxNorm Extension,Clinical Drug Box
+36788762,dapagliflozin 5 MG / Metformin 850 MG Delayed Release Oral Tablet [Xigduo],S,Standard,V,Valid,OMOP4777014,Drug,RxNorm Extension,Branded Drug
+36788759,dapagliflozin 5 MG / Metformin 850 MG Delayed Release Oral Tablet [Xigduo] Box of 196,S,Standard,V,Valid,OMOP4777011,Drug,RxNorm Extension,Branded Drug Box
+36788758,dapagliflozin 5 MG / Metformin 850 MG Delayed Release Oral Tablet [Xigduo] Box of 196 by Astrazeneca,S,Standard,V,Valid,OMOP4777010,Drug,RxNorm Extension,Marketed Product
+36788761,dapagliflozin 5 MG / Metformin 850 MG Delayed Release Oral Tablet [Xigduo] Box of 56,S,Standard,V,Valid,OMOP4777013,Drug,RxNorm Extension,Branded Drug Box
+36788760,dapagliflozin 5 MG / Metformin 850 MG Delayed Release Oral Tablet [Xigduo] Box of 56 by Astrazeneca,S,Standard,V,Valid,OMOP4777012,Drug,RxNorm Extension,Marketed Product
+21061613,dapagliflozin 5 MG / Metformin 850 MG Oral Tablet,S,Standard,V,Valid,OMOP351613,Drug,RxNorm Extension,Clinical Drug
+41211729,dapagliflozin 5 MG / Metformin 850 MG Oral Tablet Box of 196,S,Standard,V,Valid,OMOP2409691,Drug,RxNorm Extension,Clinical Drug Box
+21022403,dapagliflozin 5 MG / Metformin 850 MG Oral Tablet Box of 56,S,Standard,V,Valid,OMOP351614,Drug,RxNorm Extension,Clinical Drug Box
+41180318,dapagliflozin 5 MG / Metformin 850 MG Oral Tablet Box of 60,S,Standard,V,Valid,OMOP2378280,Drug,RxNorm Extension,Clinical Drug Box
+21042081,dapagliflozin 5 MG / Metformin 850 MG Oral Tablet [Xigduo],S,Standard,V,Valid,OMOP351615,Drug,RxNorm Extension,Branded Drug
+41065711,dapagliflozin 5 MG / Metformin 850 MG Oral Tablet [Xigduo] Box of 196,S,Standard,V,Valid,OMOP2263673,Drug,RxNorm Extension,Branded Drug Box
+41261372,dapagliflozin 5 MG / Metformin 850 MG Oral Tablet [Xigduo] Box of 196 by Astrazeneca,S,Standard,V,Valid,OMOP2459334,Drug,RxNorm Extension,Marketed Product
+21091000,dapagliflozin 5 MG / Metformin 850 MG Oral Tablet [Xigduo] Box of 56,S,Standard,V,Valid,OMOP351617,Drug,RxNorm Extension,Branded Drug Box
+21081255,dapagliflozin 5 MG / Metformin 850 MG Oral Tablet [Xigduo] Box of 56 by Astrazeneca,S,Standard,V,Valid,OMOP351618,Drug,RxNorm Extension,Marketed Product
+41065712,dapagliflozin 5 MG / Metformin 850 MG Oral Tablet [Xigduo] Box of 60,S,Standard,V,Valid,OMOP2263674,Drug,RxNorm Extension,Branded Drug Box
+41261373,dapagliflozin 5 MG / Metformin 850 MG Oral Tablet [Xigduo] Box of 60 by Astrazeneca,S,Standard,V,Valid,OMOP2459335,Drug,RxNorm Extension,Marketed Product
+21140132,dapagliflozin 5 MG / Metformin 850 MG Oral Tablet [Xigduo] by Astrazeneca,S,Standard,V,Valid,OMOP351616,Drug,RxNorm Extension,Marketed Product
+21061612,dapagliflozin 5 MG / Metformin 850 MG [Xigduo],S,Standard,V,Valid,OMOP351612,Drug,RxNorm Extension,Branded Drug Comp
+45775622,dapagliflozin 5 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet,S,Standard,V,Valid,1593071,Drug,RxNorm,Clinical Drug
+45775865,dapagliflozin 5 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet [Xigduo],S,Standard,V,Valid,1593829,Drug,RxNorm,Branded Drug
+45775864,dapagliflozin 5 MG / Metformin hydrochloride 1000 MG [Xigduo],S,Standard,V,Valid,1593828,Drug,RxNorm,Branded Drug Comp
+45775624,dapagliflozin 5 MG / Metformin hydrochloride 500 MG Extended Release Oral Tablet,S,Standard,V,Valid,1593073,Drug,RxNorm,Clinical Drug
+45775868,dapagliflozin 5 MG / Metformin hydrochloride 500 MG Extended Release Oral Tablet [Xigduo],S,Standard,V,Valid,1593832,Drug,RxNorm,Branded Drug
+45775866,dapagliflozin 5 MG / Metformin hydrochloride 500 MG [Xigduo],S,Standard,V,Valid,1593830,Drug,RxNorm,Branded Drug Comp
 1396414,dapagliflozin 5 MG / saxagliptin 5 MG Oral Tablet,S,Standard,V,Valid,2169274,Drug,RxNorm,Clinical Drug
 1396416,dapagliflozin 5 MG / saxagliptin 5 MG Oral Tablet [Qtern],S,Standard,V,Valid,2169276,Drug,RxNorm,Branded Drug
 1396415,dapagliflozin 5 MG / saxagliptin 5 MG [Qtern],S,Standard,V,Valid,2169275,Drug,RxNorm,Branded Drug Comp
+35762253,dapagliflozin 5 MG Extended Release Oral Tablet,S,Standard,V,Valid,OMOP2763714,Drug,RxNorm Extension,Clinical Drug
+35762252,dapagliflozin 5 MG Extended Release Oral Tablet Box of 28,S,Standard,V,Valid,OMOP2763713,Drug,RxNorm Extension,Clinical Drug Box
+35758345,dapagliflozin 5 MG Extended Release Oral Tablet [Forxiga],S,Standard,V,Valid,OMOP2759806,Drug,RxNorm Extension,Branded Drug
+35754222,dapagliflozin 5 MG Extended Release Oral Tablet [Forxiga] Box of 28,S,Standard,V,Valid,OMOP2755683,Drug,RxNorm Extension,Branded Drug Box
+35763316,dapagliflozin 5 MG Extended Release Oral Tablet [Forxiga] Box of 28 by Astrazeneca,S,Standard,V,Valid,OMOP2764777,Drug,RxNorm Extension,Marketed Product
+35759111,dapagliflozin 5 MG Extended Release Oral Tablet [Forxiga] Box of 28 by Waymade,S,Standard,V,Valid,OMOP2760572,Drug,RxNorm Extension,Marketed Product
+35763317,dapagliflozin 5 MG Extended Release Oral Tablet [Forxiga] by Astrazeneca,S,Standard,V,Valid,OMOP2764778,Drug,RxNorm Extension,Marketed Product
+35759112,dapagliflozin 5 MG Extended Release Oral Tablet [Forxiga] by Waymade,S,Standard,V,Valid,OMOP2760573,Drug,RxNorm Extension,Marketed Product
+44785833,dapagliflozin 5 MG Oral Tablet,S,Standard,V,Valid,1488574,Drug,RxNorm,Clinical Drug
+21105861,dapagliflozin 5 MG Oral Tablet Box of 28,S,Standard,V,Valid,OMOP275124,Drug,RxNorm Extension,Clinical Drug Box
+44785477,dapagliflozin 5 MG Oral Tablet [Farxiga],S,Standard,V,Valid,1486981,Drug,RxNorm,Branded Drug
+44037881,dapagliflozin 5 MG Oral Tablet [Farxiga] by Astrazeneca,S,Standard,V,Valid,OMOP1032512,Drug,RxNorm Extension,Marketed Product
+21086192,dapagliflozin 5 MG Oral Tablet [Forxiga],S,Standard,V,Valid,OMOP275126,Drug,RxNorm Extension,Branded Drug
+21076477,dapagliflozin 5 MG Oral Tablet [Forxiga] Box of 28,S,Standard,V,Valid,OMOP275129,Drug,RxNorm Extension,Branded Drug Box
+21125280,dapagliflozin 5 MG Oral Tablet [Forxiga] Box of 28 by Astrazeneca,S,Standard,V,Valid,OMOP275131,Drug,RxNorm Extension,Marketed Product
+21037075,dapagliflozin 5 MG Oral Tablet [Forxiga] Box of 28 by Waymade,S,Standard,V,Valid,OMOP275130,Drug,RxNorm Extension,Marketed Product
+21105862,dapagliflozin 5 MG Oral Tablet [Forxiga] by Astrazeneca,S,Standard,V,Valid,OMOP275128,Drug,RxNorm Extension,Marketed Product
+21056724,dapagliflozin 5 MG Oral Tablet [Forxiga] by Waymade,S,Standard,V,Valid,OMOP275127,Drug,RxNorm Extension,Marketed Product
+44815996,dapagliflozin 5 MG [Farxiga],S,Standard,V,Valid,1534344,Drug,RxNorm,Branded Drug Comp
+21125279,dapagliflozin 5 MG [Forxiga],S,Standard,V,Valid,OMOP275123,Drug,RxNorm Extension,Branded Drug Comp
+36788789,dapagliflozin Delayed Release Oral Tablet,S,Standard,V,Valid,OMOP4777040,Drug,RxNorm Extension,Clinical Drug Form
+36788788,dapagliflozin Delayed Release Oral Tablet [Forxiga],S,Standard,V,Valid,OMOP4777039,Drug,RxNorm Extension,Branded Drug Form
+35766101,dapagliflozin Extended Release Oral Tablet,S,Standard,V,Valid,OMOP2767562,Drug,RxNorm Extension,Clinical Drug Form
+35757868,dapagliflozin Extended Release Oral Tablet [Forxiga],S,Standard,V,Valid,OMOP2759329,Drug,RxNorm Extension,Branded Drug Form
+36247667,dapagliflozin Oral Product,C,Classification,V,Valid,1488566,Drug,RxNorm,Clinical Dose Group
+44785834,dapagliflozin Oral Tablet,S,Standard,V,Valid,1488568,Drug,RxNorm,Clinical Drug Form
+44815995,dapagliflozin Oral Tablet [Farxiga],S,Standard,V,Valid,1534343,Drug,RxNorm,Branded Drug Form
+21037074,dapagliflozin Oral Tablet [Forxiga],S,Standard,V,Valid,OMOP275122,Drug,RxNorm Extension,Branded Drug Form
+36247668,dapagliflozin Pill,C,Classification,V,Valid,1488567,Drug,RxNorm,Clinical Dose Group
 45774435,dulaglutide,S,Standard,V,Valid,1551291,Drug,RxNorm,Ingredient
 45774436,dulaglutide 1.5 MG/ML,S,Standard,V,Valid,1551292,Drug,RxNorm,Clinical Drug Comp
 45774443,dulaglutide 1.5 MG/ML Auto-Injector,S,Standard,V,Valid,1551301,Drug,RxNorm,Clinical Drug
@@ -1643,27 +2036,287 @@ concept_id,concept_name,standard_concept,standard_concept_caption,invalid_reason
 42963167,dulaglutide Pen Injector [Trulicity],S,Standard,V,Valid,OMOP4689650,Drug,RxNorm Extension,Branded Drug Form
 42480782,dulaglutide Prefilled Syringe,S,Standard,V,Valid,OMOP418961,Drug,RxNorm Extension,Clinical Drug Form
 42481391,dulaglutide Prefilled Syringe [Trulicity],S,Standard,V,Valid,OMOP418962,Drug,RxNorm Extension,Branded Drug Form
+45774751,empagliflozin,S,Standard,V,Valid,1545653,Drug,RxNorm,Ingredient
 36248787,empagliflozin / Linagliptin Oral Product,C,Classification,V,Valid,1602106,Drug,RxNorm,Clinical Dose Group
 45892171,empagliflozin / Linagliptin Oral Tablet,S,Standard,V,Valid,1602108,Drug,RxNorm,Clinical Drug Form
 44095942,empagliflozin / Linagliptin Oral Tablet [Glyxamb],S,Standard,V,Valid,OMOP1090573,Drug,RxNorm Extension,Branded Drug Form
 45892175,empagliflozin / Linagliptin Oral Tablet [Glyxambi],S,Standard,V,Valid,1602112,Drug,RxNorm,Branded Drug Form
 36248788,empagliflozin / Linagliptin Pill,C,Classification,V,Valid,1602107,Drug,RxNorm,Clinical Dose Group
+36788048,empagliflozin / Metformin Delayed Release Oral Tablet,S,Standard,V,Valid,OMOP4776310,Drug,RxNorm Extension,Clinical Drug Form
+36788047,empagliflozin / Metformin Delayed Release Oral Tablet [Synjardy],S,Standard,V,Valid,OMOP4776309,Drug,RxNorm Extension,Branded Drug Form
+1592652,empagliflozin / Metformin Extended Release Oral Tablet,S,Standard,V,Valid,1862684,Drug,RxNorm,Clinical Drug Form
+1592655,empagliflozin / Metformin Extended Release Oral Tablet [Synjardy],S,Standard,V,Valid,1862687,Drug,RxNorm,Branded Drug Form
+36248374,empagliflozin / Metformin Oral Product,C,Classification,V,Valid,1664311,Drug,RxNorm,Clinical Dose Group
+46287679,empagliflozin / Metformin Oral Tablet,S,Standard,V,Valid,1664313,Drug,RxNorm,Clinical Drug Form
+42963159,empagliflozin / Metformin Oral Tablet [JARDIANCE DUO],S,Standard,V,Valid,OMOP4689642,Drug,RxNorm Extension,Branded Drug Form
+43267253,empagliflozin / Metformin Oral Tablet [Jardiamet],S,Standard,V,Valid,OMOP538284,Drug,RxNorm Extension,Branded Drug Form
+46287683,empagliflozin / Metformin Oral Tablet [Synjardy],S,Standard,V,Valid,1664318,Drug,RxNorm,Branded Drug Form
+36248375,empagliflozin / Metformin Pill,C,Classification,V,Valid,1664312,Drug,RxNorm,Clinical Dose Group
+45774752,empagliflozin 10 MG,S,Standard,V,Valid,1545654,Drug,RxNorm,Clinical Drug Comp
 45892172,empagliflozin 10 MG / Linagliptin 5 MG Oral Tablet,S,Standard,V,Valid,1602109,Drug,RxNorm,Clinical Drug
 44099492,empagliflozin 10 MG / Linagliptin 5 MG Oral Tablet [Glyxamb],S,Standard,V,Valid,OMOP1094123,Drug,RxNorm Extension,Branded Drug
 44063847,empagliflozin 10 MG / Linagliptin 5 MG Oral Tablet [Glyxamb] by Boehringer Ingelheim,S,Standard,V,Valid,OMOP1058478,Drug,RxNorm Extension,Marketed Product
 45892176,empagliflozin 10 MG / Linagliptin 5 MG Oral Tablet [Glyxambi],S,Standard,V,Valid,1602115,Drug,RxNorm,Branded Drug
 44041679,empagliflozin 10 MG / Linagliptin 5 MG [Glyxamb],S,Standard,V,Valid,OMOP1036310,Drug,RxNorm Extension,Branded Drug Comp
 45892174,empagliflozin 10 MG / Linagliptin 5 MG [Glyxambi],S,Standard,V,Valid,1602111,Drug,RxNorm,Branded Drug Comp
+1592657,empagliflozin 10 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet,S,Standard,V,Valid,1862689,Drug,RxNorm,Clinical Drug
+1592793,empagliflozin 10 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet [Synjardy],S,Standard,V,Valid,1862690,Drug,RxNorm,Branded Drug
+1592654,empagliflozin 10 MG / Metformin hydrochloride 1000 MG [Synjardy],S,Standard,V,Valid,1862686,Drug,RxNorm,Branded Drug Comp
+36788064,empagliflozin 10 MG Delayed Release Oral Tablet,S,Standard,V,Valid,OMOP4776326,Drug,RxNorm Extension,Clinical Drug
+36788062,empagliflozin 10 MG Delayed Release Oral Tablet Box of 100,S,Standard,V,Valid,OMOP4776324,Drug,RxNorm Extension,Clinical Drug Box
+36788063,empagliflozin 10 MG Delayed Release Oral Tablet Box of 30,S,Standard,V,Valid,OMOP4776325,Drug,RxNorm Extension,Clinical Drug Box
+36788061,empagliflozin 10 MG Delayed Release Oral Tablet [Jardiance],S,Standard,V,Valid,OMOP4776323,Drug,RxNorm Extension,Branded Drug
+36788058,empagliflozin 10 MG Delayed Release Oral Tablet [Jardiance] Box of 100,S,Standard,V,Valid,OMOP4776320,Drug,RxNorm Extension,Branded Drug Box
+36788057,empagliflozin 10 MG Delayed Release Oral Tablet [Jardiance] Box of 100 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP4776319,Drug,RxNorm Extension,Marketed Product
+36788060,empagliflozin 10 MG Delayed Release Oral Tablet [Jardiance] Box of 30,S,Standard,V,Valid,OMOP4776322,Drug,RxNorm Extension,Branded Drug Box
+36788059,empagliflozin 10 MG Delayed Release Oral Tablet [Jardiance] Box of 30 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP4776321,Drug,RxNorm Extension,Marketed Product
+36509850,empagliflozin 10 MG Delayed Release Oral Tablet [Jardiance] by Boehringer Ingelheim,S,Standard,V,Valid,OMOP4834776,Drug,RxNorm Extension,Marketed Product
+45774754,empagliflozin 10 MG Oral Tablet,S,Standard,V,Valid,1545658,Drug,RxNorm,Clinical Drug
+40992435,empagliflozin 10 MG Oral Tablet Box of 100,S,Standard,V,Valid,OMOP2190397,Drug,RxNorm Extension,Clinical Drug Box
+21086203,empagliflozin 10 MG Oral Tablet Box of 28,S,Standard,V,Valid,OMOP275282,Drug,RxNorm Extension,Clinical Drug Box
+43269375,empagliflozin 10 MG Oral Tablet Box of 30,S,Standard,V,Valid,OMOP557229,Drug,RxNorm Extension,Clinical Drug Box
+40898738,empagliflozin 10 MG Oral Tablet Box of 70,S,Standard,V,Valid,OMOP2096700,Drug,RxNorm Extension,Clinical Drug Box
+45774758,empagliflozin 10 MG Oral Tablet [Jardiance],S,Standard,V,Valid,1545664,Drug,RxNorm,Branded Drug
+41190318,empagliflozin 10 MG Oral Tablet [Jardiance] Box of 100,S,Standard,V,Valid,OMOP2388280,Drug,RxNorm Extension,Branded Drug Box
+41136536,empagliflozin 10 MG Oral Tablet [Jardiance] Box of 100 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP2334498,Drug,RxNorm Extension,Marketed Product
+21066576,empagliflozin 10 MG Oral Tablet [Jardiance] Box of 28,S,Standard,V,Valid,OMOP275284,Drug,RxNorm Extension,Branded Drug Box
+21145074,empagliflozin 10 MG Oral Tablet [Jardiance] Box of 28 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP275285,Drug,RxNorm Extension,Marketed Product
+43296487,empagliflozin 10 MG Oral Tablet [Jardiance] Box of 30,S,Standard,V,Valid,OMOP557230,Drug,RxNorm Extension,Branded Drug Box
+40855378,empagliflozin 10 MG Oral Tablet [Jardiance] Box of 30 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP2053340,Drug,RxNorm Extension,Marketed Product
+41064872,empagliflozin 10 MG Oral Tablet [Jardiance] Box of 70,S,Standard,V,Valid,OMOP2262834,Drug,RxNorm Extension,Branded Drug Box
+41230230,empagliflozin 10 MG Oral Tablet [Jardiance] Box of 70 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP2428192,Drug,RxNorm Extension,Marketed Product
+21125291,empagliflozin 10 MG Oral Tablet [Jardiance] by Boehringer Ingelheim,S,Standard,V,Valid,OMOP275283,Drug,RxNorm Extension,Marketed Product
+45774756,empagliflozin 10 MG [Jardiance],S,Standard,V,Valid,1545660,Drug,RxNorm,Branded Drug Comp
+46287685,empagliflozin 12.5 MG,S,Standard,V,Valid,1664322,Drug,RxNorm,Clinical Drug Comp
+36788046,empagliflozin 12.5 MG / Metformin 1000 MG Delayed Release Oral Tablet,S,Standard,V,Valid,OMOP4776308,Drug,RxNorm Extension,Clinical Drug
+36788044,empagliflozin 12.5 MG / Metformin 1000 MG Delayed Release Oral Tablet Box of 200,S,Standard,V,Valid,OMOP4776306,Drug,RxNorm Extension,Clinical Drug Box
+36788045,empagliflozin 12.5 MG / Metformin 1000 MG Delayed Release Oral Tablet Box of 60,S,Standard,V,Valid,OMOP4776307,Drug,RxNorm Extension,Clinical Drug Box
+36788043,empagliflozin 12.5 MG / Metformin 1000 MG Delayed Release Oral Tablet [Synjardy],S,Standard,V,Valid,OMOP4776305,Drug,RxNorm Extension,Branded Drug
+36788040,empagliflozin 12.5 MG / Metformin 1000 MG Delayed Release Oral Tablet [Synjardy] Box of 200,S,Standard,V,Valid,OMOP4776302,Drug,RxNorm Extension,Branded Drug Box
+36788039,empagliflozin 12.5 MG / Metformin 1000 MG Delayed Release Oral Tablet [Synjardy] Box of 200 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP4776301,Drug,RxNorm Extension,Marketed Product
+36788042,empagliflozin 12.5 MG / Metformin 1000 MG Delayed Release Oral Tablet [Synjardy] Box of 60,S,Standard,V,Valid,OMOP4776304,Drug,RxNorm Extension,Branded Drug Box
+36788041,empagliflozin 12.5 MG / Metformin 1000 MG Delayed Release Oral Tablet [Synjardy] Box of 60 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP4776303,Drug,RxNorm Extension,Marketed Product
+36788037,empagliflozin 12.5 MG / Metformin 1000 MG Extended Release Oral Tablet Box of 200,S,Standard,V,Valid,OMOP4776299,Drug,RxNorm Extension,Clinical Drug Box
+36408963,empagliflozin 12.5 MG / Metformin 1000 MG Extended Release Oral Tablet Box of 56,S,Standard,V,Valid,OMOP3101005,Drug,RxNorm Extension,Clinical Drug Box
+36788038,empagliflozin 12.5 MG / Metformin 1000 MG Extended Release Oral Tablet Box of 60,S,Standard,V,Valid,OMOP4776300,Drug,RxNorm Extension,Clinical Drug Box
+36788034,empagliflozin 12.5 MG / Metformin 1000 MG Extended Release Oral Tablet [Synjardy] Box of 200,S,Standard,V,Valid,OMOP4776296,Drug,RxNorm Extension,Branded Drug Box
+36788033,empagliflozin 12.5 MG / Metformin 1000 MG Extended Release Oral Tablet [Synjardy] Box of 200 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP4776295,Drug,RxNorm Extension,Marketed Product
+36405332,empagliflozin 12.5 MG / Metformin 1000 MG Extended Release Oral Tablet [Synjardy] Box of 56,S,Standard,V,Valid,OMOP3097374,Drug,RxNorm Extension,Branded Drug Box
+36406361,empagliflozin 12.5 MG / Metformin 1000 MG Extended Release Oral Tablet [Synjardy] Box of 56 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP3098403,Drug,RxNorm Extension,Marketed Product
+36788036,empagliflozin 12.5 MG / Metformin 1000 MG Extended Release Oral Tablet [Synjardy] Box of 60,S,Standard,V,Valid,OMOP4776298,Drug,RxNorm Extension,Branded Drug Box
+36788035,empagliflozin 12.5 MG / Metformin 1000 MG Extended Release Oral Tablet [Synjardy] Box of 60 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP4776297,Drug,RxNorm Extension,Marketed Product
+36407912,empagliflozin 12.5 MG / Metformin 1000 MG Extended Release Oral Tablet [Synjardy] by Boehringer Ingelheim,S,Standard,V,Valid,OMOP3099954,Drug,RxNorm Extension,Marketed Product
+43283556,empagliflozin 12.5 MG / Metformin 1000 MG Oral Tablet Box of 14,S,Standard,V,Valid,OMOP538307,Drug,RxNorm Extension,Clinical Drug Box
+40867649,empagliflozin 12.5 MG / Metformin 1000 MG Oral Tablet Box of 200,S,Standard,V,Valid,OMOP2065611,Drug,RxNorm Extension,Clinical Drug Box
+21061614,empagliflozin 12.5 MG / Metformin 1000 MG Oral Tablet Box of 56,S,Standard,V,Valid,OMOP351660,Drug,RxNorm Extension,Clinical Drug Box
+43267256,empagliflozin 12.5 MG / Metformin 1000 MG Oral Tablet Box of 60,S,Standard,V,Valid,OMOP538306,Drug,RxNorm Extension,Clinical Drug Box
+41211430,empagliflozin 12.5 MG / Metformin 1000 MG Oral Tablet Box of 90,S,Standard,V,Valid,OMOP2409392,Drug,RxNorm Extension,Clinical Drug Box
+42963147,empagliflozin 12.5 MG / Metformin 1000 MG Oral Tablet [JARDIANCE DUO],S,Standard,V,Valid,OMOP4689630,Drug,RxNorm Extension,Branded Drug
+43267257,empagliflozin 12.5 MG / Metformin 1000 MG Oral Tablet [Jardiamet],S,Standard,V,Valid,OMOP538308,Drug,RxNorm Extension,Branded Drug
+43256451,empagliflozin 12.5 MG / Metformin 1000 MG Oral Tablet [Jardiamet] Box of 14,S,Standard,V,Valid,OMOP538309,Drug,RxNorm Extension,Branded Drug Box
+43283557,empagliflozin 12.5 MG / Metformin 1000 MG Oral Tablet [Jardiamet] Box of 60,S,Standard,V,Valid,OMOP538310,Drug,RxNorm Extension,Branded Drug Box
+41002676,empagliflozin 12.5 MG / Metformin 1000 MG Oral Tablet [Synjardy] Box of 200,S,Standard,V,Valid,OMOP2200638,Drug,RxNorm Extension,Branded Drug Box
+41011260,empagliflozin 12.5 MG / Metformin 1000 MG Oral Tablet [Synjardy] Box of 200 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP2209222,Drug,RxNorm Extension,Marketed Product
+21042086,empagliflozin 12.5 MG / Metformin 1000 MG Oral Tablet [Synjardy] Box of 56,S,Standard,V,Valid,OMOP351663,Drug,RxNorm Extension,Branded Drug Box
+21032132,empagliflozin 12.5 MG / Metformin 1000 MG Oral Tablet [Synjardy] Box of 56 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP351664,Drug,RxNorm Extension,Marketed Product
+41283409,empagliflozin 12.5 MG / Metformin 1000 MG Oral Tablet [Synjardy] Box of 60,S,Standard,V,Valid,OMOP2481371,Drug,RxNorm Extension,Branded Drug Box
+41105128,empagliflozin 12.5 MG / Metformin 1000 MG Oral Tablet [Synjardy] Box of 60 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP2303090,Drug,RxNorm Extension,Marketed Product
+41283410,empagliflozin 12.5 MG / Metformin 1000 MG Oral Tablet [Synjardy] Box of 90,S,Standard,V,Valid,OMOP2481372,Drug,RxNorm Extension,Branded Drug Box
+41199151,empagliflozin 12.5 MG / Metformin 1000 MG Oral Tablet [Synjardy] Box of 90 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP2397113,Drug,RxNorm Extension,Marketed Product
+21159932,empagliflozin 12.5 MG / Metformin 1000 MG Oral Tablet [Synjardy] by Boehringer Ingelheim,S,Standard,V,Valid,OMOP351662,Drug,RxNorm Extension,Marketed Product
+42963148,empagliflozin 12.5 MG / Metformin 1000 MG [JARDIANCE DUO],S,Standard,V,Valid,OMOP4689631,Drug,RxNorm Extension,Branded Drug Comp
+43294434,empagliflozin 12.5 MG / Metformin 1000 MG [Jardiamet],S,Standard,V,Valid,OMOP538305,Drug,RxNorm Extension,Branded Drug Comp
+43283555,empagliflozin 12.5 MG / Metformin 500 MG Oral Tablet Box of 14,S,Standard,V,Valid,OMOP538300,Drug,RxNorm Extension,Clinical Drug Box
+43289014,empagliflozin 12.5 MG / Metformin 500 MG Oral Tablet Box of 60,S,Standard,V,Valid,OMOP538301,Drug,RxNorm Extension,Clinical Drug Box
+42963149,empagliflozin 12.5 MG / Metformin 500 MG Oral Tablet [JARDIANCE DUO],S,Standard,V,Valid,OMOP4689632,Drug,RxNorm Extension,Branded Drug
+43256450,empagliflozin 12.5 MG / Metformin 500 MG Oral Tablet [Jardiamet],S,Standard,V,Valid,OMOP538302,Drug,RxNorm Extension,Branded Drug
+43261770,empagliflozin 12.5 MG / Metformin 500 MG Oral Tablet [Jardiamet] Box of 14,S,Standard,V,Valid,OMOP538303,Drug,RxNorm Extension,Branded Drug Box
+43289015,empagliflozin 12.5 MG / Metformin 500 MG Oral Tablet [Jardiamet] Box of 60,S,Standard,V,Valid,OMOP538304,Drug,RxNorm Extension,Branded Drug Box
+44089406,empagliflozin 12.5 MG / Metformin 500 MG Oral Tablet [Synjardy] by Boehringer Ingelheim,S,Standard,V,Valid,OMOP1084037,Drug,RxNorm Extension,Marketed Product
+42963150,empagliflozin 12.5 MG / Metformin 500 MG [JARDIANCE DUO],S,Standard,V,Valid,OMOP4689633,Drug,RxNorm Extension,Branded Drug Comp
+43289013,empagliflozin 12.5 MG / Metformin 500 MG [Jardiamet],S,Standard,V,Valid,OMOP538298,Drug,RxNorm Extension,Branded Drug Comp
+36788032,empagliflozin 12.5 MG / Metformin 850 MG Delayed Release Oral Tablet,S,Standard,V,Valid,OMOP4776294,Drug,RxNorm Extension,Clinical Drug
+36788030,empagliflozin 12.5 MG / Metformin 850 MG Delayed Release Oral Tablet Box of 200,S,Standard,V,Valid,OMOP4776292,Drug,RxNorm Extension,Clinical Drug Box
+36788031,empagliflozin 12.5 MG / Metformin 850 MG Delayed Release Oral Tablet Box of 60,S,Standard,V,Valid,OMOP4776293,Drug,RxNorm Extension,Clinical Drug Box
+36788029,empagliflozin 12.5 MG / Metformin 850 MG Delayed Release Oral Tablet [Synjardy],S,Standard,V,Valid,OMOP4776291,Drug,RxNorm Extension,Branded Drug
+36788026,empagliflozin 12.5 MG / Metformin 850 MG Delayed Release Oral Tablet [Synjardy] Box of 200,S,Standard,V,Valid,OMOP4776288,Drug,RxNorm Extension,Branded Drug Box
+36788025,empagliflozin 12.5 MG / Metformin 850 MG Delayed Release Oral Tablet [Synjardy] Box of 200 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP4776287,Drug,RxNorm Extension,Marketed Product
+36788028,empagliflozin 12.5 MG / Metformin 850 MG Delayed Release Oral Tablet [Synjardy] Box of 60,S,Standard,V,Valid,OMOP4776290,Drug,RxNorm Extension,Branded Drug Box
+36788027,empagliflozin 12.5 MG / Metformin 850 MG Delayed Release Oral Tablet [Synjardy] Box of 60 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP4776289,Drug,RxNorm Extension,Marketed Product
+21130197,empagliflozin 12.5 MG / Metformin 850 MG Oral Tablet,S,Standard,V,Valid,OMOP351654,Drug,RxNorm Extension,Clinical Drug
+43283559,empagliflozin 12.5 MG / Metformin 850 MG Oral Tablet Box of 14,S,Standard,V,Valid,OMOP538320,Drug,RxNorm Extension,Clinical Drug Box
+40929854,empagliflozin 12.5 MG / Metformin 850 MG Oral Tablet Box of 200,S,Standard,V,Valid,OMOP2127816,Drug,RxNorm Extension,Clinical Drug Box
+21159930,empagliflozin 12.5 MG / Metformin 850 MG Oral Tablet Box of 56,S,Standard,V,Valid,OMOP351655,Drug,RxNorm Extension,Clinical Drug Box
+43278236,empagliflozin 12.5 MG / Metformin 850 MG Oral Tablet Box of 60,S,Standard,V,Valid,OMOP538319,Drug,RxNorm Extension,Clinical Drug Box
+40992434,empagliflozin 12.5 MG / Metformin 850 MG Oral Tablet Box of 90,S,Standard,V,Valid,OMOP2190396,Drug,RxNorm Extension,Clinical Drug Box
+42963155,empagliflozin 12.5 MG / Metformin 850 MG Oral Tablet [JARDIANCE DUO],S,Standard,V,Valid,OMOP4689638,Drug,RxNorm Extension,Branded Drug
+43272760,empagliflozin 12.5 MG / Metformin 850 MG Oral Tablet [Jardiamet],S,Standard,V,Valid,OMOP538321,Drug,RxNorm Extension,Branded Drug
+43289017,empagliflozin 12.5 MG / Metformin 850 MG Oral Tablet [Jardiamet] Box of 14,S,Standard,V,Valid,OMOP538322,Drug,RxNorm Extension,Branded Drug Box
+43267260,empagliflozin 12.5 MG / Metformin 850 MG Oral Tablet [Jardiamet] Box of 60,S,Standard,V,Valid,OMOP538323,Drug,RxNorm Extension,Branded Drug Box
+21159931,empagliflozin 12.5 MG / Metformin 850 MG Oral Tablet [Synjardy],S,Standard,V,Valid,OMOP351656,Drug,RxNorm Extension,Branded Drug
+41159219,empagliflozin 12.5 MG / Metformin 850 MG Oral Tablet [Synjardy] Box of 200,S,Standard,V,Valid,OMOP2357181,Drug,RxNorm Extension,Branded Drug Box
+41260975,empagliflozin 12.5 MG / Metformin 850 MG Oral Tablet [Synjardy] Box of 200 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP2458937,Drug,RxNorm Extension,Marketed Product
+21042085,empagliflozin 12.5 MG / Metformin 850 MG Oral Tablet [Synjardy] Box of 56,S,Standard,V,Valid,OMOP351658,Drug,RxNorm Extension,Branded Drug Box
+21140134,empagliflozin 12.5 MG / Metformin 850 MG Oral Tablet [Synjardy] Box of 56 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP351659,Drug,RxNorm Extension,Marketed Product
+40846850,empagliflozin 12.5 MG / Metformin 850 MG Oral Tablet [Synjardy] Box of 60,S,Standard,V,Valid,OMOP2044812,Drug,RxNorm Extension,Branded Drug Box
+40886682,empagliflozin 12.5 MG / Metformin 850 MG Oral Tablet [Synjardy] Box of 60 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP2084644,Drug,RxNorm Extension,Marketed Product
+41314687,empagliflozin 12.5 MG / Metformin 850 MG Oral Tablet [Synjardy] Box of 90,S,Standard,V,Valid,OMOP2512649,Drug,RxNorm Extension,Branded Drug Box
+21032131,empagliflozin 12.5 MG / Metformin 850 MG Oral Tablet [Synjardy] by Boehringer Ingelheim,S,Standard,V,Valid,OMOP351657,Drug,RxNorm Extension,Marketed Product
+42963156,empagliflozin 12.5 MG / Metformin 850 MG [JARDIANCE DUO],S,Standard,V,Valid,OMOP4689639,Drug,RxNorm Extension,Branded Drug Comp
+43294435,empagliflozin 12.5 MG / Metformin 850 MG [Jardiamet],S,Standard,V,Valid,OMOP538317,Drug,RxNorm Extension,Branded Drug Comp
+21022407,empagliflozin 12.5 MG / Metformin 850 MG [Synjardy],S,Standard,V,Valid,OMOP351652,Drug,RxNorm Extension,Branded Drug Comp
+1592796,empagliflozin 12.5 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet,S,Standard,V,Valid,1862693,Drug,RxNorm,Clinical Drug
+1592797,empagliflozin 12.5 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet [Synjardy],S,Standard,V,Valid,1862694,Drug,RxNorm,Branded Drug
+46287408,empagliflozin 12.5 MG / Metformin hydrochloride 1000 MG Oral Tablet,S,Standard,V,Valid,1665367,Drug,RxNorm,Clinical Drug
+46287410,empagliflozin 12.5 MG / Metformin hydrochloride 1000 MG Oral Tablet [Synjardy],S,Standard,V,Valid,1665369,Drug,RxNorm,Branded Drug
+46287409,empagliflozin 12.5 MG / Metformin hydrochloride 1000 MG [Synjardy],S,Standard,V,Valid,1665368,Drug,RxNorm,Branded Drug Comp
+46287686,empagliflozin 12.5 MG / Metformin hydrochloride 500 MG Oral Tablet,S,Standard,V,Valid,1664323,Drug,RxNorm,Clinical Drug
+46287688,empagliflozin 12.5 MG / Metformin hydrochloride 500 MG Oral Tablet [Synjardy],S,Standard,V,Valid,1664325,Drug,RxNorm,Branded Drug
+46287687,empagliflozin 12.5 MG / Metformin hydrochloride 500 MG [Synjardy],S,Standard,V,Valid,1664324,Drug,RxNorm,Branded Drug Comp
+45774759,empagliflozin 25 MG,S,Standard,V,Valid,1545665,Drug,RxNorm,Clinical Drug Comp
 45892177,empagliflozin 25 MG / Linagliptin 5 MG Oral Tablet,S,Standard,V,Valid,1602118,Drug,RxNorm,Clinical Drug
 44112267,empagliflozin 25 MG / Linagliptin 5 MG Oral Tablet [Glyxamb],S,Standard,V,Valid,OMOP1106898,Drug,RxNorm Extension,Branded Drug
 44089407,empagliflozin 25 MG / Linagliptin 5 MG Oral Tablet [Glyxamb] by Boehringer Ingelheim,S,Standard,V,Valid,OMOP1084038,Drug,RxNorm Extension,Marketed Product
 45892179,empagliflozin 25 MG / Linagliptin 5 MG Oral Tablet [Glyxambi],S,Standard,V,Valid,1602120,Drug,RxNorm,Branded Drug
 44054759,empagliflozin 25 MG / Linagliptin 5 MG [Glyxamb],S,Standard,V,Valid,OMOP1049390,Drug,RxNorm Extension,Branded Drug Comp
 45892178,empagliflozin 25 MG / Linagliptin 5 MG [Glyxambi],S,Standard,V,Valid,1602119,Drug,RxNorm,Branded Drug Comp
+1592801,empagliflozin 25 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet,S,Standard,V,Valid,1862698,Drug,RxNorm,Clinical Drug
+1592802,empagliflozin 25 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet [Synjardy],S,Standard,V,Valid,1862699,Drug,RxNorm,Branded Drug
+1592799,empagliflozin 25 MG / Metformin hydrochloride 1000 MG [Synjardy],S,Standard,V,Valid,1862696,Drug,RxNorm,Branded Drug Comp
+36788056,empagliflozin 25 MG Delayed Release Oral Tablet,S,Standard,V,Valid,OMOP4776318,Drug,RxNorm Extension,Clinical Drug
+36788054,empagliflozin 25 MG Delayed Release Oral Tablet Box of 100,S,Standard,V,Valid,OMOP4776316,Drug,RxNorm Extension,Clinical Drug Box
+42875429,empagliflozin 25 MG Delayed Release Oral Tablet Box of 14,S,Standard,V,Valid,OMOP4872543,Drug,RxNorm Extension,Clinical Drug Box
+36788055,empagliflozin 25 MG Delayed Release Oral Tablet Box of 30,S,Standard,V,Valid,OMOP4776317,Drug,RxNorm Extension,Clinical Drug Box
+36788053,empagliflozin 25 MG Delayed Release Oral Tablet [Jardiance],S,Standard,V,Valid,OMOP4776315,Drug,RxNorm Extension,Branded Drug
+36788050,empagliflozin 25 MG Delayed Release Oral Tablet [Jardiance] Box of 100,S,Standard,V,Valid,OMOP4776312,Drug,RxNorm Extension,Branded Drug Box
+36788049,empagliflozin 25 MG Delayed Release Oral Tablet [Jardiance] Box of 100 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP4776311,Drug,RxNorm Extension,Marketed Product
+42875430,empagliflozin 25 MG Delayed Release Oral Tablet [Jardiance] Box of 14,S,Standard,V,Valid,OMOP4872544,Drug,RxNorm Extension,Branded Drug Box
+42875431,empagliflozin 25 MG Delayed Release Oral Tablet [Jardiance] Box of 14 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP4872545,Drug,RxNorm Extension,Marketed Product
+36788052,empagliflozin 25 MG Delayed Release Oral Tablet [Jardiance] Box of 30,S,Standard,V,Valid,OMOP4776314,Drug,RxNorm Extension,Branded Drug Box
+36788051,empagliflozin 25 MG Delayed Release Oral Tablet [Jardiance] Box of 30 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP4776313,Drug,RxNorm Extension,Marketed Product
+45774893,empagliflozin 25 MG Oral Tablet,S,Standard,V,Valid,1545666,Drug,RxNorm,Clinical Drug
+40929856,empagliflozin 25 MG Oral Tablet Box of 100,S,Standard,V,Valid,OMOP2127818,Drug,RxNorm Extension,Clinical Drug Box
+42875432,empagliflozin 25 MG Oral Tablet Box of 14,S,Standard,V,Valid,OMOP4872546,Drug,RxNorm Extension,Clinical Drug Box
+21155014,empagliflozin 25 MG Oral Tablet Box of 28,S,Standard,V,Valid,OMOP275287,Drug,RxNorm Extension,Clinical Drug Box
+43258480,empagliflozin 25 MG Oral Tablet Box of 30,S,Standard,V,Valid,OMOP557227,Drug,RxNorm Extension,Clinical Drug Box
+41117427,empagliflozin 25 MG Oral Tablet Box of 70,S,Standard,V,Valid,OMOP2315389,Drug,RxNorm Extension,Clinical Drug Box
+45774895,empagliflozin 25 MG Oral Tablet [Jardiance],S,Standard,V,Valid,1545668,Drug,RxNorm,Branded Drug
+40846851,empagliflozin 25 MG Oral Tablet [Jardiance] Box of 100,S,Standard,V,Valid,OMOP2044813,Drug,RxNorm Extension,Branded Drug Box
+41011261,empagliflozin 25 MG Oral Tablet [Jardiance] Box of 100 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP2209223,Drug,RxNorm Extension,Marketed Product
+42875433,empagliflozin 25 MG Oral Tablet [Jardiance] Box of 14,S,Standard,V,Valid,OMOP4872547,Drug,RxNorm Extension,Branded Drug Box
+42875434,empagliflozin 25 MG Oral Tablet [Jardiance] Box of 14 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP4872548,Drug,RxNorm Extension,Marketed Product
+21086204,empagliflozin 25 MG Oral Tablet [Jardiance] Box of 28,S,Standard,V,Valid,OMOP275289,Drug,RxNorm Extension,Branded Drug Box
+21027308,empagliflozin 25 MG Oral Tablet [Jardiance] Box of 28 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP275290,Drug,RxNorm Extension,Marketed Product
+43280253,empagliflozin 25 MG Oral Tablet [Jardiance] Box of 30,S,Standard,V,Valid,OMOP557228,Drug,RxNorm Extension,Branded Drug Box
+40886683,empagliflozin 25 MG Oral Tablet [Jardiance] Box of 30 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP2084645,Drug,RxNorm Extension,Marketed Product
+41033737,empagliflozin 25 MG Oral Tablet [Jardiance] Box of 70,S,Standard,V,Valid,OMOP2231699,Drug,RxNorm Extension,Branded Drug Box
+41105129,empagliflozin 25 MG Oral Tablet [Jardiance] Box of 70 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP2303091,Drug,RxNorm Extension,Marketed Product
+21174570,empagliflozin 25 MG Oral Tablet [Jardiance] by Boehringer Ingelheim,S,Standard,V,Valid,OMOP275288,Drug,RxNorm Extension,Marketed Product
+45774894,empagliflozin 25 MG [Jardiance],S,Standard,V,Valid,1545667,Drug,RxNorm,Branded Drug Comp
+46287678,empagliflozin 5 MG,S,Standard,V,Valid,1664310,Drug,RxNorm,Clinical Drug Comp
+36788024,empagliflozin 5 MG / Metformin 1000 MG Delayed Release Oral Tablet,S,Standard,V,Valid,OMOP4776286,Drug,RxNorm Extension,Clinical Drug
+36788022,empagliflozin 5 MG / Metformin 1000 MG Delayed Release Oral Tablet Box of 200,S,Standard,V,Valid,OMOP4776284,Drug,RxNorm Extension,Clinical Drug Box
+36788023,empagliflozin 5 MG / Metformin 1000 MG Delayed Release Oral Tablet Box of 60,S,Standard,V,Valid,OMOP4776285,Drug,RxNorm Extension,Clinical Drug Box
+36788021,empagliflozin 5 MG / Metformin 1000 MG Delayed Release Oral Tablet [Synjardy],S,Standard,V,Valid,OMOP4776283,Drug,RxNorm Extension,Branded Drug
+36788018,empagliflozin 5 MG / Metformin 1000 MG Delayed Release Oral Tablet [Synjardy] Box of 200,S,Standard,V,Valid,OMOP4776280,Drug,RxNorm Extension,Branded Drug Box
+36788017,empagliflozin 5 MG / Metformin 1000 MG Delayed Release Oral Tablet [Synjardy] Box of 200 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP4776279,Drug,RxNorm Extension,Marketed Product
+36788020,empagliflozin 5 MG / Metformin 1000 MG Delayed Release Oral Tablet [Synjardy] Box of 60,S,Standard,V,Valid,OMOP4776282,Drug,RxNorm Extension,Branded Drug Box
+36788019,empagliflozin 5 MG / Metformin 1000 MG Delayed Release Oral Tablet [Synjardy] Box of 60 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP4776281,Drug,RxNorm Extension,Marketed Product
+36788016,empagliflozin 5 MG / Metformin 1000 MG Extended Release Oral Tablet Box of 200,S,Standard,V,Valid,OMOP4776278,Drug,RxNorm Extension,Clinical Drug Box
+36408964,empagliflozin 5 MG / Metformin 1000 MG Extended Release Oral Tablet Box of 56,S,Standard,V,Valid,OMOP3101006,Drug,RxNorm Extension,Clinical Drug Box
+44176351,empagliflozin 5 MG / Metformin 1000 MG Extended Release Oral Tablet Box of 60,S,Standard,V,Valid,OMOP3053074,Drug,RxNorm Extension,Clinical Drug Box
+44159057,empagliflozin 5 MG / Metformin 1000 MG Extended Release Oral Tablet Box of 90,S,Standard,V,Valid,OMOP3035780,Drug,RxNorm Extension,Clinical Drug Box
+36788015,empagliflozin 5 MG / Metformin 1000 MG Extended Release Oral Tablet [Synjardy] Box of 200,S,Standard,V,Valid,OMOP4776277,Drug,RxNorm Extension,Branded Drug Box
+36788014,empagliflozin 5 MG / Metformin 1000 MG Extended Release Oral Tablet [Synjardy] Box of 200 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP4776276,Drug,RxNorm Extension,Marketed Product
+36403778,empagliflozin 5 MG / Metformin 1000 MG Extended Release Oral Tablet [Synjardy] Box of 56,S,Standard,V,Valid,OMOP3095820,Drug,RxNorm Extension,Branded Drug Box
+36407178,empagliflozin 5 MG / Metformin 1000 MG Extended Release Oral Tablet [Synjardy] Box of 56 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP3099220,Drug,RxNorm Extension,Marketed Product
+44162435,empagliflozin 5 MG / Metformin 1000 MG Extended Release Oral Tablet [Synjardy] Box of 60,S,Standard,V,Valid,OMOP3039158,Drug,RxNorm Extension,Branded Drug Box
+44182672,empagliflozin 5 MG / Metformin 1000 MG Extended Release Oral Tablet [Synjardy] Box of 60 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP3059395,Drug,RxNorm Extension,Marketed Product
+44173714,empagliflozin 5 MG / Metformin 1000 MG Extended Release Oral Tablet [Synjardy] Box of 90,S,Standard,V,Valid,OMOP3050437,Drug,RxNorm Extension,Branded Drug Box
+36404063,empagliflozin 5 MG / Metformin 1000 MG Extended Release Oral Tablet [Synjardy] by Boehringer Ingelheim,S,Standard,V,Valid,OMOP3096105,Drug,RxNorm Extension,Marketed Product
+43256449,empagliflozin 5 MG / Metformin 1000 MG Oral Tablet Box of 14,S,Standard,V,Valid,OMOP538293,Drug,RxNorm Extension,Clinical Drug Box
+40929855,empagliflozin 5 MG / Metformin 1000 MG Oral Tablet Box of 200,S,Standard,V,Valid,OMOP2127817,Drug,RxNorm Extension,Clinical Drug Box
+21110746,empagliflozin 5 MG / Metformin 1000 MG Oral Tablet Box of 56,S,Standard,V,Valid,OMOP351648,Drug,RxNorm Extension,Clinical Drug Box
+43294433,empagliflozin 5 MG / Metformin 1000 MG Oral Tablet Box of 60,S,Standard,V,Valid,OMOP538294,Drug,RxNorm Extension,Clinical Drug Box
+41304277,empagliflozin 5 MG / Metformin 1000 MG Oral Tablet Box of 90,S,Standard,V,Valid,OMOP2502239,Drug,RxNorm Extension,Clinical Drug Box
+42963151,empagliflozin 5 MG / Metformin 1000 MG Oral Tablet [JARDIANCE DUO],S,Standard,V,Valid,OMOP4689634,Drug,RxNorm Extension,Branded Drug
+43278233,empagliflozin 5 MG / Metformin 1000 MG Oral Tablet [Jardiamet],S,Standard,V,Valid,OMOP538295,Drug,RxNorm Extension,Branded Drug
+43283553,empagliflozin 5 MG / Metformin 1000 MG Oral Tablet [Jardiamet] Box of 14,S,Standard,V,Valid,OMOP538296,Drug,RxNorm Extension,Branded Drug Box
+43283554,empagliflozin 5 MG / Metformin 1000 MG Oral Tablet [Jardiamet] Box of 60,S,Standard,V,Valid,OMOP538297,Drug,RxNorm Extension,Branded Drug Box
+41252476,empagliflozin 5 MG / Metformin 1000 MG Oral Tablet [Synjardy] Box of 200,S,Standard,V,Valid,OMOP2450438,Drug,RxNorm Extension,Branded Drug Box
+41105127,empagliflozin 5 MG / Metformin 1000 MG Oral Tablet [Synjardy] Box of 200 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP2303089,Drug,RxNorm Extension,Marketed Product
+21169726,empagliflozin 5 MG / Metformin 1000 MG Oral Tablet [Synjardy] Box of 56,S,Standard,V,Valid,OMOP351650,Drug,RxNorm Extension,Branded Drug Box
+21081257,empagliflozin 5 MG / Metformin 1000 MG Oral Tablet [Synjardy] Box of 56 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP351651,Drug,RxNorm Extension,Marketed Product
+41127720,empagliflozin 5 MG / Metformin 1000 MG Oral Tablet [Synjardy] Box of 60,S,Standard,V,Valid,OMOP2325682,Drug,RxNorm Extension,Branded Drug Box
+41011259,empagliflozin 5 MG / Metformin 1000 MG Oral Tablet [Synjardy] Box of 60 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP2209221,Drug,RxNorm Extension,Marketed Product
+41064871,empagliflozin 5 MG / Metformin 1000 MG Oral Tablet [Synjardy] Box of 90,S,Standard,V,Valid,OMOP2262833,Drug,RxNorm Extension,Branded Drug Box
+21022406,empagliflozin 5 MG / Metformin 1000 MG Oral Tablet [Synjardy] by Boehringer Ingelheim,S,Standard,V,Valid,OMOP351649,Drug,RxNorm Extension,Marketed Product
+42963152,empagliflozin 5 MG / Metformin 1000 MG [JARDIANCE DUO],S,Standard,V,Valid,OMOP4689635,Drug,RxNorm Extension,Branded Drug Comp
+43267255,empagliflozin 5 MG / Metformin 1000 MG [Jardiamet],S,Standard,V,Valid,OMOP538292,Drug,RxNorm Extension,Branded Drug Comp
+43267254,empagliflozin 5 MG / Metformin 500 MG Oral Tablet Box of 14,S,Standard,V,Valid,OMOP538288,Drug,RxNorm Extension,Clinical Drug Box
+43261769,empagliflozin 5 MG / Metformin 500 MG Oral Tablet Box of 60,S,Standard,V,Valid,OMOP538287,Drug,RxNorm Extension,Clinical Drug Box
+42963153,empagliflozin 5 MG / Metformin 500 MG Oral Tablet [JARDIANCE DUO],S,Standard,V,Valid,OMOP4689636,Drug,RxNorm Extension,Branded Drug
+43289012,empagliflozin 5 MG / Metformin 500 MG Oral Tablet [Jardiamet],S,Standard,V,Valid,OMOP538289,Drug,RxNorm Extension,Branded Drug
+43272759,empagliflozin 5 MG / Metformin 500 MG Oral Tablet [Jardiamet] Box of 14,S,Standard,V,Valid,OMOP538290,Drug,RxNorm Extension,Branded Drug Box
+43283552,empagliflozin 5 MG / Metformin 500 MG Oral Tablet [Jardiamet] Box of 60,S,Standard,V,Valid,OMOP538291,Drug,RxNorm Extension,Branded Drug Box
+44076525,empagliflozin 5 MG / Metformin 500 MG Oral Tablet [Synjardy] by Boehringer Ingelheim,S,Standard,V,Valid,OMOP1071156,Drug,RxNorm Extension,Marketed Product
+42963154,empagliflozin 5 MG / Metformin 500 MG [JARDIANCE DUO],S,Standard,V,Valid,OMOP4689637,Drug,RxNorm Extension,Branded Drug Comp
+43283551,empagliflozin 5 MG / Metformin 500 MG [Jardiamet],S,Standard,V,Valid,OMOP538285,Drug,RxNorm Extension,Branded Drug Comp
+36788013,empagliflozin 5 MG / Metformin 850 MG Delayed Release Oral Tablet,S,Standard,V,Valid,OMOP4776275,Drug,RxNorm Extension,Clinical Drug
+36788011,empagliflozin 5 MG / Metformin 850 MG Delayed Release Oral Tablet Box of 200,S,Standard,V,Valid,OMOP4776273,Drug,RxNorm Extension,Clinical Drug Box
+36788012,empagliflozin 5 MG / Metformin 850 MG Delayed Release Oral Tablet Box of 60,S,Standard,V,Valid,OMOP4776274,Drug,RxNorm Extension,Clinical Drug Box
+36788010,empagliflozin 5 MG / Metformin 850 MG Delayed Release Oral Tablet [Synjardy],S,Standard,V,Valid,OMOP4776272,Drug,RxNorm Extension,Branded Drug
+36788007,empagliflozin 5 MG / Metformin 850 MG Delayed Release Oral Tablet [Synjardy] Box of 200,S,Standard,V,Valid,OMOP4776269,Drug,RxNorm Extension,Branded Drug Box
+36788006,empagliflozin 5 MG / Metformin 850 MG Delayed Release Oral Tablet [Synjardy] Box of 200 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP4776268,Drug,RxNorm Extension,Marketed Product
+36788009,empagliflozin 5 MG / Metformin 850 MG Delayed Release Oral Tablet [Synjardy] Box of 60,S,Standard,V,Valid,OMOP4776271,Drug,RxNorm Extension,Branded Drug Box
+36788008,empagliflozin 5 MG / Metformin 850 MG Delayed Release Oral Tablet [Synjardy] Box of 60 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP4776270,Drug,RxNorm Extension,Marketed Product
+21091002,empagliflozin 5 MG / Metformin 850 MG Oral Tablet,S,Standard,V,Valid,OMOP351641,Drug,RxNorm Extension,Clinical Drug
+43289016,empagliflozin 5 MG / Metformin 850 MG Oral Tablet Box of 14,S,Standard,V,Valid,OMOP538313,Drug,RxNorm Extension,Clinical Drug Box
+41117426,empagliflozin 5 MG / Metformin 850 MG Oral Tablet Box of 200,S,Standard,V,Valid,OMOP2315388,Drug,RxNorm Extension,Clinical Drug Box
+21091003,empagliflozin 5 MG / Metformin 850 MG Oral Tablet Box of 56,S,Standard,V,Valid,OMOP351642,Drug,RxNorm Extension,Clinical Drug Box
+43283558,empagliflozin 5 MG / Metformin 850 MG Oral Tablet Box of 60,S,Standard,V,Valid,OMOP538312,Drug,RxNorm Extension,Clinical Drug Box
+41023360,empagliflozin 5 MG / Metformin 850 MG Oral Tablet Box of 90,S,Standard,V,Valid,OMOP2221322,Drug,RxNorm Extension,Clinical Drug Box
+42963157,empagliflozin 5 MG / Metformin 850 MG Oral Tablet [JARDIANCE DUO],S,Standard,V,Valid,OMOP4689640,Drug,RxNorm Extension,Branded Drug
+43278234,empagliflozin 5 MG / Metformin 850 MG Oral Tablet [Jardiamet],S,Standard,V,Valid,OMOP538314,Drug,RxNorm Extension,Branded Drug
+43267259,empagliflozin 5 MG / Metformin 850 MG Oral Tablet [Jardiamet] Box of 14,S,Standard,V,Valid,OMOP538315,Drug,RxNorm Extension,Branded Drug Box
+43278235,empagliflozin 5 MG / Metformin 850 MG Oral Tablet [Jardiamet] Box of 60,S,Standard,V,Valid,OMOP538316,Drug,RxNorm Extension,Branded Drug Box
+21100926,empagliflozin 5 MG / Metformin 850 MG Oral Tablet [Synjardy],S,Standard,V,Valid,OMOP351643,Drug,RxNorm Extension,Branded Drug
+41002675,empagliflozin 5 MG / Metformin 850 MG Oral Tablet [Synjardy] Box of 200,S,Standard,V,Valid,OMOP2200637,Drug,RxNorm Extension,Branded Drug Box
+41260974,empagliflozin 5 MG / Metformin 850 MG Oral Tablet [Synjardy] Box of 200 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP2458936,Drug,RxNorm Extension,Marketed Product
+21149977,empagliflozin 5 MG / Metformin 850 MG Oral Tablet [Synjardy] Box of 56,S,Standard,V,Valid,OMOP351646,Drug,RxNorm Extension,Branded Drug Box
+21130196,empagliflozin 5 MG / Metformin 850 MG Oral Tablet [Synjardy] Box of 56 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP351647,Drug,RxNorm Extension,Marketed Product
+41221494,empagliflozin 5 MG / Metformin 850 MG Oral Tablet [Synjardy] Box of 60,S,Standard,V,Valid,OMOP2419456,Drug,RxNorm Extension,Branded Drug Box
+41260973,empagliflozin 5 MG / Metformin 850 MG Oral Tablet [Synjardy] Box of 60 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP2458935,Drug,RxNorm Extension,Marketed Product
+41252475,empagliflozin 5 MG / Metformin 850 MG Oral Tablet [Synjardy] Box of 90,S,Standard,V,Valid,OMOP2450437,Drug,RxNorm Extension,Branded Drug Box
+44178942,empagliflozin 5 MG / Metformin 850 MG Oral Tablet [Synjardy] Box of 90 by Boehringer Ingelheim,S,Standard,V,Valid,OMOP3055665,Drug,RxNorm Extension,Marketed Product
+21159929,empagliflozin 5 MG / Metformin 850 MG Oral Tablet [Synjardy] by Boehringer Ingelheim,S,Standard,V,Valid,OMOP351644,Drug,RxNorm Extension,Marketed Product
+42963158,empagliflozin 5 MG / Metformin 850 MG [JARDIANCE DUO],S,Standard,V,Valid,OMOP4689641,Drug,RxNorm Extension,Branded Drug Comp
+43267258,empagliflozin 5 MG / Metformin 850 MG [Jardiamet],S,Standard,V,Valid,OMOP538311,Drug,RxNorm Extension,Branded Drug Comp
+21051812,empagliflozin 5 MG / Metformin 850 MG [Synjardy],S,Standard,V,Valid,OMOP351640,Drug,RxNorm Extension,Branded Drug Comp
+1592805,empagliflozin 5 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet,S,Standard,V,Valid,1862702,Drug,RxNorm,Clinical Drug
+1592806,empagliflozin 5 MG / Metformin hydrochloride 1000 MG Extended Release Oral Tablet [Synjardy],S,Standard,V,Valid,1862703,Drug,RxNorm,Branded Drug
+46287689,empagliflozin 5 MG / Metformin hydrochloride 1000 MG Oral Tablet,S,Standard,V,Valid,1664326,Drug,RxNorm,Clinical Drug
+46287691,empagliflozin 5 MG / Metformin hydrochloride 1000 MG Oral Tablet [Synjardy],S,Standard,V,Valid,1664328,Drug,RxNorm,Branded Drug
+46287690,empagliflozin 5 MG / Metformin hydrochloride 1000 MG [Synjardy],S,Standard,V,Valid,1664327,Drug,RxNorm,Branded Drug Comp
+46287680,empagliflozin 5 MG / Metformin hydrochloride 500 MG Oral Tablet,S,Standard,V,Valid,1664315,Drug,RxNorm,Clinical Drug
+46287684,empagliflozin 5 MG / Metformin hydrochloride 500 MG Oral Tablet [Synjardy],S,Standard,V,Valid,1664321,Drug,RxNorm,Branded Drug
+46287682,empagliflozin 5 MG / Metformin hydrochloride 500 MG [Synjardy],S,Standard,V,Valid,1664317,Drug,RxNorm,Branded Drug Comp
+36788066,empagliflozin Delayed Release Oral Tablet,S,Standard,V,Valid,OMOP4776328,Drug,RxNorm Extension,Clinical Drug Form
+36788065,empagliflozin Delayed Release Oral Tablet [Jardiance],S,Standard,V,Valid,OMOP4776327,Drug,RxNorm Extension,Branded Drug Form
+36246884,empagliflozin Oral Product,C,Classification,V,Valid,1545655,Drug,RxNorm,Clinical Dose Group
+45774753,empagliflozin Oral Tablet,S,Standard,V,Valid,1545657,Drug,RxNorm,Clinical Drug Form
+45774757,empagliflozin Oral Tablet [Jardiance],S,Standard,V,Valid,1545661,Drug,RxNorm,Branded Drug Form
+36246885,empagliflozin Pill,C,Classification,V,Valid,1545656,Drug,RxNorm,Clinical Dose Group
+793293,ertugliflozin,S,Standard,V,Valid,1992672,Drug,RxNorm,Ingredient
+793297,ertugliflozin / Metformin Oral Product,C,Classification,V,Valid,1992681,Drug,RxNorm,Clinical Dose Group
+793299,ertugliflozin / Metformin Oral Tablet,S,Standard,V,Valid,1992683,Drug,RxNorm,Clinical Drug Form
+793303,ertugliflozin / Metformin Oral Tablet [Segluromet],S,Standard,V,Valid,1992688,Drug,RxNorm,Branded Drug Form
+793298,ertugliflozin / Metformin Pill,C,Classification,V,Valid,1992682,Drug,RxNorm,Clinical Dose Group
 793332,ertugliflozin / sitagliptin Oral Product,C,Classification,V,Valid,1992822,Drug,RxNorm,Clinical Dose Group
 793334,ertugliflozin / sitagliptin Oral Tablet,S,Standard,V,Valid,1992824,Drug,RxNorm,Clinical Drug Form
 793338,ertugliflozin / sitagliptin Oral Tablet [Steglujan],S,Standard,V,Valid,1992829,Drug,RxNorm,Branded Drug Form
 793333,ertugliflozin / sitagliptin Pill,C,Classification,V,Valid,1992823,Drug,RxNorm,Clinical Dose Group
+793328,ertugliflozin 15 MG,S,Standard,V,Valid,1992818,Drug,RxNorm,Clinical Drug Comp
 793335,ertugliflozin 15 MG / sitagliptin 100 MG Oral Tablet,S,Standard,V,Valid,1992826,Drug,RxNorm,Clinical Drug
 37592683,ertugliflozin 15 MG / sitagliptin 100 MG Oral Tablet Box of 28,S,Standard,V,Valid,OMOP4782128,Drug,RxNorm Extension,Clinical Drug Box
 37592684,ertugliflozin 15 MG / sitagliptin 100 MG Oral Tablet Box of 98,S,Standard,V,Valid,OMOP4782129,Drug,RxNorm Extension,Clinical Drug Box
@@ -1673,12 +2326,45 @@ concept_id,concept_name,standard_concept,standard_concept_caption,invalid_reason
 37592687,ertugliflozin 15 MG / sitagliptin 100 MG Oral Tablet [Steglujan] Box of 98,S,Standard,V,Valid,OMOP4782132,Drug,RxNorm Extension,Branded Drug Box
 37592688,ertugliflozin 15 MG / sitagliptin 100 MG Oral Tablet [Steglujan] Box of 98 by Merck,S,Standard,V,Valid,OMOP4782133,Drug,RxNorm Extension,Marketed Product
 793337,ertugliflozin 15 MG / sitagliptin 100 MG [Steglujan],S,Standard,V,Valid,1992828,Drug,RxNorm,Branded Drug Comp
+793329,ertugliflozin 15 MG Oral Tablet,S,Standard,V,Valid,1992819,Drug,RxNorm,Clinical Drug
+36810294,ertugliflozin 15 MG Oral Tablet Box of 28,S,Standard,V,Valid,OMOP4824323,Drug,RxNorm Extension,Clinical Drug Box
+793331,ertugliflozin 15 MG Oral Tablet [Steglatro],S,Standard,V,Valid,1992821,Drug,RxNorm,Branded Drug
+36813884,ertugliflozin 15 MG Oral Tablet [Steglatro] Box of 28,S,Standard,V,Valid,OMOP4827921,Drug,RxNorm Extension,Branded Drug Box
+36812966,ertugliflozin 15 MG Oral Tablet [Steglatro] Box of 28 by Merck,S,Standard,V,Valid,OMOP4827000,Drug,RxNorm Extension,Marketed Product
+36813349,ertugliflozin 15 MG Oral Tablet [Steglatro] by Merck,S,Standard,V,Valid,OMOP4827383,Drug,RxNorm Extension,Marketed Product
+793330,ertugliflozin 15 MG [Steglatro],S,Standard,V,Valid,1992820,Drug,RxNorm,Branded Drug Comp
+793296,ertugliflozin 2.5 MG,S,Standard,V,Valid,1992680,Drug,RxNorm,Clinical Drug Comp
+793300,ertugliflozin 2.5 MG / Metformin hydrochloride 1000 MG Oral Tablet,S,Standard,V,Valid,1992685,Drug,RxNorm,Clinical Drug
+793306,ertugliflozin 2.5 MG / Metformin hydrochloride 1000 MG Oral Tablet [Segluromet],S,Standard,V,Valid,1992691,Drug,RxNorm,Branded Drug
+793302,ertugliflozin 2.5 MG / Metformin hydrochloride 1000 MG [Segluromet],S,Standard,V,Valid,1992687,Drug,RxNorm,Branded Drug Comp
+793307,ertugliflozin 2.5 MG / Metformin hydrochloride 500 MG Oral Tablet,S,Standard,V,Valid,1992693,Drug,RxNorm,Clinical Drug
+793309,ertugliflozin 2.5 MG / Metformin hydrochloride 500 MG Oral Tablet [Segluromet],S,Standard,V,Valid,1992695,Drug,RxNorm,Branded Drug
+793308,ertugliflozin 2.5 MG / Metformin hydrochloride 500 MG [Segluromet],S,Standard,V,Valid,1992694,Drug,RxNorm,Branded Drug Comp
+793317,ertugliflozin 5 MG,S,Standard,V,Valid,1992806,Drug,RxNorm,Clinical Drug Comp
 793342,ertugliflozin 5 MG / sitagliptin 100 MG Oral Tablet,S,Standard,V,Valid,1992835,Drug,RxNorm,Clinical Drug
 36507091,ertugliflozin 5 MG / sitagliptin 100 MG Oral Tablet Box of 30,S,Standard,V,Valid,OMOP4835789,Drug,RxNorm Extension,Clinical Drug Box
 793344,ertugliflozin 5 MG / sitagliptin 100 MG Oral Tablet [Steglujan],S,Standard,V,Valid,1992837,Drug,RxNorm,Branded Drug
 36503641,ertugliflozin 5 MG / sitagliptin 100 MG Oral Tablet [Steglujan] Box of 30,S,Standard,V,Valid,OMOP4835605,Drug,RxNorm Extension,Branded Drug Box
 36507512,ertugliflozin 5 MG / sitagliptin 100 MG Oral Tablet [Steglujan] Box of 30 by Merck,S,Standard,V,Valid,OMOP4835820,Drug,RxNorm Extension,Marketed Product
 793343,ertugliflozin 5 MG / sitagliptin 100 MG [Steglujan],S,Standard,V,Valid,1992836,Drug,RxNorm,Branded Drug Comp
+793321,ertugliflozin 5 MG Oral Tablet,S,Standard,V,Valid,1992810,Drug,RxNorm,Clinical Drug
+36810445,ertugliflozin 5 MG Oral Tablet Box of 28,S,Standard,V,Valid,OMOP4824480,Drug,RxNorm Extension,Clinical Drug Box
+793327,ertugliflozin 5 MG Oral Tablet [Steglatro],S,Standard,V,Valid,1992816,Drug,RxNorm,Branded Drug
+36812927,ertugliflozin 5 MG Oral Tablet [Steglatro] Box of 28,S,Standard,V,Valid,OMOP4826961,Drug,RxNorm Extension,Branded Drug Box
+36814594,ertugliflozin 5 MG Oral Tablet [Steglatro] Box of 28 by Merck,S,Standard,V,Valid,OMOP4828634,Drug,RxNorm Extension,Marketed Product
+36811625,ertugliflozin 5 MG Oral Tablet [Steglatro] by Merck,S,Standard,V,Valid,OMOP4825660,Drug,RxNorm Extension,Marketed Product
+793323,ertugliflozin 5 MG [Steglatro],S,Standard,V,Valid,1992812,Drug,RxNorm,Branded Drug Comp
+793310,ertugliflozin 7.5 MG,S,Standard,V,Valid,1992697,Drug,RxNorm,Clinical Drug Comp
+793311,ertugliflozin 7.5 MG / Metformin hydrochloride 1000 MG Oral Tablet,S,Standard,V,Valid,1992698,Drug,RxNorm,Clinical Drug
+793313,ertugliflozin 7.5 MG / Metformin hydrochloride 1000 MG Oral Tablet [Segluromet],S,Standard,V,Valid,1992700,Drug,RxNorm,Branded Drug
+793312,ertugliflozin 7.5 MG / Metformin hydrochloride 1000 MG [Segluromet],S,Standard,V,Valid,1992699,Drug,RxNorm,Branded Drug Comp
+793314,ertugliflozin 7.5 MG / Metformin hydrochloride 500 MG Oral Tablet,S,Standard,V,Valid,1992701,Drug,RxNorm,Clinical Drug
+793316,ertugliflozin 7.5 MG / Metformin hydrochloride 500 MG Oral Tablet [Segluromet],S,Standard,V,Valid,1992703,Drug,RxNorm,Branded Drug
+793315,ertugliflozin 7.5 MG / Metformin hydrochloride 500 MG [Segluromet],S,Standard,V,Valid,1992702,Drug,RxNorm,Branded Drug Comp
+793318,ertugliflozin Oral Product,C,Classification,V,Valid,1992807,Drug,RxNorm,Clinical Dose Group
+793320,ertugliflozin Oral Tablet,S,Standard,V,Valid,1992809,Drug,RxNorm,Clinical Drug Form
+793324,ertugliflozin Oral Tablet [Steglatro],S,Standard,V,Valid,1992813,Drug,RxNorm,Branded Drug Form
+793319,ertugliflozin Pill,C,Classification,V,Valid,1992808,Drug,RxNorm,Clinical Dose Group
 1583722,exenatide,S,Standard,V,Valid,60548,Drug,RxNorm,Ingredient
 40858288,exenatide 0.00417 MG/ML,S,Standard,V,Valid,OMOP2056250,Drug,RxNorm Extension,Clinical Drug Comp
 41085972,exenatide 0.00417 MG/ML Injectable Solution,S,Standard,V,Valid,OMOP2283934,Drug,RxNorm Extension,Clinical Drug
