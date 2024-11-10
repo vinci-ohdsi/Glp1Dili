@@ -93,25 +93,25 @@ CohortGenerator::writeCsv(
   warnOnFileNameCaseMismatch = F
 )
 
-# # Download and save the negative control outcomes
-# negativeControlOutcomeCohortSet <- ROhdsiWebApi::getConceptSetDefinition(
-#   conceptSetId = 1885090,
-#   baseUrl = baseUrl
-# ) %>%
-#   ROhdsiWebApi::resolveConceptSet(
-#     baseUrl = baseUrl
-#   ) %>%
-#   ROhdsiWebApi::getConcepts(
-#     baseUrl = baseUrl
-#   ) %>%
-#   rename(outcomeConceptId = "conceptId",
-#          cohortName = "conceptName") %>%
-#   mutate(cohortId = row_number() + 100) %>%
-#   select(cohortId, cohortName, outcomeConceptId)
-# 
-# # NOTE: Update file location for your study.
-# CohortGenerator::writeCsv(
-#   x = negativeControlOutcomeCohortSet,
-#   file = "inst/negativeControlOutcomes.csv",
-#   warnOnFileNameCaseMismatch = F
-# )
+# Download and save the negative control outcomes
+negativeControlOutcomeCohortSet <- ROhdsiWebApi::getConceptSetDefinition(
+  conceptSetId = 437,
+  baseUrl = baseUrl
+) %>%
+  ROhdsiWebApi::resolveConceptSet(
+    baseUrl = baseUrl
+  ) %>%
+  ROhdsiWebApi::getConcepts(
+    baseUrl = baseUrl
+  ) %>%
+  rename(outcomeConceptId = "conceptId",
+         cohortName = "conceptName") %>%
+  mutate(cohortId = row_number() + 10000) %>%
+  select(cohortId, cohortName, outcomeConceptId)
+
+# NOTE: Update file location for your study.
+CohortGenerator::writeCsv(
+  x = negativeControlOutcomeCohortSet,
+  file = "inst/negativeControlOutcomes.csv",
+  warnOnFileNameCaseMismatch = F
+)

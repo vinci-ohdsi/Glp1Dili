@@ -75,7 +75,7 @@ cohortDefinitionSet <- CohortGenerator::getCohortDefinitionSet(
 negativeControlOutcomeCohortSet <- ncoList %>%
   rename(cohortName = "conceptname",
          outcomeConceptId = "conceptid") %>%
-  mutate(cohortId = row_number() + 1000,
+  mutate(#cohortId = row_number() + 1000,
          outcomeConceptId = trimws(outcomeConceptId))
 
 if (any(duplicated(cohortDefinitionSet$cohortId, negativeControlOutcomeCohortSet$cohortId))) {
