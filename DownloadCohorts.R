@@ -24,12 +24,14 @@ baseUrl <- Sys.getenv("Glp1DiliAtlas")
 cohortDefinitionSet <- ROhdsiWebApi::exportCohortDefinitionSet(
   baseUrl = baseUrl,
   cohortIds = c(
-    467, # GLP1R user (vs DPP4i)
-    468, # DPP4 user (vs GLP1Ra)
-    475, # GLP1R user (vs SGLT2i)
-    477, # SGLT2i user (vs GLR1Ra)
-    469, # All events of Acute Liver Injury, NO viral hepatitis or alcoholic hepatic failure
-    470, # Newly developed abnormal liver test 
+    467, # GLP1R user (vs DPP4i) #
+    468, # DPP4 user (vs GLP1Ra) #
+    475, # GLP1R user (vs SGLT2i) #
+    477, # SGLT2i user (vs GLR1Ra) #
+    469, # All events of Acute Liver Injury, NO viral hepatitis or alcoholic hepatic failure #
+    480, # Newly developed abnormal liver test #
+    484, # Newly developed bile duct or gallbladder disease #
+    
     471, #GLP1R exposure
     472, #DPP4i exposure
     479, #SGLT2i exposure
@@ -53,8 +55,10 @@ cohortDefinitionSet[cohortDefinitionSet$cohortId == 468,]$cohortId <- 12
 cohortDefinitionSet[cohortDefinitionSet$cohortId == 475,]$cohortId <- 21
 cohortDefinitionSet[cohortDefinitionSet$cohortId == 477,]$cohortId <- 22
 
+# outcomes
 cohortDefinitionSet[cohortDefinitionSet$cohortId == 469,]$cohortId <- 101
-cohortDefinitionSet[cohortDefinitionSet$cohortId == 470,]$cohortId <- 102
+cohortDefinitionSet[cohortDefinitionSet$cohortId == 480,]$cohortId <- 102
+cohortDefinitionSet[cohortDefinitionSet$cohortId == 484,]$cohortId <- 103
 
 cohortDefinitionSet[cohortDefinitionSet$cohortId == 471,]$cohortId <- 201
 cohortDefinitionSet[cohortDefinitionSet$cohortId == 472,]$cohortId <- 202
