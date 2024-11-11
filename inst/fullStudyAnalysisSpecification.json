@@ -59,484 +59,469 @@
       "negativeControlOutcomes": {
         "negativeControlOutcomeCohortSet": [
           {
-            "outcomeConceptId": "439935",
+            "cohortId": "10001",
             "cohortName": "Abnormal posture",
-            "cohortId": "1001"
+            "outcomeConceptId": "  439935"
           },
           {
-            "outcomeConceptId": "443585",
+            "cohortId": "10002",
             "cohortName": "Abrasion and/or friction burn of multiple sites",
-            "cohortId": "1002"
+            "outcomeConceptId": "  443585"
           },
           {
-            "outcomeConceptId": "199192",
+            "cohortId": "10003",
             "cohortName": "Abrasion and/or friction burn of trunk without infection",
-            "cohortId": "1003"
+            "outcomeConceptId": "  199192"
           },
           {
-            "outcomeConceptId": "4088290",
+            "cohortId": "10004",
             "cohortName": "Absence of breast",
-            "cohortId": "1004"
+            "outcomeConceptId": " 4088290"
           },
           {
-            "outcomeConceptId": "4092879",
+            "cohortId": "10005",
             "cohortName": "Absent kidney",
-            "cohortId": "1005"
+            "outcomeConceptId": " 4092879"
           },
           {
-            "outcomeConceptId": "75911",
+            "cohortId": "10006",
             "cohortName": "Acquired hallux valgus",
-            "cohortId": "1006"
+            "outcomeConceptId": "   75911"
           },
           {
-            "outcomeConceptId": "137951",
+            "cohortId": "10007",
             "cohortName": "Acquired keratoderma",
-            "cohortId": "1007"
+            "outcomeConceptId": "  137951"
           },
           {
-            "outcomeConceptId": "73241",
+            "cohortId": "10008",
             "cohortName": "Anal and rectal polyp",
-            "cohortId": "1008"
+            "outcomeConceptId": "   73241"
           },
           {
-            "outcomeConceptId": "45757682",
+            "cohortId": "10009",
             "cohortName": "Anomaly of jaw size",
-            "cohortId": "1009"
+            "outcomeConceptId": "45757682"
           },
           {
-            "outcomeConceptId": "81878",
+            "cohortId": "10010",
             "cohortName": "Benign paroxysmal positional vertigo",
-            "cohortId": "1010"
+            "outcomeConceptId": "   81878"
           },
           {
-            "outcomeConceptId": "4216219",
+            "cohortId": "10011",
             "cohortName": "Bizarre personal appearance",
-            "cohortId": "1011"
+            "outcomeConceptId": " 4216219"
           },
           {
-            "outcomeConceptId": "133655",
+            "cohortId": "10012",
             "cohortName": "Burn of forearm",
-            "cohortId": "1012"
+            "outcomeConceptId": "  133655"
           },
           {
-            "outcomeConceptId": "134765",
+            "cohortId": "10013",
             "cohortName": "Cachexia",
-            "cohortId": "1013"
+            "outcomeConceptId": "  134765"
           },
           {
-            "outcomeConceptId": "73560",
+            "cohortId": "10014",
             "cohortName": "Calcaneal spur",
-            "cohortId": "1014"
+            "outcomeConceptId": "   73560"
           },
           {
-            "outcomeConceptId": "434327",
-            "cohortName": "Cannabis abuse",
-            "cohortId": "1015"
+            "cohortId": "10015",
+            "cohortName": "Candidiasis of skin",
+            "outcomeConceptId": " 4172458"
           },
           {
-            "outcomeConceptId": "140842",
+            "cohortId": "10016",
+            "cohortName": "Chalazion",
+            "outcomeConceptId": "  381581"
+          },
+          {
+            "cohortId": "10017",
             "cohortName": "Changes in skin texture",
-            "cohortId": "1016"
+            "outcomeConceptId": "  140842"
           },
           {
-            "outcomeConceptId": "81378",
+            "cohortId": "10018",
             "cohortName": "Chondromalacia of patella",
-            "cohortId": "1017"
+            "outcomeConceptId": "   81378"
           },
           {
-            "outcomeConceptId": "432303",
+            "cohortId": "10019",
             "cohortName": "Cocaine abuse",
-            "cohortId": "1018"
+            "outcomeConceptId": "  432303"
           },
           {
-            "outcomeConceptId": "4201390",
+            "cohortId": "10020",
             "cohortName": "Colostomy present",
-            "cohortId": "1019"
+            "outcomeConceptId": " 4201390"
           },
           {
-            "outcomeConceptId": "46269889",
+            "cohortId": "10021",
             "cohortName": "Complication due to Crohn's disease",
-            "cohortId": "1020"
+            "outcomeConceptId": "46269889"
           },
           {
-            "outcomeConceptId": "434675",
+            "cohortId": "10022",
             "cohortName": "Complication of gastrostomy",
-            "cohortId": "1021"
+            "outcomeConceptId": "  434675"
           },
           {
-            "outcomeConceptId": "134438",
+            "cohortId": "10023",
             "cohortName": "Contact dermatitis",
-            "cohortId": "1022"
+            "outcomeConceptId": "  134438"
           },
           {
-            "outcomeConceptId": "78619",
+            "cohortId": "10024",
             "cohortName": "Contusion of knee",
-            "cohortId": "1023"
+            "outcomeConceptId": "   78619"
           },
           {
-            "outcomeConceptId": "201606",
+            "cohortId": "10025",
             "cohortName": "Crohn's disease",
-            "cohortId": "1024"
+            "outcomeConceptId": "  201606"
           },
           {
-            "outcomeConceptId": "76786",
+            "cohortId": "10026",
+            "cohortName": "Dental caries",
+            "outcomeConceptId": "  133228"
+          },
+          {
+            "cohortId": "10027",
             "cohortName": "Derangement of knee",
-            "cohortId": "1025"
+            "outcomeConceptId": "   76786"
           },
           {
-            "outcomeConceptId": "436077",
+            "cohortId": "10028",
             "cohortName": "Developmental delay",
-            "cohortId": "1026"
+            "outcomeConceptId": "  436077"
           },
           {
-            "outcomeConceptId": "377910",
+            "cohortId": "10029",
             "cohortName": "Deviated nasal septum",
-            "cohortId": "1027"
+            "outcomeConceptId": "  377910"
           },
           {
-            "outcomeConceptId": "4115402",
-            "cohortName": "Difficulty sleeping",
-            "cohortId": "1028"
+            "cohortId": "10030",
+            "cohortName": "Disease due to Papilloma virus",
+            "outcomeConceptId": " 4147672"
           },
           {
-            "outcomeConceptId": "45757370",
+            "cohortId": "10031",
             "cohortName": "Disproportion of reconstructed breast",
-            "cohortId": "1029"
+            "outcomeConceptId": "45757370"
           },
           {
-            "outcomeConceptId": "433111",
-            "cohortName": "Effects of hunger",
-            "cohortId": "1030"
-          },
-          {
-            "outcomeConceptId": "433527",
+            "cohortId": "10032",
             "cohortName": "Endometriosis",
-            "cohortId": "1031"
+            "outcomeConceptId": "  433527"
           },
           {
-            "outcomeConceptId": "4170770",
+            "cohortId": "10033",
             "cohortName": "Epidermoid cyst",
-            "cohortId": "1032"
+            "outcomeConceptId": " 4170770"
           },
           {
-            "outcomeConceptId": "437448",
+            "cohortId": "10034",
             "cohortName": "Exhaustion due to excessive exertion",
-            "cohortId": "1033"
+            "outcomeConceptId": "  437448"
           },
           {
-            "outcomeConceptId": "4092896",
+            "cohortId": "10035",
             "cohortName": "Feces contents abnormal",
-            "cohortId": "1034"
+            "outcomeConceptId": " 4092896"
           },
           {
-            "outcomeConceptId": "4092896",
-            "cohortName": "Feces contents abnormal",
-            "cohortId": "1035"
-          },
-          {
-            "outcomeConceptId": "374801",
+            "cohortId": "10036",
             "cohortName": "Foreign body in ear",
-            "cohortId": "1036"
+            "outcomeConceptId": "  374801"
           },
           {
-            "outcomeConceptId": "259995",
+            "cohortId": "10037",
             "cohortName": "Foreign body in orifice",
-            "cohortId": "1037"
+            "outcomeConceptId": "  259995"
           },
           {
-            "outcomeConceptId": "4096540",
+            "cohortId": "10038",
             "cohortName": "Foreskin deficient",
-            "cohortId": "1038"
+            "outcomeConceptId": " 4096540"
           },
           {
-            "outcomeConceptId": "439788",
+            "cohortId": "10039",
             "cohortName": "Galactosemia",
-            "cohortId": "1039"
+            "outcomeConceptId": "  439788"
           },
           {
-            "outcomeConceptId": "40481632",
+            "cohortId": "10040",
             "cohortName": "Ganglion cyst",
-            "cohortId": "1040"
+            "outcomeConceptId": "40481632"
           },
           {
-            "outcomeConceptId": "40481632",
-            "cohortName": "Ganglion cyst",
-            "cohortId": "1041"
-          },
-          {
-            "outcomeConceptId": "4168318",
+            "cohortId": "10041",
             "cohortName": "Genetic disorder carrier",
-            "cohortId": "1042"
+            "outcomeConceptId": " 4168318"
           },
           {
-            "outcomeConceptId": "433577",
+            "cohortId": "10042",
+            "cohortName": "Genital herpes simplex",
+            "outcomeConceptId": "   74855"
+          },
+          {
+            "cohortId": "10043",
             "cohortName": "Hammer toe",
-            "cohortId": "1043"
+            "outcomeConceptId": "  433577"
           },
           {
-            "outcomeConceptId": "4231770",
+            "cohortId": "10044",
             "cohortName": "Hereditary thrombophilia",
-            "cohortId": "1044"
+            "outcomeConceptId": " 4231770"
           },
           {
-            "outcomeConceptId": "4012570",
+            "cohortId": "10045",
             "cohortName": "High risk sexual behavior",
-            "cohortId": "1045"
+            "outcomeConceptId": " 4012570"
           },
           {
-            "outcomeConceptId": "4012934",
+            "cohortId": "10046",
             "cohortName": "Homocystinuria",
-            "cohortId": "1046"
+            "outcomeConceptId": " 4012934"
           },
           {
-            "outcomeConceptId": "374375",
+            "cohortId": "10047",
+            "cohortName": "Human papilloma virus infection",
+            "outcomeConceptId": "  441788"
+          },
+          {
+            "cohortId": "10048",
             "cohortName": "Impacted cerumen",
-            "cohortId": "1047"
+            "outcomeConceptId": "  374375"
           },
           {
-            "outcomeConceptId": "374375",
-            "cohortName": "Impacted cerumen",
-            "cohortId": "1048"
-          },
-          {
-            "outcomeConceptId": "4344500",
+            "cohortId": "10049",
             "cohortName": "Impingement syndrome of shoulder region",
-            "cohortId": "1049"
+            "outcomeConceptId": " 4344500"
           },
           {
-            "outcomeConceptId": "40481897",
+            "cohortId": "10050",
             "cohortName": "Inadequate sleep hygiene",
-            "cohortId": "1050"
+            "outcomeConceptId": "40481897"
           },
           {
-            "outcomeConceptId": "139099",
+            "cohortId": "10051",
             "cohortName": "Ingrowing nail",
-            "cohortId": "1051"
+            "outcomeConceptId": "  139099"
           },
           {
-            "outcomeConceptId": "444132",
+            "cohortId": "10052",
             "cohortName": "Injury of knee",
-            "cohortId": "1052"
+            "outcomeConceptId": "  444132"
           },
           {
-            "outcomeConceptId": "4265896",
+            "cohortId": "10053",
             "cohortName": "Jellyfish poisoning",
-            "cohortId": "1053"
+            "outcomeConceptId": " 4265896"
           },
           {
-            "outcomeConceptId": "432593",
-            "cohortName": "Kwashiorkor",
-            "cohortId": "1054"
-          },
-          {
-            "outcomeConceptId": "434203",
+            "cohortId": "10054",
             "cohortName": "Late effect of contusion",
-            "cohortId": "1055"
+            "outcomeConceptId": "  434203"
           },
           {
-            "outcomeConceptId": "438329",
+            "cohortId": "10055",
             "cohortName": "Late effect of motor vehicle accident",
-            "cohortId": "1056"
+            "outcomeConceptId": "  438329"
           },
           {
-            "outcomeConceptId": "4027782",
+            "cohortId": "10056",
             "cohortName": "Lipid storage disease",
-            "cohortId": "1057"
+            "outcomeConceptId": " 4027782"
           },
           {
-            "outcomeConceptId": "433997",
+            "cohortId": "10057",
             "cohortName": "Lymphangioma",
-            "cohortId": "1058"
+            "outcomeConceptId": "  433997"
           },
           {
-            "outcomeConceptId": "4051630",
+            "cohortId": "10058",
             "cohortName": "Malingering",
-            "cohortId": "1059"
+            "outcomeConceptId": " 4051630"
           },
           {
-            "outcomeConceptId": "258540",
+            "cohortId": "10059",
             "cohortName": "Marfan's syndrome",
-            "cohortId": "1060"
+            "outcomeConceptId": "  258540"
           },
           {
-            "outcomeConceptId": "432798",
+            "cohortId": "10060",
             "cohortName": "Mechanical complication of internal orthopedic device, implant AND/OR graft",
-            "cohortId": "1061"
+            "outcomeConceptId": "  432798"
           },
           {
-            "outcomeConceptId": "4103703",
+            "cohortId": "10061",
             "cohortName": "Melena",
-            "cohortId": "1062"
+            "outcomeConceptId": " 4103703"
           },
           {
-            "outcomeConceptId": "439795",
+            "cohortId": "10062",
             "cohortName": "Minimal cognitive impairment",
-            "cohortId": "1063"
+            "outcomeConceptId": "  439795"
           },
           {
-            "outcomeConceptId": "4209423",
+            "cohortId": "10063",
             "cohortName": "Nicotine dependence",
-            "cohortId": "1064"
+            "outcomeConceptId": " 4209423"
           },
           {
-            "outcomeConceptId": "4209423",
-            "cohortName": "Nicotine dependence",
-            "cohortId": "1065"
-          },
-          {
-            "outcomeConceptId": "377572",
+            "cohortId": "10064",
             "cohortName": "Noise effects on inner ear",
-            "cohortId": "1066"
+            "outcomeConceptId": "  377572"
           },
           {
-            "outcomeConceptId": "40480893",
-            "cohortName": "Nonspecific tuberculin test reaction",
-            "cohortId": "1067"
-          },
-          {
-            "outcomeConceptId": "40480893",
-            "cohortName": "Nonspecific tuberculin test reaction",
-            "cohortId": "1068"
-          },
-          {
-            "outcomeConceptId": "136368",
+            "cohortId": "10065",
             "cohortName": "Non-toxic multinodular goiter",
-            "cohortId": "1069"
+            "outcomeConceptId": "  136368"
           },
           {
-            "outcomeConceptId": "438130",
-            "cohortName": "Opioid abuse",
-            "cohortId": "1070"
+            "cohortId": "10066",
+            "cohortName": "Nonspecific tuberculin test reaction",
+            "outcomeConceptId": "40480893"
           },
           {
-            "outcomeConceptId": "438130",
-            "cohortName": "Opioid abuse",
-            "cohortId": "1071"
-          },
-          {
-            "outcomeConceptId": "4299094",
-            "cohortName": "Opioid intoxication",
-            "cohortId": "1072"
-          },
-          {
-            "outcomeConceptId": "4091513",
+            "cohortId": "10067",
             "cohortName": "Passing flatus",
-            "cohortId": "1073"
+            "outcomeConceptId": " 4091513"
           },
           {
-            "outcomeConceptId": "437092",
+            "cohortId": "10068",
             "cohortName": "Physiological development failure",
-            "cohortId": "1074"
+            "outcomeConceptId": "  437092"
           },
           {
-            "outcomeConceptId": "433951",
-            "cohortName": "Poisoning by tranquilizer",
-            "cohortId": "1075"
+            "cohortId": "10069",
+            "cohortName": "Pneumothorax",
+            "outcomeConceptId": "  253796"
           },
           {
-            "outcomeConceptId": "4202045",
+            "cohortId": "10070",
             "cohortName": "Postviral fatigue syndrome",
-            "cohortId": "1076"
+            "outcomeConceptId": " 4202045"
           },
           {
-            "outcomeConceptId": "439790",
+            "cohortId": "10071",
+            "cohortName": "Prolapse of intestine",
+            "outcomeConceptId": " 4295888"
+          },
+          {
+            "cohortId": "10072",
+            "cohortName": "Prostatitis",
+            "outcomeConceptId": "  194997"
+          },
+          {
+            "cohortId": "10073",
             "cohortName": "Psychalgia",
-            "cohortId": "1077"
+            "outcomeConceptId": "  439790"
           },
           {
-            "outcomeConceptId": "81634",
+            "cohortId": "10074",
             "cohortName": "Ptotic breast",
-            "cohortId": "1078"
+            "outcomeConceptId": "   81634"
           },
           {
-            "outcomeConceptId": "380706",
+            "cohortId": "10075",
             "cohortName": "Regular astigmatism",
-            "cohortId": "1079"
+            "outcomeConceptId": "  380706"
           },
           {
-            "outcomeConceptId": "141932",
+            "cohortId": "10076",
             "cohortName": "Senile hyperkeratosis",
-            "cohortId": "1080"
+            "outcomeConceptId": "  141932"
           },
           {
-            "outcomeConceptId": "4019836",
+            "cohortId": "10077",
             "cohortName": "Social exclusion",
-            "cohortId": "1081"
+            "outcomeConceptId": " 4019836"
           },
           {
-            "outcomeConceptId": "36713918",
+            "cohortId": "10078",
             "cohortName": "Somatic dysfunction of lumbar region",
-            "cohortId": "1082"
+            "outcomeConceptId": "36713918"
           },
           {
-            "outcomeConceptId": "443172",
-            "cohortName": "Splinter of face without major open wound",
-            "cohortId": "1083"
+            "cohortId": "10079",
+            "cohortName": "Splinter of face, without major open wound",
+            "outcomeConceptId": "  443172"
           },
           {
-            "outcomeConceptId": "81151",
+            "cohortId": "10080",
             "cohortName": "Sprain of ankle",
-            "cohortId": "1084"
+            "outcomeConceptId": "   81151"
           },
           {
-            "outcomeConceptId": "72748",
-            "cohortName": "Strain of rotator cuff capsule",
-            "cohortId": "1085"
-          },
-          {
-            "outcomeConceptId": "432436",
+            "cohortId": "10081",
             "cohortName": "Symbolic dysfunction",
-            "cohortId": "1086"
+            "outcomeConceptId": "  432436"
           },
           {
-            "outcomeConceptId": "378427",
+            "cohortId": "10082",
             "cohortName": "Tear film insufficiency",
-            "cohortId": "1087"
+            "outcomeConceptId": "  378427"
           },
           {
-            "outcomeConceptId": "437264",
+            "cohortId": "10083",
+            "cohortName": "Tinea pedis",
+            "outcomeConceptId": "  133141"
+          },
+          {
+            "cohortId": "10084",
             "cohortName": "Tobacco dependence syndrome",
-            "cohortId": "1088"
+            "outcomeConceptId": "  437264"
           },
           {
-            "outcomeConceptId": "433244",
+            "cohortId": "10085",
             "cohortName": "Tooth loss",
-            "cohortId": "1089"
+            "outcomeConceptId": "  433244"
           },
           {
-            "outcomeConceptId": "436876",
+            "cohortId": "10086",
             "cohortName": "Toxic effect of lead compound",
-            "cohortId": "1090"
+            "outcomeConceptId": "  436876"
           },
           {
-            "outcomeConceptId": "440612",
+            "cohortId": "10087",
             "cohortName": "Toxic effect of tobacco and nicotine",
-            "cohortId": "1091"
+            "outcomeConceptId": "  440612"
           },
           {
-            "outcomeConceptId": "4201387",
+            "cohortId": "10088",
             "cohortName": "Tracheostomy present",
-            "cohortId": "1092"
+            "outcomeConceptId": " 4201387"
           },
           {
-            "outcomeConceptId": "45757285",
+            "cohortId": "10089",
             "cohortName": "Unsatisfactory tooth restoration",
-            "cohortId": "1093"
+            "outcomeConceptId": "45757285"
           },
           {
-            "outcomeConceptId": "140641",
+            "cohortId": "10090",
+            "cohortName": "Uterine prolapse",
+            "outcomeConceptId": " 4092565"
+          },
+          {
+            "cohortId": "10091",
             "cohortName": "Verruca vulgaris",
-            "cohortId": "1094"
+            "outcomeConceptId": "  140641"
           },
           {
-            "outcomeConceptId": "4115367",
+            "cohortId": "10092",
             "cohortName": "Wrist joint pain",
-            "cohortId": "1095"
+            "outcomeConceptId": " 4115367"
           },
           {
-            "outcomeConceptId": "440193",
+            "cohortId": "10093",
             "cohortName": "Wristdrop",
-            "cohortId": "1096"
+            "outcomeConceptId": "  440193"
           }
         ],
         "occurrenceType": "first",
@@ -1625,577 +1610,559 @@
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1001,
+                "outcomeId": 10001,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1002,
+                "outcomeId": 10002,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1003,
+                "outcomeId": 10003,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1004,
+                "outcomeId": 10004,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1005,
+                "outcomeId": 10005,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1006,
+                "outcomeId": 10006,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1007,
+                "outcomeId": 10007,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1008,
+                "outcomeId": 10008,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1009,
+                "outcomeId": 10009,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1010,
+                "outcomeId": 10010,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1011,
+                "outcomeId": 10011,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1012,
+                "outcomeId": 10012,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1013,
+                "outcomeId": 10013,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1014,
+                "outcomeId": 10014,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1015,
+                "outcomeId": 10015,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1016,
+                "outcomeId": 10016,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1017,
+                "outcomeId": 10017,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1018,
+                "outcomeId": 10018,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1019,
+                "outcomeId": 10019,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1020,
+                "outcomeId": 10020,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1021,
+                "outcomeId": 10021,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1022,
+                "outcomeId": 10022,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1023,
+                "outcomeId": 10023,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1024,
+                "outcomeId": 10024,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1025,
+                "outcomeId": 10025,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1026,
+                "outcomeId": 10026,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1027,
+                "outcomeId": 10027,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1028,
+                "outcomeId": 10028,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1029,
+                "outcomeId": 10029,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1030,
+                "outcomeId": 10030,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1031,
+                "outcomeId": 10031,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1032,
+                "outcomeId": 10032,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1033,
+                "outcomeId": 10033,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1034,
+                "outcomeId": 10034,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1035,
+                "outcomeId": 10035,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1036,
+                "outcomeId": 10036,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1037,
+                "outcomeId": 10037,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1038,
+                "outcomeId": 10038,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1039,
+                "outcomeId": 10039,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1040,
+                "outcomeId": 10040,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1041,
+                "outcomeId": 10041,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1042,
+                "outcomeId": 10042,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1043,
+                "outcomeId": 10043,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1044,
+                "outcomeId": 10044,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1045,
+                "outcomeId": 10045,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1046,
+                "outcomeId": 10046,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1047,
+                "outcomeId": 10047,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1048,
+                "outcomeId": 10048,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1049,
+                "outcomeId": 10049,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1050,
+                "outcomeId": 10050,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1051,
+                "outcomeId": 10051,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1052,
+                "outcomeId": 10052,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1053,
+                "outcomeId": 10053,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1054,
+                "outcomeId": 10054,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1055,
+                "outcomeId": 10055,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1056,
+                "outcomeId": 10056,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1057,
+                "outcomeId": 10057,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1058,
+                "outcomeId": 10058,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1059,
+                "outcomeId": 10059,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1060,
+                "outcomeId": 10060,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1061,
+                "outcomeId": 10061,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1062,
+                "outcomeId": 10062,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1063,
+                "outcomeId": 10063,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1064,
+                "outcomeId": 10064,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1065,
+                "outcomeId": 10065,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1066,
+                "outcomeId": 10066,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1067,
+                "outcomeId": 10067,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1068,
+                "outcomeId": 10068,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1069,
+                "outcomeId": 10069,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1070,
+                "outcomeId": 10070,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1071,
+                "outcomeId": 10071,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1072,
+                "outcomeId": 10072,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1073,
+                "outcomeId": 10073,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1074,
+                "outcomeId": 10074,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1075,
+                "outcomeId": 10075,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1076,
+                "outcomeId": 10076,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1077,
+                "outcomeId": 10077,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1078,
+                "outcomeId": 10078,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1079,
+                "outcomeId": 10079,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1080,
+                "outcomeId": 10080,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1081,
+                "outcomeId": 10081,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1082,
+                "outcomeId": 10082,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1083,
+                "outcomeId": 10083,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1084,
+                "outcomeId": 10084,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1085,
+                "outcomeId": 10085,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1086,
+                "outcomeId": 10086,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1087,
+                "outcomeId": 10087,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1088,
+                "outcomeId": 10088,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1089,
+                "outcomeId": 10089,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1090,
+                "outcomeId": 10090,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1091,
+                "outcomeId": 10091,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1092,
+                "outcomeId": 10092,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1093,
-                "outcomeOfInterest": false,
-                "trueEffectSize": 1,
-                "attr_class": "outcome"
-              },
-              {
-                "outcomeId": 1094,
-                "outcomeOfInterest": false,
-                "trueEffectSize": 1,
-                "attr_class": "outcome"
-              },
-              {
-                "outcomeId": 1095,
-                "outcomeOfInterest": false,
-                "trueEffectSize": 1,
-                "attr_class": "outcome"
-              },
-              {
-                "outcomeId": 1096,
+                "outcomeId": 10093,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
@@ -2223,577 +2190,559 @@
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1001,
+                "outcomeId": 10001,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1002,
+                "outcomeId": 10002,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1003,
+                "outcomeId": 10003,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1004,
+                "outcomeId": 10004,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1005,
+                "outcomeId": 10005,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1006,
+                "outcomeId": 10006,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1007,
+                "outcomeId": 10007,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1008,
+                "outcomeId": 10008,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1009,
+                "outcomeId": 10009,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1010,
+                "outcomeId": 10010,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1011,
+                "outcomeId": 10011,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1012,
+                "outcomeId": 10012,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1013,
+                "outcomeId": 10013,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1014,
+                "outcomeId": 10014,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1015,
+                "outcomeId": 10015,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1016,
+                "outcomeId": 10016,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1017,
+                "outcomeId": 10017,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1018,
+                "outcomeId": 10018,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1019,
+                "outcomeId": 10019,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1020,
+                "outcomeId": 10020,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1021,
+                "outcomeId": 10021,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1022,
+                "outcomeId": 10022,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1023,
+                "outcomeId": 10023,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1024,
+                "outcomeId": 10024,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1025,
+                "outcomeId": 10025,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1026,
+                "outcomeId": 10026,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1027,
+                "outcomeId": 10027,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1028,
+                "outcomeId": 10028,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1029,
+                "outcomeId": 10029,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1030,
+                "outcomeId": 10030,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1031,
+                "outcomeId": 10031,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1032,
+                "outcomeId": 10032,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1033,
+                "outcomeId": 10033,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1034,
+                "outcomeId": 10034,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1035,
+                "outcomeId": 10035,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1036,
+                "outcomeId": 10036,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1037,
+                "outcomeId": 10037,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1038,
+                "outcomeId": 10038,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1039,
+                "outcomeId": 10039,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1040,
+                "outcomeId": 10040,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1041,
+                "outcomeId": 10041,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1042,
+                "outcomeId": 10042,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1043,
+                "outcomeId": 10043,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1044,
+                "outcomeId": 10044,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1045,
+                "outcomeId": 10045,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1046,
+                "outcomeId": 10046,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1047,
+                "outcomeId": 10047,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1048,
+                "outcomeId": 10048,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1049,
+                "outcomeId": 10049,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1050,
+                "outcomeId": 10050,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1051,
+                "outcomeId": 10051,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1052,
+                "outcomeId": 10052,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1053,
+                "outcomeId": 10053,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1054,
+                "outcomeId": 10054,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1055,
+                "outcomeId": 10055,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1056,
+                "outcomeId": 10056,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1057,
+                "outcomeId": 10057,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1058,
+                "outcomeId": 10058,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1059,
+                "outcomeId": 10059,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1060,
+                "outcomeId": 10060,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1061,
+                "outcomeId": 10061,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1062,
+                "outcomeId": 10062,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1063,
+                "outcomeId": 10063,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1064,
+                "outcomeId": 10064,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1065,
+                "outcomeId": 10065,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1066,
+                "outcomeId": 10066,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1067,
+                "outcomeId": 10067,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1068,
+                "outcomeId": 10068,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1069,
+                "outcomeId": 10069,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1070,
+                "outcomeId": 10070,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1071,
+                "outcomeId": 10071,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1072,
+                "outcomeId": 10072,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1073,
+                "outcomeId": 10073,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1074,
+                "outcomeId": 10074,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1075,
+                "outcomeId": 10075,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1076,
+                "outcomeId": 10076,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1077,
+                "outcomeId": 10077,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1078,
+                "outcomeId": 10078,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1079,
+                "outcomeId": 10079,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1080,
+                "outcomeId": 10080,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1081,
+                "outcomeId": 10081,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1082,
+                "outcomeId": 10082,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1083,
+                "outcomeId": 10083,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1084,
+                "outcomeId": 10084,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1085,
+                "outcomeId": 10085,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1086,
+                "outcomeId": 10086,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1087,
+                "outcomeId": 10087,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1088,
+                "outcomeId": 10088,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1089,
+                "outcomeId": 10089,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1090,
+                "outcomeId": 10090,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1091,
+                "outcomeId": 10091,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1092,
+                "outcomeId": 10092,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
               },
               {
-                "outcomeId": 1093,
-                "outcomeOfInterest": false,
-                "trueEffectSize": 1,
-                "attr_class": "outcome"
-              },
-              {
-                "outcomeId": 1094,
-                "outcomeOfInterest": false,
-                "trueEffectSize": 1,
-                "attr_class": "outcome"
-              },
-              {
-                "outcomeId": 1095,
-                "outcomeOfInterest": false,
-                "trueEffectSize": 1,
-                "attr_class": "outcome"
-              },
-              {
-                "outcomeId": 1096,
+                "outcomeId": 10093,
                 "outcomeOfInterest": false,
                 "trueEffectSize": 1,
                 "attr_class": "outcome"
@@ -2815,2590 +2764,6 @@
         }
       },
       "attr_class": ["ModuleSpecifications", "CohortMethodModuleSpecifications"]
-    },
-    {
-      "module": "SelfControlledCaseSeriesModule",
-      "settings": {
-        "sccsAnalysisList": [
-          {
-            "analysisId": 1,
-            "description": "SCCS, having Persons with Type 2 diabetes mellitus and no prior T1DM or secondary diabetes - male, female, age >= 18, On treatment",
-            "getDbSccsDataArgs": {
-              "useCustomCovariates": false,
-              "useNestingCohort": true,
-              "nestingCohortId": 301,
-              "deleteCovariatesSmallCount": 0,
-              "studyStartDate": "20171201",
-              "studyEndDate": "20231231",
-              "maxCasesPerOutcome": 1000000,
-              "exposureIds": "exposureId",
-              "customCovariateIds": "",
-              "attr_class": "args"
-            },
-            "createStudyPopulationArgs": {
-              "firstOutcomeOnly": true,
-              "naivePeriod": 365,
-              "minAge": 18,
-              "genderConceptIds": [8507, 8532],
-              "attr_class": "args"
-            },
-            "createIntervalDataArgs": {
-              "eraCovariateSettings": [
-                {
-                  "includeEraIds": "exposureId",
-                  "label": "Pre-exposure",
-                  "stratifyById": false,
-                  "start": -30,
-                  "startAnchor": "era start",
-                  "end": -1,
-                  "endAnchor": "era start",
-                  "firstOccurrenceOnly": false,
-                  "allowRegularization": false,
-                  "profileLikelihood": false,
-                  "exposureOfInterest": false,
-                  "isControlInterval": false,
-                  "attr_class": "EraCovariateSettings"
-                },
-                {
-                  "includeEraIds": "exposureId",
-                  "label": "Main",
-                  "stratifyById": false,
-                  "start": 1,
-                  "startAnchor": "era start",
-                  "end": 0,
-                  "endAnchor": "era end",
-                  "firstOccurrenceOnly": false,
-                  "allowRegularization": false,
-                  "profileLikelihood": true,
-                  "exposureOfInterest": true,
-                  "isControlInterval": false,
-                  "attr_class": "EraCovariateSettings"
-                }
-              ],
-              "calendarTimeCovariateSettings": {
-                "calendarTimeKnots": 5,
-                "allowRegularization": true,
-                "computeConfidenceIntervals": false,
-                "attr_class": "CalendarTimeCovariateSettings"
-              },
-              "minCasesForTimeCovariates": 10000,
-              "eventDependentObservation": false,
-              "attr_class": "args"
-            },
-            "fitSccsModelArgs": {
-              "prior": {
-                "priorType": "laplace",
-                "variance": 1,
-                "exclude": null,
-                "graph": null,
-                "neighborhood": null,
-                "useCrossValidation": true,
-                "forceIntercept": false,
-                "attr_class": "cyclopsPrior"
-              },
-              "control": {
-                "maxIterations": 1000,
-                "tolerance": 1e-06,
-                "convergenceType": "gradient",
-                "autoSearch": true,
-                "fold": 10,
-                "lowerLimit": 0.01,
-                "upperLimit": 20,
-                "gridSteps": 10,
-                "minCVData": 100,
-                "cvRepetitions": 1,
-                "noiseLevel": "quiet",
-                "threads": 1,
-                "seed": 1,
-                "resetCoefficients": true,
-                "startingVariance": 0.1,
-                "useKKTSwindle": false,
-                "tuneSwindle": 10,
-                "selectorType": "byPid",
-                "initialBound": 2,
-                "maxBoundCount": 5,
-                "algorithm": "ccd",
-                "doItAll": true,
-                "syncCV": false,
-                "attr_class": "cyclopsControl"
-              },
-              "profileBounds": [-2.3026, 2.3026],
-              "attr_class": "args"
-            },
-            "attr_class": "SccsAnalysis"
-          },
-          {
-            "analysisId": 2,
-            "description": "SCCS, having Persons with Type 2 diabetes mellitus and no prior T1DM or secondary diabetes - male, female, age >= 18, 30-day",
-            "getDbSccsDataArgs": {
-              "useCustomCovariates": false,
-              "useNestingCohort": true,
-              "nestingCohortId": 301,
-              "deleteCovariatesSmallCount": 0,
-              "studyStartDate": "20171201",
-              "studyEndDate": "20231231",
-              "maxCasesPerOutcome": 1000000,
-              "exposureIds": "exposureId",
-              "customCovariateIds": "",
-              "attr_class": "args"
-            },
-            "createStudyPopulationArgs": {
-              "firstOutcomeOnly": true,
-              "naivePeriod": 365,
-              "minAge": 18,
-              "genderConceptIds": [8507, 8532],
-              "attr_class": "args"
-            },
-            "createIntervalDataArgs": {
-              "eraCovariateSettings": [
-                {
-                  "includeEraIds": "exposureId",
-                  "label": "Pre-exposure",
-                  "stratifyById": false,
-                  "start": -30,
-                  "startAnchor": "era start",
-                  "end": -1,
-                  "endAnchor": "era start",
-                  "firstOccurrenceOnly": false,
-                  "allowRegularization": false,
-                  "profileLikelihood": false,
-                  "exposureOfInterest": false,
-                  "isControlInterval": false,
-                  "attr_class": "EraCovariateSettings"
-                },
-                {
-                  "includeEraIds": "exposureId",
-                  "label": "Main",
-                  "stratifyById": false,
-                  "start": 1,
-                  "startAnchor": "era start",
-                  "end": 31,
-                  "endAnchor": "era start",
-                  "firstOccurrenceOnly": false,
-                  "allowRegularization": false,
-                  "profileLikelihood": true,
-                  "exposureOfInterest": true,
-                  "isControlInterval": false,
-                  "attr_class": "EraCovariateSettings"
-                }
-              ],
-              "calendarTimeCovariateSettings": {
-                "calendarTimeKnots": 5,
-                "allowRegularization": true,
-                "computeConfidenceIntervals": false,
-                "attr_class": "CalendarTimeCovariateSettings"
-              },
-              "minCasesForTimeCovariates": 10000,
-              "eventDependentObservation": false,
-              "attr_class": "args"
-            },
-            "fitSccsModelArgs": {
-              "prior": {
-                "priorType": "laplace",
-                "variance": 1,
-                "exclude": null,
-                "graph": null,
-                "neighborhood": null,
-                "useCrossValidation": true,
-                "forceIntercept": false,
-                "attr_class": "cyclopsPrior"
-              },
-              "control": {
-                "maxIterations": 1000,
-                "tolerance": 1e-06,
-                "convergenceType": "gradient",
-                "autoSearch": true,
-                "fold": 10,
-                "lowerLimit": 0.01,
-                "upperLimit": 20,
-                "gridSteps": 10,
-                "minCVData": 100,
-                "cvRepetitions": 1,
-                "noiseLevel": "quiet",
-                "threads": 1,
-                "seed": 1,
-                "resetCoefficients": true,
-                "startingVariance": 0.1,
-                "useKKTSwindle": false,
-                "tuneSwindle": 10,
-                "selectorType": "byPid",
-                "initialBound": 2,
-                "maxBoundCount": 5,
-                "algorithm": "ccd",
-                "doItAll": true,
-                "syncCV": false,
-                "attr_class": "cyclopsControl"
-              },
-              "profileBounds": [-2.3026, 2.3026],
-              "attr_class": "args"
-            },
-            "attr_class": "SccsAnalysis"
-          }
-        ],
-        "exposuresOutcomeList": [
-          {
-            "outcomeId": 101,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": null,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 102,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": null,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1001,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1002,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1003,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1004,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1005,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1006,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1007,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1008,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1009,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1010,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1011,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1012,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1013,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1014,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1015,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1016,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1017,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1018,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1019,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1020,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1021,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1022,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1023,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1024,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1025,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1026,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1027,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1028,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1029,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1030,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1031,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1032,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1033,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1034,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1035,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1036,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1037,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1038,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1039,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1040,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1041,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1042,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1043,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1044,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1045,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1046,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1047,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1048,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1049,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1050,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1051,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1052,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1053,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1054,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1055,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1056,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1057,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1058,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1059,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1060,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1061,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1062,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1063,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1064,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1065,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1066,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1067,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1068,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1069,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1070,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1071,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1072,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1073,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1074,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1075,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1076,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1077,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1078,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1079,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1080,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1081,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1082,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1083,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1084,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1085,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1086,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1087,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1088,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1089,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1090,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1091,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1092,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1093,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1094,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1095,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1096,
-            "exposures": [
-              {
-                "exposureId": 201,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 101,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": null,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 102,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": null,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1001,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1002,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1003,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1004,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1005,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1006,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1007,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1008,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1009,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1010,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1011,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1012,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1013,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1014,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1015,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1016,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1017,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1018,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1019,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1020,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1021,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1022,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1023,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1024,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1025,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1026,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1027,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1028,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1029,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1030,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1031,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1032,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1033,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1034,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1035,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1036,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1037,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1038,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1039,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1040,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1041,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1042,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1043,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1044,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1045,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1046,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1047,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1048,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1049,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1050,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1051,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1052,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1053,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1054,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1055,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1056,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1057,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1058,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1059,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1060,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1061,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1062,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1063,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1064,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1065,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1066,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1067,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1068,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1069,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1070,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1071,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1072,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1073,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1074,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1075,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1076,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1077,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1078,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1079,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1080,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1081,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1082,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1083,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1084,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1085,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1086,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1087,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1088,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1089,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1090,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1091,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1092,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1093,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1094,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1095,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          },
-          {
-            "outcomeId": 1096,
-            "exposures": [
-              {
-                "exposureId": 202,
-                "exposureIdRef": "exposureId",
-                "trueEffectSize": 1,
-                "attr_class": "Exposure"
-              }
-            ],
-            "attr_class": "ExposuresOutcome"
-          }
-        ],
-        "combineDataFetchAcrossOutcomes": false,
-        "sccsDiagnosticThresholds": {
-          "mdrrThreshold": "Inf",
-          "easeThreshold": 0.25,
-          "timeTrendPThreshold": 0.05,
-          "preExposurePThreshold": 0.05,
-          "attr_class": "SccsDiagnosticThresholds"
-        }
-      },
-      "attr_class": ["ModuleSpecifications", "SelfControlledCaseSeriesModuleSpecifications"]
     }
   ],
   "attr_class": "AnalysisSpecifications"

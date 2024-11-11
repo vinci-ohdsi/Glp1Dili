@@ -72,11 +72,11 @@ cohortDefinitionSet <- CohortGenerator::getCohortDefinitionSet(
 # cohortDefinitionSet <- cohortDefinitionSet |>
 #   CohortGenerator::addCohortSubsetDefinition(subset1, targetCohortIds = subsetTargetCohortIds)
 
-negativeControlOutcomeCohortSet <- ncoList %>%
-  rename(cohortName = "conceptname",
-         outcomeConceptId = "conceptid") %>%
-  mutate(#cohortId = row_number() + 1000,
-         outcomeConceptId = trimws(outcomeConceptId))
+negativeControlOutcomeCohortSet <- ncoList #%>%
+  # rename(cohortName = "conceptname",
+  #        outcomeConceptId = "conceptid") %>%
+  # mutate(cohortId = row_number() + 1000,
+  #        outcomeConceptId = trimws(outcomeConceptId))
 
 if (any(duplicated(cohortDefinitionSet$cohortId, negativeControlOutcomeCohortSet$cohortId))) {
   stop("*** Error: duplicate cohort IDs found ***")
@@ -394,127 +394,127 @@ cohortMethodModuleSpecifications <- cmModuleSettingsCreator$createModuleSpecific
 )
 
 
-# SelfControlledCaseSeriesmodule -----------------------------------------------
-sccsModuleSettingsCreator <- SelfControlledCaseSeriesModule$new()
-uniqueTargetIds <- sccsTList$targetCohortId
-
-eoList <- list()
-for (targetId in uniqueTargetIds) {
-  for (outcomeId in oList$outcomeCohortId) {
-    eoList[[length(eoList) + 1]] <- SelfControlledCaseSeries::createExposuresOutcome(
-      outcomeId = outcomeId,
-      exposures = list(
-        SelfControlledCaseSeries::createExposure(
-          exposureId = targetId,
-          trueEffectSize = NA
-        )
-      )
-    )
-  }
-  for (outcomeId in negativeControlOutcomeCohortSet$cohortId) {
-    eoList[[length(eoList) + 1]] <- SelfControlledCaseSeries::createExposuresOutcome(
-      outcomeId = outcomeId,
-      exposures = list(SelfControlledCaseSeries::createExposure(
-        exposureId = targetId, 
-        trueEffectSize = 1
-      ))
-    )
-  }
-}
-sccsAnalysisList <- list()
-analysisToInclude <- data.frame()
-for (i in seq_len(nrow(sccsIList))) {
-  indicationId <- sccsIList$indicationCohortId[i]
-  getDbSccsDataArgs <- SelfControlledCaseSeries::createGetDbSccsDataArgs(
-    maxCasesPerOutcome = 1000000,
-    useNestingCohort = TRUE,
-    nestingCohortId = indicationId,
-    studyStartDate = studyStartDate,
-    studyEndDate = studyEndDate,
-    deleteCovariatesSmallCount = 0
-  )
-  createStudyPopulationArgs = SelfControlledCaseSeries::createCreateStudyPopulationArgs(
-    firstOutcomeOnly = TRUE,
-    naivePeriod = 365,
-    minAge = 18,
-    genderConceptIds = c(8507, 8532)
-  )
-  covarPreExp <- SelfControlledCaseSeries::createEraCovariateSettings(
-    label = "Pre-exposure",
-    includeEraIds = "exposureId",
-    start = -30,
-    startAnchor = "era start",
-    end = -1,
-    endAnchor = "era start",
-    firstOccurrenceOnly = FALSE,
-    allowRegularization = FALSE,
-    profileLikelihood = FALSE,
-    exposureOfInterest = FALSE
-  )
-  calendarTimeSettings <- SelfControlledCaseSeries::createCalendarTimeCovariateSettings(
-    calendarTimeKnots = 5,
-    allowRegularization = TRUE,
-    computeConfidenceIntervals = FALSE
-  )
-  # seasonalitySettings <- SelfControlledCaseSeries:createSeasonalityCovariateSettings(
-  #   seasonKnots = 5,
-  #   allowRegularization = TRUE,
-  #   computeConfidenceIntervals = FALSE
-  # )
-  fitSccsModelArgs <- SelfControlledCaseSeries::createFitSccsModelArgs(
-    prior = Cyclops::createPrior("laplace", useCrossValidation = TRUE), 
-    control = Cyclops::createControl(
-      cvType = "auto", 
-      selectorType = "byPid", 
-      startingVariance = 0.1, 
-      seed = 1, 
-      resetCoefficients = TRUE, 
-      noiseLevel = "quiet")
-  )
-  for (j in seq_len(nrow(timeAtRisks))) {
-    covarExposureOfInt <- SelfControlledCaseSeries::createEraCovariateSettings(
-      label = "Main",
-      includeEraIds = "exposureId",
-      start = timeAtRisks$riskWindowStart[j],
-      startAnchor = gsub("cohort", "era", timeAtRisks$startAnchor[j]),
-      end = timeAtRisks$riskWindowEnd[j],
-      endAnchor = gsub("cohort", "era", timeAtRisks$endAnchor[j]),
-      firstOccurrenceOnly = FALSE,
-      allowRegularization = FALSE,
-      profileLikelihood = TRUE,
-      exposureOfInterest = TRUE
-    )
-    createSccsIntervalDataArgs <- SelfControlledCaseSeries::createCreateSccsIntervalDataArgs(
-      eraCovariateSettings = list(covarPreExp, covarExposureOfInt),
-      # seasonalityCovariateSettings = seasonalityCovariateSettings,
-      calendarTimeCovariateSettings = calendarTimeSettings
-    )
-    description <- "SCCS"
-    description <- sprintf("%s, having %s - male, female, age >= %s", description, cohortDefinitionSet %>% 
-                             filter(cohortId == indicationId) %>%
-                             pull(cohortName), createStudyPopulationArgs$minAge)
-    description <- sprintf("%s, %s", description, timeAtRisks$label[j])
-    sccsAnalysisList[[length(sccsAnalysisList) + 1]] <- SelfControlledCaseSeries::createSccsAnalysis(
-      analysisId = length(sccsAnalysisList) + 1,
-      description = description,
-      getDbSccsDataArgs = getDbSccsDataArgs,
-      createStudyPopulationArgs = createStudyPopulationArgs,
-      createIntervalDataArgs = createSccsIntervalDataArgs,
-      fitSccsModelArgs = fitSccsModelArgs
-    )
-  }
-}
-selfControlledModuleSpecifications <- sccsModuleSettingsCreator$createModuleSpecifications(
-  sccsAnalysisList = sccsAnalysisList,
-  exposuresOutcomeList = eoList,
-  combineDataFetchAcrossOutcomes = FALSE,
-  sccsDiagnosticThresholds = SelfControlledCaseSeries::createSccsDiagnosticThresholds(
-    mdrrThreshold = Inf,
-    easeThreshold = 0.25,
-    timeTrendPThreshold = 0.05,
-    preExposurePThreshold = 0.05
-  )
-)
+# # SelfControlledCaseSeriesmodule -----------------------------------------------
+# sccsModuleSettingsCreator <- SelfControlledCaseSeriesModule$new()
+# uniqueTargetIds <- sccsTList$targetCohortId
+# 
+# eoList <- list()
+# for (targetId in uniqueTargetIds) {
+#   for (outcomeId in oList$outcomeCohortId) {
+#     eoList[[length(eoList) + 1]] <- SelfControlledCaseSeries::createExposuresOutcome(
+#       outcomeId = outcomeId,
+#       exposures = list(
+#         SelfControlledCaseSeries::createExposure(
+#           exposureId = targetId,
+#           trueEffectSize = NA
+#         )
+#       )
+#     )
+#   }
+#   for (outcomeId in negativeControlOutcomeCohortSet$cohortId) {
+#     eoList[[length(eoList) + 1]] <- SelfControlledCaseSeries::createExposuresOutcome(
+#       outcomeId = outcomeId,
+#       exposures = list(SelfControlledCaseSeries::createExposure(
+#         exposureId = targetId, 
+#         trueEffectSize = 1
+#       ))
+#     )
+#   }
+# }
+# sccsAnalysisList <- list()
+# analysisToInclude <- data.frame()
+# for (i in seq_len(nrow(sccsIList))) {
+#   indicationId <- sccsIList$indicationCohortId[i]
+#   getDbSccsDataArgs <- SelfControlledCaseSeries::createGetDbSccsDataArgs(
+#     maxCasesPerOutcome = 1000000,
+#     useNestingCohort = TRUE,
+#     nestingCohortId = indicationId,
+#     studyStartDate = studyStartDate,
+#     studyEndDate = studyEndDate,
+#     deleteCovariatesSmallCount = 0
+#   )
+#   createStudyPopulationArgs = SelfControlledCaseSeries::createCreateStudyPopulationArgs(
+#     firstOutcomeOnly = TRUE,
+#     naivePeriod = 365,
+#     minAge = 18,
+#     genderConceptIds = c(8507, 8532)
+#   )
+#   covarPreExp <- SelfControlledCaseSeries::createEraCovariateSettings(
+#     label = "Pre-exposure",
+#     includeEraIds = "exposureId",
+#     start = -30,
+#     startAnchor = "era start",
+#     end = -1,
+#     endAnchor = "era start",
+#     firstOccurrenceOnly = FALSE,
+#     allowRegularization = FALSE,
+#     profileLikelihood = FALSE,
+#     exposureOfInterest = FALSE
+#   )
+#   calendarTimeSettings <- SelfControlledCaseSeries::createCalendarTimeCovariateSettings(
+#     calendarTimeKnots = 5,
+#     allowRegularization = TRUE,
+#     computeConfidenceIntervals = FALSE
+#   )
+#   # seasonalitySettings <- SelfControlledCaseSeries:createSeasonalityCovariateSettings(
+#   #   seasonKnots = 5,
+#   #   allowRegularization = TRUE,
+#   #   computeConfidenceIntervals = FALSE
+#   # )
+#   fitSccsModelArgs <- SelfControlledCaseSeries::createFitSccsModelArgs(
+#     prior = Cyclops::createPrior("laplace", useCrossValidation = TRUE), 
+#     control = Cyclops::createControl(
+#       cvType = "auto", 
+#       selectorType = "byPid", 
+#       startingVariance = 0.1, 
+#       seed = 1, 
+#       resetCoefficients = TRUE, 
+#       noiseLevel = "quiet")
+#   )
+#   for (j in seq_len(nrow(timeAtRisks))) {
+#     covarExposureOfInt <- SelfControlledCaseSeries::createEraCovariateSettings(
+#       label = "Main",
+#       includeEraIds = "exposureId",
+#       start = timeAtRisks$riskWindowStart[j],
+#       startAnchor = gsub("cohort", "era", timeAtRisks$startAnchor[j]),
+#       end = timeAtRisks$riskWindowEnd[j],
+#       endAnchor = gsub("cohort", "era", timeAtRisks$endAnchor[j]),
+#       firstOccurrenceOnly = FALSE,
+#       allowRegularization = FALSE,
+#       profileLikelihood = TRUE,
+#       exposureOfInterest = TRUE
+#     )
+#     createSccsIntervalDataArgs <- SelfControlledCaseSeries::createCreateSccsIntervalDataArgs(
+#       eraCovariateSettings = list(covarPreExp, covarExposureOfInt),
+#       # seasonalityCovariateSettings = seasonalityCovariateSettings,
+#       calendarTimeCovariateSettings = calendarTimeSettings
+#     )
+#     description <- "SCCS"
+#     description <- sprintf("%s, having %s - male, female, age >= %s", description, cohortDefinitionSet %>% 
+#                              filter(cohortId == indicationId) %>%
+#                              pull(cohortName), createStudyPopulationArgs$minAge)
+#     description <- sprintf("%s, %s", description, timeAtRisks$label[j])
+#     sccsAnalysisList[[length(sccsAnalysisList) + 1]] <- SelfControlledCaseSeries::createSccsAnalysis(
+#       analysisId = length(sccsAnalysisList) + 1,
+#       description = description,
+#       getDbSccsDataArgs = getDbSccsDataArgs,
+#       createStudyPopulationArgs = createStudyPopulationArgs,
+#       createIntervalDataArgs = createSccsIntervalDataArgs,
+#       fitSccsModelArgs = fitSccsModelArgs
+#     )
+#   }
+# }
+# selfControlledModuleSpecifications <- sccsModuleSettingsCreator$createModuleSpecifications(
+#   sccsAnalysisList = sccsAnalysisList,
+#   exposuresOutcomeList = eoList,
+#   combineDataFetchAcrossOutcomes = FALSE,
+#   sccsDiagnosticThresholds = SelfControlledCaseSeries::createSccsDiagnosticThresholds(
+#     mdrrThreshold = Inf,
+#     easeThreshold = 0.25,
+#     timeTrendPThreshold = 0.05,
+#     preExposurePThreshold = 0.05
+#   )
+# )
 
 # Combine across modules -------------------------------------------------------
 analysisSpecifications <- Strategus::createEmptyAnalysisSpecificiations() |>
@@ -523,8 +523,8 @@ analysisSpecifications <- Strategus::createEmptyAnalysisSpecificiations() |>
   Strategus::addModuleSpecifications(cohortGeneratorModuleSpecifications) |>
   Strategus::addModuleSpecifications(characterizationModuleSpecifications) %>%
   Strategus::addModuleSpecifications(cohortIncidenceModuleSpecifications) %>%
-  Strategus::addModuleSpecifications(cohortMethodModuleSpecifications) %>%
-  Strategus::addModuleSpecifications(selfControlledModuleSpecifications)
+  Strategus::addModuleSpecifications(cohortMethodModuleSpecifications) #%>%
+  #Strategus::addModuleSpecifications(selfControlledModuleSpecifications) #SCCS module is turned off for now
 
 if (!dir.exists(rootFolder)) {
   dir.create(rootFolder, recursive = TRUE)
