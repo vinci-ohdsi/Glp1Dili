@@ -18,8 +18,6 @@ Sys.setenv("VROOM_THREADS"=1) # Sets the number of threads to 1 to avoid deadloc
 # Sys.setenv(JAVA_HOME=)
 Sys.setenv(DATABASECONNECTOR_JAR_FOLDER="C:/Db")
 
-library(Strategus)
-
 databaseName <- "VA-OMOP"
 workDatabaseSchema <- 'VINCI_OMOP.scratch.msuchard'
 cdmDatabaseSchema <- 'CDW_OMOP.OMOPV5'
@@ -57,49 +55,52 @@ ParallelLogger::saveSettingsToJson(
 ## VA SPECIFIC CODE START ---------
 library(Strategus)
 
-# Change the implementation of the CG Module:
-cgModule <- CohortGeneratorModule$new()
-unlockBinding("execute", cgModule)
-cgModule$execute <- function(connectionDetails, analysisSpecifications, executionSettings) {
-  super$execute(connectionDetails, analysisSpecifications, executionSettings)
-  checkmate::assertClass(executionSettings, "CdmExecutionSettings")
-  
-  # message("Got here")
-  
-  jobContext <- private$jobContext
-  cohortDefinitionSet <- super$.createCohortDefinitionSetFromJobContext()
-  if (TRUE) {
-    for (i in 1:nrow(cohortDefinitionSet)) {
-      newSql <- VaTools::translateToCustomVaSqlText(cohortDefinitionSet$sql[i], NULL)         
-      cohortDefinitionSet$sql[i] <- newSql
+CohortGeneratorModule$set(
+  "public", "execute", 
+  function(connectionDetails, analysisSpecifications, executionSettings) {
+    super$.validateCdmExecutionSettings(executionSettings)
+    super$execute(connectionDetails, analysisSpecifications, executionSettings)
+    
+    jobContext <- private$jobContext
+    cohortDefinitionSet <- super$.createCohortDefinitionSetFromJobContext()
+    
+    message("Running VA-specific refactoring")
+    if (TRUE) {
+      for (i in 1:nrow(cohortDefinitionSet)) {
+        newSql <- VaTools::translateToCustomVaSqlText(cohortDefinitionSet$sql[i], NULL)         
+        cohortDefinitionSet$sql[i] <- newSql
+      }
+    }    
+    
+    negativeControlOutcomeSettings <- private$.createNegativeControlOutcomeSettingsFromJobContext()
+    resultsFolder <- jobContext$moduleExecutionSettings$resultsSubFolder
+    if (!dir.exists(resultsFolder)) {
+      dir.create(resultsFolder, recursive = TRUE)
     }
-  }
-  
-  negativeControlOutcomeSettings <- private$.createNegativeControlOutcomeSettingsFromJobContext()
-  resultsFolder <- jobContext$moduleExecutionSettings$resultsSubFolder
-  if (!dir.exists(resultsFolder)) {
-    dir.create(resultsFolder, recursive = TRUE)
-  }
-  
-  CohortGenerator::runCohortGeneration(
-    connectionDetails = connectionDetails,
-    cdmDatabaseSchema = jobContext$moduleExecutionSettings$cdmDatabaseSchema,
-    cohortDatabaseSchema = jobContext$moduleExecutionSettings$workDatabaseSchema,
-    cohortTableNames = jobContext$moduleExecutionSettings$cohortTableNames,
-    cohortDefinitionSet = cohortDefinitionSet,
-    negativeControlOutcomeCohortSet = negativeControlOutcomeSettings$cohortSet,
-    occurrenceType = negativeControlOutcomeSettings$occurrenceType,
-    detectOnDescendants = negativeControlOutcomeSettings$detectOnDescendants,
-    outputFolder = resultsFolder,
-    databaseId = jobContext$moduleExecutionSettings$databaseId,
-    incremental = jobContext$settings$incremental,
-    incrementalFolder = jobContext$moduleExecutionSettings$workSubFolder
-  )
-  
-  private$.message(paste("Results available at:", resultsFolder))
-}
+    
+    CohortGenerator::runCohortGeneration(
+      connectionDetails = connectionDetails,
+      cdmDatabaseSchema = jobContext$moduleExecutionSettings$cdmDatabaseSchema,
+      cohortDatabaseSchema = jobContext$moduleExecutionSettings$workDatabaseSchema,
+      cohortTableNames = jobContext$moduleExecutionSettings$cohortTableNames,
+      cohortDefinitionSet = cohortDefinitionSet,
+      negativeControlOutcomeCohortSet = negativeControlOutcomeSettings$cohortSet,
+      occurrenceType = negativeControlOutcomeSettings$occurrenceType,
+      detectOnDescendants = negativeControlOutcomeSettings$detectOnDescendants,
+      outputFolder = resultsFolder,
+      databaseId = jobContext$moduleExecutionSettings$cdmDatabaseMetaData$databaseId,
+      minCellCount = jobContext$moduleExecutionSettings$minCellCount,
+      incremental = jobContext$moduleExecutionSettings$incremental,
+      incrementalFolder = jobContext$moduleExecutionSettings$workSubFolder
+    )
+    
+    private$.message(paste("Results available at:", resultsFolder))
+  },
+  overwrite = TRUE
+)
 
-# Stand-alone execution the CG Module
+# Stand-alone execution the CG Module             
+cgModule <- CohortGeneratorModule$new()
 cgModule$execute(
   connectionDetails = connectionDetails,
   analysisSpecifications = analysisSpecifications,
@@ -108,6 +109,9 @@ cgModule$execute(
 
 # Remove CG module from the analysis specification
 analysisSpecifications$moduleSpecifications <- analysisSpecifications$moduleSpecifications[2:5]
+
+# Note that given the redefinition of `CohortGeneratorModule` there is no need to
+# separate out its execution as is done above.
 
 ## VA SPECIFIC CODE END ---------
 
