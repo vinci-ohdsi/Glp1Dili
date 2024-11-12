@@ -136,7 +136,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 40239216,
-							"CONCEPT_NAME" : "linagliptin",
+							"CONCEPT_NAME" : "Linagliptin",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -263,7 +263,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 44506754,
-							"CONCEPT_NAME" : "lixisenatide",
+							"CONCEPT_NAME" : "Lixisenatide",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -398,7 +398,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1594973,
-							"CONCEPT_NAME" : "chlorpropamide",
+							"CONCEPT_NAME" : "Chlorpropamide",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -432,7 +432,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1560171,
-							"CONCEPT_NAME" : "glipizide",
+							"CONCEPT_NAME" : "Glipizide",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -466,7 +466,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1559684,
-							"CONCEPT_NAME" : "glyburide",
+							"CONCEPT_NAME" : "Glyburide",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -483,7 +483,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1502809,
-							"CONCEPT_NAME" : "tolazamide",
+							"CONCEPT_NAME" : "Tolazamide",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -500,7 +500,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1502855,
-							"CONCEPT_NAME" : "tolbutamide",
+							"CONCEPT_NAME" : "Tolbutamide",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -525,7 +525,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1529331,
-							"CONCEPT_NAME" : "acarbose",
+							"CONCEPT_NAME" : "Acarbose",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -542,7 +542,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1530014,
-							"CONCEPT_NAME" : "acetohexamide",
+							"CONCEPT_NAME" : "Acetohexamide",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -559,7 +559,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 730548,
-							"CONCEPT_NAME" : "bromocriptine",
+							"CONCEPT_NAME" : "Bromocriptine",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -576,7 +576,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 19033498,
-							"CONCEPT_NAME" : "carbutamide",
+							"CONCEPT_NAME" : "Carbutamide",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -610,7 +610,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 19059796,
-							"CONCEPT_NAME" : "gliclazide",
+							"CONCEPT_NAME" : "Gliclazide",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -754,7 +754,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1596977,
-							"CONCEPT_NAME" : "insulin, regular, human",
+							"CONCEPT_NAME" : "Regular Insulin, Human",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -771,7 +771,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1550023,
-							"CONCEPT_NAME" : "insulin lispro",
+							"CONCEPT_NAME" : "Insulin Lispro",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -788,7 +788,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1567198,
-							"CONCEPT_NAME" : "insulin aspart, human",
+							"CONCEPT_NAME" : "Insulin, Aspart, Human",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -805,7 +805,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1502905,
-							"CONCEPT_NAME" : "insulin glargine",
+							"CONCEPT_NAME" : "Insulin Glargine",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -822,7 +822,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1513876,
-							"CONCEPT_NAME" : "insulin lispro protamine, human",
+							"CONCEPT_NAME" : "Insulin, Protamine Lispro, Human",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -839,7 +839,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1531601,
-							"CONCEPT_NAME" : "insulin aspart protamine, human",
+							"CONCEPT_NAME" : "Insulin, Aspart Protamine, Human",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -856,7 +856,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1586346,
-							"CONCEPT_NAME" : "insulin, regular, pork",
+							"CONCEPT_NAME" : "Insulin, Regular, Pork",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -873,7 +873,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1544838,
-							"CONCEPT_NAME" : "insulin glulisine, human",
+							"CONCEPT_NAME" : "Insulin, Glulisine, Human",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -924,7 +924,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1513849,
-							"CONCEPT_NAME" : "lente insulin, human",
+							"CONCEPT_NAME" : "Insulin, Zinc, Human",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -941,7 +941,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1562586,
-							"CONCEPT_NAME" : "lente insulin, pork",
+							"CONCEPT_NAME" : "Insulin, Zinc, Pork",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -975,7 +975,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1513843,
-							"CONCEPT_NAME" : "lente insulin, beef-pork",
+							"CONCEPT_NAME" : "Lente Insulin, Beef-Pork",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -992,7 +992,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1586369,
-							"CONCEPT_NAME" : "ultralente insulin, human",
+							"CONCEPT_NAME" : "Ultralente Insulin, Human",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -1060,7 +1060,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 19078608,
-							"CONCEPT_NAME" : "insulin, protamine zinc, beef-pork 100 UNT/ML Injectable Suspension",
+							"CONCEPT_NAME" : "Insulin, Protamine Zinc, Beef-Pork 100 UNT/ML Injectable Suspension",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -1085,7 +1085,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 1503297,
-							"CONCEPT_NAME" : "metformin",
+							"CONCEPT_NAME" : "Metformin",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -1135,7 +1135,7 @@
 							"CONCEPT_CODE" : "138811000119100",
 							"DOMAIN_ID" : "Condition",
 							"VOCABULARY_ID" : "SNOMED",
-							"CONCEPT_CLASS_ID" : "Disorder"
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
 						},
 						"isExcluded" : false,
 						"includeDescendants" : true,
@@ -1525,7 +1525,7 @@
 							"CONCEPT_CODE" : "609566000",
 							"DOMAIN_ID" : "Condition",
 							"VOCABULARY_ID" : "SNOMED",
-							"CONCEPT_CLASS_ID" : "Disorder"
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
 						},
 						"isExcluded" : true,
 						"includeDescendants" : true,
@@ -1542,7 +1542,7 @@
 							"CONCEPT_CODE" : "11687002",
 							"DOMAIN_ID" : "Condition",
 							"VOCABULARY_ID" : "SNOMED",
-							"CONCEPT_CLASS_ID" : "Disorder"
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
 						},
 						"isExcluded" : true,
 						"includeDescendants" : true,
@@ -1610,7 +1610,7 @@
 					{
 						"concept" : {
 							"CONCEPT_ID" : 44506754,
-							"CONCEPT_NAME" : "lixisenatide",
+							"CONCEPT_NAME" : "Lixisenatide",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
@@ -1653,6 +1653,541 @@
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
 							"CONCEPT_CLASS_ID" : "Ingredient"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					}
+				]
+			}
+		},
+		{
+			"id" : 16,
+			"name" : "Existing liver and biliary condition (Wilson, Viral, Alcohol, Neoplasm, Hemochromatosis, Cirrhosis, Autoimmune hepatitis, abscess)",
+			"expression" : {
+				"items" : [
+					{
+						"concept" : {
+							"CONCEPT_ID" : 201901,
+							"CONCEPT_NAME" : "Abscess of liver",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "27916005",
+							"DOMAIN_ID" : "Condition",
+							"VOCABULARY_ID" : "SNOMED",
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 37311131,
+							"CONCEPT_NAME" : "Alcohol detoxification",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "827094004",
+							"DOMAIN_ID" : "Procedure",
+							"VOCABULARY_ID" : "SNOMED",
+							"CONCEPT_CLASS_ID" : "Procedure"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 46269816,
+							"CONCEPT_NAME" : "Ascites due to alcoholic cirrhosis",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "1082601000119104",
+							"DOMAIN_ID" : "Condition",
+							"VOCABULARY_ID" : "SNOMED",
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 46269817,
+							"CONCEPT_NAME" : "Ascites due to alcoholic hepatitis",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "1082611000119101",
+							"DOMAIN_ID" : "Condition",
+							"VOCABULARY_ID" : "SNOMED",
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 200762,
+							"CONCEPT_NAME" : "Autoimmune hepatitis",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "408335007",
+							"DOMAIN_ID" : "Condition",
+							"VOCABULARY_ID" : "SNOMED",
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 44806251,
+							"CONCEPT_NAME" : "Biliary acute pancreatitis",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "811431000000107",
+							"DOMAIN_ID" : "Condition",
+							"VOCABULARY_ID" : "SNOMED",
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 4145627,
+							"CONCEPT_NAME" : "Biliary calculus",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "266474003",
+							"DOMAIN_ID" : "Condition",
+							"VOCABULARY_ID" : "SNOMED",
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 37016176,
+							"CONCEPT_NAME" : "Cerebral degeneration due to alcoholism",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "135761000119101",
+							"DOMAIN_ID" : "Condition",
+							"VOCABULARY_ID" : "SNOMED",
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 195856,
+							"CONCEPT_NAME" : "Cholangitis",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "82403002",
+							"DOMAIN_ID" : "Condition",
+							"VOCABULARY_ID" : "SNOMED",
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 4340390,
+							"CONCEPT_NAME" : "Chronic hepatic failure",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "235886005",
+							"DOMAIN_ID" : "Condition",
+							"VOCABULARY_ID" : "SNOMED",
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 4212540,
+							"CONCEPT_NAME" : "Chronic liver disease",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "328383001",
+							"DOMAIN_ID" : "Condition",
+							"VOCABULARY_ID" : "SNOMED",
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 318773,
+							"CONCEPT_NAME" : "Dilated cardiomyopathy secondary to alcohol",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "83521008",
+							"DOMAIN_ID" : "Condition",
+							"VOCABULARY_ID" : "SNOMED",
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 36714559,
+							"CONCEPT_NAME" : "Disorder caused by alcohol",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "719848005",
+							"DOMAIN_ID" : "Condition",
+							"VOCABULARY_ID" : "SNOMED",
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 45769564,
+							"CONCEPT_NAME" : "End stage liver disease",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "708248004",
+							"DOMAIN_ID" : "Condition",
+							"VOCABULARY_ID" : "SNOMED",
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 4042860,
+							"CONCEPT_NAME" : "Finding relating to alcohol drinking behavior",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "228273003",
+							"DOMAIN_ID" : "Observation",
+							"VOCABULARY_ID" : "SNOMED",
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 45757783,
+							"CONCEPT_NAME" : "Gastric hemorrhage due to alcoholic gastritis",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "40241000119109",
+							"DOMAIN_ID" : "Condition",
+							"VOCABULARY_ID" : "SNOMED",
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 4058714,
+							"CONCEPT_NAME" : "H/O: alcoholism",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "161466001",
+							"DOMAIN_ID" : "Observation",
+							"VOCABULARY_ID" : "SNOMED",
+							"CONCEPT_CLASS_ID" : "Context-dependent"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 44788726,
+							"CONCEPT_NAME" : "Harmful alcohol use",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "198431000000105",
+							"DOMAIN_ID" : "Observation",
+							"VOCABULARY_ID" : "SNOMED",
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 44788725,
+							"CONCEPT_NAME" : "Hazardous alcohol use",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "198421000000108",
+							"DOMAIN_ID" : "Observation",
+							"VOCABULARY_ID" : "SNOMED",
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 4163735,
+							"CONCEPT_NAME" : "Hemochromatosis",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "399187006",
+							"DOMAIN_ID" : "Condition",
+							"VOCABULARY_ID" : "SNOMED",
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 46269836,
+							"CONCEPT_NAME" : "Hepatic coma due to chronic hepatic failure",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "1085091000119108",
+							"DOMAIN_ID" : "Condition",
+							"VOCABULARY_ID" : "SNOMED",
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 196029,
+							"CONCEPT_NAME" : "Hepatic coma due to viral hepatitis",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "40946000",
+							"DOMAIN_ID" : "Condition",
+							"VOCABULARY_ID" : "SNOMED",
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 4331292,
+							"CONCEPT_NAME" : "Hepatic failure due to a procedure",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "22508003",
+							"DOMAIN_ID" : "Condition",
+							"VOCABULARY_ID" : "SNOMED",
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 40484946,
+							"CONCEPT_NAME" : "High alcohol level in blood",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "442766007",
+							"DOMAIN_ID" : "Condition",
+							"VOCABULARY_ID" : "SNOMED",
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 43021368,
+							"CONCEPT_NAME" : "History of viral hepatitis",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "473117004",
+							"DOMAIN_ID" : "Observation",
+							"VOCABULARY_ID" : "SNOMED",
+							"CONCEPT_CLASS_ID" : "Context-dependent"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 4130518,
+							"CONCEPT_NAME" : "Neoplasm of liver",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "126851005",
+							"DOMAIN_ID" : "Condition",
+							"VOCABULARY_ID" : "SNOMED",
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 4340396,
+							"CONCEPT_NAME" : "Obstruction of biliary tree",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "235918000",
+							"DOMAIN_ID" : "Condition",
+							"VOCABULARY_ID" : "SNOMED",
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 4093637,
+							"CONCEPT_NAME" : "Sequelae of viral hepatitis",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "187260009",
+							"DOMAIN_ID" : "Condition",
+							"VOCABULARY_ID" : "SNOMED",
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 435140,
+							"CONCEPT_NAME" : "Toxic effect of alcohol",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "67426006",
+							"DOMAIN_ID" : "Condition",
+							"VOCABULARY_ID" : "SNOMED",
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 4291005,
+							"CONCEPT_NAME" : "Viral hepatitis",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "3738000",
+							"DOMAIN_ID" : "Condition",
+							"VOCABULARY_ID" : "SNOMED",
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 4229262,
+							"CONCEPT_NAME" : "Wilson's disease",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "88518009",
+							"DOMAIN_ID" : "Condition",
+							"VOCABULARY_ID" : "SNOMED",
+							"CONCEPT_CLASS_ID" : "Clinical Finding"
 						},
 						"isExcluded" : false,
 						"includeDescendants" : true,
@@ -1735,43 +2270,7 @@
 			}
 		},
 		{
-			"name" : "No prior DPP4 inhibitor exposure",
-			"expression" : {
-				"Type" : "ALL",
-				"CriteriaList" : [
-					{
-						"Criteria" : {
-							"DrugExposure" : {
-								"CodesetId" : 1,
-								"DrugTypeExclude" : false
-							}
-						},
-						"StartWindow" : {
-							"Start" : {
-								"Coeff" : -1
-							},
-							"End" : {
-								"Days" : 0,
-								"Coeff" : -1
-							},
-							"UseIndexEnd" : false,
-							"UseEventEnd" : false
-						},
-						"RestrictVisit" : false,
-						"IgnoreObservationPeriod" : true,
-						"Occurrence" : {
-							"Type" : 0,
-							"Count" : 0,
-							"IsDistinct" : false
-						}
-					}
-				],
-				"DemographicCriteriaList" : [],
-				"Groups" : []
-			}
-		},
-		{
-			"name" : "No prior SGLT-2 inhibitor exposure",
+			"name" : "No prior SGLT2 inhibitor exposure",
 			"expression" : {
 				"Type" : "ALL",
 				"CriteriaList" : [
@@ -1807,121 +2306,19 @@
 			}
 		},
 		{
-			"name" : "No prior SU exposure",
+			"name" : "No underlying hepatic and biliary condition",
 			"expression" : {
 				"Type" : "ALL",
 				"CriteriaList" : [
 					{
 						"Criteria" : {
-							"DrugExposure" : {
-								"CodesetId" : 4,
-								"DrugTypeExclude" : false
+							"ConditionOccurrence" : {
+								"CodesetId" : 16,
+								"ConditionTypeExclude" : false
 							}
 						},
 						"StartWindow" : {
 							"Start" : {
-								"Coeff" : -1
-							},
-							"End" : {
-								"Days" : 0,
-								"Coeff" : -1
-							},
-							"UseIndexEnd" : false,
-							"UseEventEnd" : false
-						},
-						"RestrictVisit" : false,
-						"IgnoreObservationPeriod" : true,
-						"Occurrence" : {
-							"Type" : 0,
-							"Count" : 0,
-							"IsDistinct" : false
-						}
-					}
-				],
-				"DemographicCriteriaList" : [],
-				"Groups" : []
-			}
-		},
-		{
-			"name" : "No prior other anti-diabetic exposure",
-			"expression" : {
-				"Type" : "ALL",
-				"CriteriaList" : [
-					{
-						"Criteria" : {
-							"DrugExposure" : {
-								"CodesetId" : 5,
-								"DrugTypeExclude" : false
-							}
-						},
-						"StartWindow" : {
-							"Start" : {
-								"Coeff" : -1
-							},
-							"End" : {
-								"Days" : 0,
-								"Coeff" : -1
-							},
-							"UseIndexEnd" : false,
-							"UseEventEnd" : false
-						},
-						"RestrictVisit" : false,
-						"IgnoreObservationPeriod" : true,
-						"Occurrence" : {
-							"Type" : 0,
-							"Count" : 0,
-							"IsDistinct" : false
-						}
-					}
-				],
-				"DemographicCriteriaList" : [],
-				"Groups" : []
-			}
-		},
-		{
-			"name" : "No prior insulin use or combo initiation",
-			"description" : "Proxy for < 30 days drug era anytime before index and no combination use on index",
-			"expression" : {
-				"Type" : "ALL",
-				"CriteriaList" : [
-					{
-						"Criteria" : {
-							"DrugEra" : {
-								"CodesetId" : 6,
-								"EraLength" : {
-									"Value" : 30,
-									"Op" : "gt"
-								}
-							}
-						},
-						"StartWindow" : {
-							"Start" : {
-								"Coeff" : -1
-							},
-							"End" : {
-								"Days" : 30,
-								"Coeff" : -1
-							},
-							"UseIndexEnd" : false,
-							"UseEventEnd" : false
-						},
-						"RestrictVisit" : false,
-						"IgnoreObservationPeriod" : true,
-						"Occurrence" : {
-							"Type" : 0,
-							"Count" : 0,
-							"IsDistinct" : false
-						}
-					},
-					{
-						"Criteria" : {
-							"DrugEra" : {
-								"CodesetId" : 6
-							}
-						},
-						"StartWindow" : {
-							"Start" : {
-								"Days" : 30,
 								"Coeff" : -1
 							},
 							"End" : {
@@ -1932,7 +2329,7 @@
 							"UseEventEnd" : false
 						},
 						"RestrictVisit" : false,
-						"IgnoreObservationPeriod" : true,
+						"IgnoreObservationPeriod" : false,
 						"Occurrence" : {
 							"Type" : 0,
 							"Count" : 0,
@@ -1952,7 +2349,14 @@
 			"Offset" : 0
 		}
 	},
-	"CensoringCriteria" : [],
+	"CensoringCriteria" : [
+		{
+			"DrugExposure" : {
+				"CodesetId" : 3,
+				"DrugTypeExclude" : false
+			}
+		}
+	],
 	"CollapseSettings" : {
 		"CollapseType" : "ERA",
 		"EraPad" : 0

@@ -14,7 +14,8 @@
 
 # remotes::install_github("OHDSI/ROhdsiWebApi")
 library(dplyr)
-baseUrl <- "https://atlas-demo.ohdsi.org/WebAPI"
+# baseUrl <- "https://atlas-demo.ohdsi.org/WebAPI"
+baseUrl <- Sys.getenv("Glp1DiliAtlas")
 # Use this if your WebAPI instance has security enables
 # ROhdsiWebApi::authorizeWebApi(
 #   baseUrl = baseUrl,
@@ -23,31 +24,42 @@ baseUrl <- "https://atlas-demo.ohdsi.org/WebAPI"
 cohortDefinitionSet <- ROhdsiWebApi::exportCohortDefinitionSet(
   baseUrl = baseUrl,
   cohortIds = c(
-    465, # New user of GLP1 receptor agonists as 2nd-line treatment with prior T2DM and prior metformin
-    466, # New user of DPP4 inhibitors as 2nd-line treatment with prior T2DM and prior metformin
-    467, # New user of GLP1 receptor agonists with prior T2DM and prior metformin
-    468, # New user of DPP4 inhibitors with prior T2DM and prior metformin
-    469, # All events of Acute Liver Injury, NO viral hepatitis or alcoholic hepatic failure
-    470, # Newly developed abnormal liver test 
+    467, # GLP1R user (vs DPP4i) #
+    468, # DPP4 user (vs GLP1Ra) #
+    475, # GLP1R user (vs SGLT2i) #
+    477, # SGLT2i user (vs GLR1Ra) #
+    469, # All events of Acute Liver Injury, NO viral hepatitis or alcoholic hepatic failure #
+    480, # Newly developed abnormal liver test #
+    484, # Newly developed bile duct or gallbladder disease #
+    
     471, #GLP1R exposure
     472, #DPP4i exposure
+    479, #SGLT2i exposure
     473 #indication (type 2 DM)
   ),
   generateStats = TRUE
 )
 
 # Rename cohorts
-# cohortDefinitionSet[cohortDefinitionSet$cohortId == 1778211,]$cohortName <- "celecoxib"
-# cohortDefinitionSet[cohortDefinitionSet$cohortId == 1790989,]$cohortName <- "diclofenac"
-# cohortDefinitionSet[cohortDefinitionSet$cohortId == 1780946,]$cohortName <- "GI Bleed"
+cohortDefinitionSet[cohortDefinitionSet$cohortId == 467,]$cohortName <- "GLP1R user (vs DPP4i)"
+cohortDefinitionSet[cohortDefinitionSet$cohortId == 468,]$cohortName <- "DPP4 user (vs GLP1Ra)"
+cohortDefinitionSet[cohortDefinitionSet$cohortId == 475,]$cohortName <- "GLP1R user (vs SGLT2i)"
+cohortDefinitionSet[cohortDefinitionSet$cohortId == 477,]$cohortName <- "SGLT2i user (vs GLR1Ra)"
 
-# Re-number cohorts
+#### Re-number cohorts####
+# GLP1Ra vs DPP4i
 cohortDefinitionSet[cohortDefinitionSet$cohortId == 467,]$cohortId <- 11
 cohortDefinitionSet[cohortDefinitionSet$cohortId == 468,]$cohortId <- 12
-cohortDefinitionSet[cohortDefinitionSet$cohortId == 465,]$cohortId <- 21
-cohortDefinitionSet[cohortDefinitionSet$cohortId == 466,]$cohortId <- 22
+
+# GLP1Ra vs DPP4i
+cohortDefinitionSet[cohortDefinitionSet$cohortId == 475,]$cohortId <- 21
+cohortDefinitionSet[cohortDefinitionSet$cohortId == 477,]$cohortId <- 22
+
+# outcomes
 cohortDefinitionSet[cohortDefinitionSet$cohortId == 469,]$cohortId <- 101
-cohortDefinitionSet[cohortDefinitionSet$cohortId == 470,]$cohortId <- 102
+cohortDefinitionSet[cohortDefinitionSet$cohortId == 480,]$cohortId <- 102
+cohortDefinitionSet[cohortDefinitionSet$cohortId == 484,]$cohortId <- 103
+
 cohortDefinitionSet[cohortDefinitionSet$cohortId == 471,]$cohortId <- 201
 cohortDefinitionSet[cohortDefinitionSet$cohortId == 472,]$cohortId <- 202
 cohortDefinitionSet[cohortDefinitionSet$cohortId == 473,]$cohortId <- 301
@@ -64,7 +76,7 @@ CohortGenerator::saveCohortDefinitionSet(
 
 # Download and save the covariates to exclude
 covariatesToExcludeConceptSet <- ROhdsiWebApi::getConceptSetDefinition(
-  conceptSetId = 434,
+  conceptSetId = 436,
   baseUrl = baseUrl
 ) %>%
   ROhdsiWebApi::resolveConceptSet(
@@ -87,7 +99,7 @@ CohortGenerator::writeCsv(
 
 # Download and save the negative control outcomes
 negativeControlOutcomeCohortSet <- ROhdsiWebApi::getConceptSetDefinition(
-  conceptSetId = 1885090,
+  conceptSetId = 437,
   baseUrl = baseUrl
 ) %>%
   ROhdsiWebApi::resolveConceptSet(
@@ -98,12 +110,12 @@ negativeControlOutcomeCohortSet <- ROhdsiWebApi::getConceptSetDefinition(
   ) %>%
   rename(outcomeConceptId = "conceptId",
          cohortName = "conceptName") %>%
-  mutate(cohortId = row_number() + 100) %>%
+  mutate(cohortId = row_number() + 10000) %>%
   select(cohortId, cohortName, outcomeConceptId)
 
 # NOTE: Update file location for your study.
 CohortGenerator::writeCsv(
   x = negativeControlOutcomeCohortSet,
-  file = "inst/sampleStudy/negativeControlOutcomes.csv",
+  file = "inst/negativeControlOutcomes.csv",
   warnOnFileNameCaseMismatch = F
 )

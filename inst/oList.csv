@@ -1,3 +1,4 @@
 outcome_cohort_id,outcome_cohort_name,clean_window
-101,"All events of Acute Liver Injury, NO viral hepatitis or alcoholic hepatic failure",90
-102,Newly developed abnormal liver test ,90
+101,"Acute Liver Injury without definitive cause",365
+102,Newly developed abnormal liver test ,365
+103,Newly developed bile duct or gallbladder disease ,365

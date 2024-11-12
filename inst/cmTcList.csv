@@ -1,3 +1,3 @@
 target_cohort_id,target_cohort_name,comparator_cohort_id,comparator_cohort_name
-11,New user of GLP1 receptor agonists with prior T2DM and prior metformin,12,New user of DPP4 inhibitors with prior T2DM and prior metformin
-21,New user of GLP1 receptor agonists as 2nd-line treatment with prior T2DM and prior metformin,22,New user of DPP4 inhibitors as 2nd-line treatment with prior T2DM and prior metformin
+11,"GLP1R user (vs DPP4i)",12,"DPP4 user (vs GLP1Ra)"
+21,"GLP1R user (vs SGLT2i)",22,"SGLT2i user (vs GLR1Ra)"
