@@ -30,7 +30,7 @@ cohortDefinitionSet <- ROhdsiWebApi::exportCohortDefinitionSet(
     477, # SGLT2i user (vs GLR1Ra) #
     469, # All events of Acute Liver Injury, NO viral hepatitis or alcoholic hepatic failure #
     480, # Newly developed abnormal liver test #
-    484, # Newly developed bile duct or gallbladder disease #
+    484, # Bile duct or gallbladder disease with hospitalization #
     
     471, #GLP1R exposure
     472, #DPP4i exposure

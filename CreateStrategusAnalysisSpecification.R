@@ -12,16 +12,6 @@ library(dplyr)
 library(Strategus)
 rootFolder <- getwd()
 
-timeAtRisks <- tibble(
-  label = c("On treatment", "30-day"),
-  riskWindowStart  = c(1, 1),
-  startAnchor = c("cohort start", "cohort start"),
-  riskWindowEnd  = c(0, 31),
-  endAnchor = c("cohort end", "cohort start")
-)
-psArgs <- tibble(
-  label = c("Variable matching", "PS stratification")
-)
 studyStartDate <- '20171201' #YYYYMMDD
 studyEndDate <- '20231231'   #YYYYMMDD
 # This is lame but has to be done
@@ -101,7 +91,7 @@ cModuleSettingsCreator <- CharacterizationModule$new()
 covariateSettings <- FeatureExtraction::createDefaultCovariateSettings(
   addDescendantsToExclude = TRUE # Keep TRUE because you're excluding concepts
 )
-covariateSettings$useMeasurementValueShortTerm = TRUE #Adding measurement values to adjusting variables when they are available
+covariateSettings$MeasurementValueShortTerm = TRUE #Adding measurement values to adjusting variables when they are available
 
 characterizationModuleSpecifications <- cModuleSettingsCreator$createModuleSpecifications(
   targetIds = cohortDefinitionSet$cohortId, # NOTE: This is all T/C/I/O
@@ -179,6 +169,85 @@ cohortIncidenceModuleSpecifications <- ciModuleSettingsCreator$createModuleSpeci
 
 
 # CohortMethodModule -----------------------------------------------------------
+
+# Define timeAtRisks
+timeAtRisks <- tibble(
+  labelTar = c("On treatment", "90-day"),
+  riskWindowStart = c(1, 1),
+  startAnchor = c("cohort start", "cohort start"),
+  riskWindowEnd = c(0, 91),
+  endAnchor = c("cohort end", "cohort start")
+)
+
+# Define psArgs
+psArgs <- tibble(
+  labelPs = c("Variable matching", "PS stratification"),
+  matchOnPsArgs = list(
+    CohortMethod::createMatchOnPsArgs(
+      maxRatio = 99,
+      caliper = 0.2,
+      caliperScale = "standardized logit",
+      allowReverseMatch = FALSE,
+      stratificationColumns = c()
+    ),
+    NULL
+  ),
+  stratifyByPsArgs = list(
+    NULL,
+    CohortMethod::createStratifyByPsArgs(
+      numberOfStrata = 5,
+      stratificationColumns = c(),
+      baseSelection = "all"
+    )
+  ),
+  fitOutcomeModelArgs = list(
+    CohortMethod::createFitOutcomeModelArgs(
+      modelType = "cox",
+      stratified = TRUE, #if 1-to-1 matching, it should be FALSE
+      useCovariates = FALSE,
+      inversePtWeighting = FALSE,
+      prior = Cyclops::createPrior(
+        priorType = "laplace",
+        useCrossValidation = TRUE
+      ),
+      control = Cyclops::createControl(
+        cvType = "auto",
+        seed = 1,
+        resetCoefficients = TRUE,
+        startingVariance = 0.01,
+        tolerance = 2e-07,
+        cvRepetitions = 1,
+        noiseLevel = "quiet"
+      )
+    ),
+    CohortMethod::createFitOutcomeModelArgs(
+      modelType = "cox",
+      stratified = TRUE,  #if 1-to-1 matching, it should be FALSE
+      useCovariates = FALSE,
+      inversePtWeighting = FALSE,
+      prior = Cyclops::createPrior(
+        priorType = "laplace",
+        useCrossValidation = TRUE
+      ),
+      control = Cyclops::createControl(
+        cvType = "auto",
+        seed = 1,
+        resetCoefficients = TRUE,
+        startingVariance = 0.01,
+        tolerance = 2e-07,
+        cvRepetitions = 1,
+        noiseLevel = "quiet"
+      )
+    )
+  )
+)
+
+# Create an index for all combinations
+combinations <- expand.grid(
+  timeAtRiskIdx = seq_len(nrow(timeAtRisks)),
+  psArgsIdx = seq_len(nrow(psArgs))
+)
+
 cmModuleSettingsCreator <- CohortMethodModule$new()
 covariateSettings <- FeatureExtraction::createDefaultCovariateSettings(
   addDescendantsToExclude = TRUE # Keep TRUE because you're excluding concepts
@@ -244,18 +313,7 @@ createPsArgs = CohortMethod::createCreatePsArgs(
     startingVariance = 0.01
   )
 )
-matchOnPsArgs = CohortMethod::createMatchOnPsArgs(
-  maxRatio = psMatchMaxRatio,
-  caliper = 0.2,
-  caliperScale = "standardized logit",
-  allowReverseMatch = FALSE,
-  stratificationColumns = c()
-)
-stratifyByPsArgs <- CohortMethod::createStratifyByPsArgs(
-  numberOfStrata = 5,
-  stratificationColumns = c(),
-  baseSelection = "all"
-)
+
 computeSharedCovariateBalanceArgs = CohortMethod::createComputeCovariateBalanceArgs(
   maxCohortSize = 250000,
   covariateFilter = NULL
@@ -265,68 +323,15 @@ computeCovariateBalanceArgs = CohortMethod::createComputeCovariateBalanceArgs(
   covariateFilter = FeatureExtraction::getDefaultTable1Specifications()
 )
 
-fitOutcomeModelArgsMatch <- CohortMethod::createFitOutcomeModelArgs(
-  modelType = "cox",
-  stratified = psMatchMaxRatio != 1,
-  useCovariates = FALSE,
-  inversePtWeighting = FALSE,
-  prior = Cyclops::createPrior(
-    priorType = "laplace", 
-    useCrossValidation = TRUE
-  ),
-  control = Cyclops::createControl(
-    cvType = "auto", 
-    seed = 1, 
-    resetCoefficients = TRUE,
-    startingVariance = 0.01, 
-    tolerance = 2e-07, 
-    cvRepetitions = 1, 
-    noiseLevel = "quiet"
-  )
-)
-
-fitOutcomeModelArgsStrat <- CohortMethod::createFitOutcomeModelArgs(
-  modelType = "cox",
-  stratified = TRUE,
-  useCovariates = FALSE,
-  inversePtWeighting = FALSE,
-  prior = Cyclops::createPrior(
-    priorType = "laplace", 
-    useCrossValidation = TRUE
-  ),
-  control = Cyclops::createControl(
-    cvType = "auto", 
-    seed = 1, 
-    resetCoefficients = TRUE,
-    startingVariance = 0.01, 
-    tolerance = 2e-07, 
-    cvRepetitions = 1, 
-    noiseLevel = "quiet"
-  )
-)
-
-# fitOutcomeModelArgs = CohortMethod::createFitOutcomeModelArgs(
-#   modelType = "cox",
-#   stratified = psMatchMaxRatio != 1,
-#   useCovariates = FALSE,
-#   inversePtWeighting = FALSE,
-#   prior = Cyclops::createPrior(
-#     priorType = "laplace", 
-#     useCrossValidation = TRUE
-#   ),
-#   control = Cyclops::createControl(
-#     cvType = "auto", 
-#     seed = 1, 
-#     resetCoefficients = TRUE,
-#     startingVariance = 0.01, 
-#     tolerance = 2e-07, 
-#     cvRepetitions = 1, 
-#     noiseLevel = "quiet"
-#   )
-# )
+# Initialize cmAnalysisList
 cmAnalysisList <- list()
-for (i in seq_len(nrow(timeAtRisks)*nrow(psArgs))) {
-  if (i%%2) {k <- 1} else{ k <- 2}#i%%2 should be revised
+
+# Generate cmAnalysisList for each combination
+for (i in seq_len(nrow(combinations))) {
+  timeAtRiskIdx <- combinations$timeAtRiskIdx[i]
+  psArgsIdx <- combinations$psArgsIdx[i]
+  
+  # Retrieve values from timeAtRisks and psArgs using the indices
   createStudyPopArgs <- CohortMethod::createCreateStudyPopulationArgs(
     firstExposureOnly = FALSE,
     washoutPeriod = 0,
@@ -334,49 +339,36 @@ for (i in seq_len(nrow(timeAtRisks)*nrow(psArgs))) {
     censorAtNewRiskWindow = TRUE,
     removeSubjectsWithPriorOutcome = TRUE,
     priorOutcomeLookback = priorOutcomeLookback365,
-    riskWindowStart = timeAtRisks$riskWindowStart[[k]], #i%%2 should be revised
-    startAnchor = timeAtRisks$startAnchor[[k]], #i%%2 should be revised
-    riskWindowEnd = timeAtRisks$riskWindowEnd[[k]], #i%%2 should be revised
-    endAnchor = timeAtRisks$endAnchor[[k]], #i%%2 should be revised
+    riskWindowStart = timeAtRisks$riskWindowStart[timeAtRiskIdx],
+    startAnchor = timeAtRisks$startAnchor[timeAtRiskIdx],
+    riskWindowEnd = timeAtRisks$riskWindowEnd[timeAtRiskIdx],
+    endAnchor = timeAtRisks$endAnchor[timeAtRiskIdx],
     minDaysAtRisk = 1,
     maxDaysAtRisk = 99999
   )
-  #The code should be revised. 
-  if(i%%2==1){
-    cmAnalysisList[[i]] <- CohortMethod::createCmAnalysis(
-      analysisId = i,
-      description = sprintf(
-        "Cohort method, %s, %s",
-        timeAtRisks$label[i],
-        "Varaible-ratio matching"
-      ),
-      getDbCohortMethodDataArgs = getDbCohortMethodDataArgs,
-      createStudyPopArgs = createStudyPopArgs,
-      createPsArgs = createPsArgs,
-      matchOnPsArgs = matchOnPsArgs,
-      # stratifyByPsArgs = stratifyByPsArgs,
-      computeSharedCovariateBalanceArgs = computeSharedCovariateBalanceArgs,
-      computeCovariateBalanceArgs = computeCovariateBalanceArgs,
-      fitOutcomeModelArgs = fitOutcomeModelArgsMatch
-    )
-  }else{
-    cmAnalysisList[[i]] <- CohortMethod::createCmAnalysis(
-      analysisId = i,
-      description = sprintf(
-        "Cohort method, %s, %s",
-        timeAtRisks$label[i],
-        "Stratification"
-      ),
-      getDbCohortMethodDataArgs = getDbCohortMethodDataArgs,
-      createStudyPopArgs = createStudyPopArgs,
-      createPsArgs = createPsArgs,
-      # matchOnPsArgs = matchOnPsArgs,
-      stratifyByPsArgs = stratifyByPsArgs,
-      computeSharedCovariateBalanceArgs = computeSharedCovariateBalanceArgs,
-      computeCovariateBalanceArgs = computeCovariateBalanceArgs,
-      fitOutcomeModelArgs = fitOutcomeModelArgsStrat
-    )
-  }
+  
+  # Set matchOnPsArgs, stratifyByPsArgs, and fitOutcomeModelArgs based on psArgs
+  matchOnPsArgs <- psArgs$matchOnPsArgs[[psArgsIdx]]
+  stratifyByPsArgs <- psArgs$stratifyByPsArgs[[psArgsIdx]]
+  fitOutcomeModelArgs <- psArgs$fitOutcomeModelArgs[[psArgsIdx]]
+  
+  # Create cmAnalysisList entry
+  cmAnalysisList[[i]] <- CohortMethod::createCmAnalysis(
+    analysisId = i,
+    description = sprintf(
+      "Cohort method, %s, %s",
+      timeAtRisks$labelTar[timeAtRiskIdx],
+      psArgs$labelPs[psArgsIdx]
+    ),
+    getDbCohortMethodDataArgs = getDbCohortMethodDataArgs,
+    createStudyPopArgs = createStudyPopArgs,
+    createPsArgs = createPsArgs,
+    matchOnPsArgs = matchOnPsArgs,
+    stratifyByPsArgs = stratifyByPsArgs,
+    computeSharedCovariateBalanceArgs = computeSharedCovariateBalanceArgs,
+    computeCovariateBalanceArgs = computeCovariateBalanceArgs,
+    fitOutcomeModelArgs = fitOutcomeModelArgs
+  )
 }
 cohortMethodModuleSpecifications <- cmModuleSettingsCreator$createModuleSpecifications(
   cmAnalysisList = cmAnalysisList,

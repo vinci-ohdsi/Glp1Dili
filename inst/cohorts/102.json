@@ -22,6 +22,18 @@
 							"DOMAIN_ID" : "Unit",
 							"VOCABULARY_ID" : "UCUM",
 							"CONCEPT_CLASS_ID" : null
+						},
+						{
+							"CONCEPT_ID" : 8923,
+							"CONCEPT_NAME" : "international unit per liter",
+							"STANDARD_CONCEPT" : null,
+							"STANDARD_CONCEPT_CAPTION" : "Unknown",
+							"INVALID_REASON" : null,
+							"INVALID_REASON_CAPTION" : "Unknown",
+							"CONCEPT_CODE" : "[iU]/L",
+							"DOMAIN_ID" : "Unit",
+							"VOCABULARY_ID" : "UCUM",
+							"CONCEPT_CLASS_ID" : null
 						}
 					]
 				}
@@ -43,6 +55,18 @@
 							"INVALID_REASON" : null,
 							"INVALID_REASON_CAPTION" : "Unknown",
 							"CONCEPT_CODE" : "[U]/L",
+							"DOMAIN_ID" : "Unit",
+							"VOCABULARY_ID" : "UCUM",
+							"CONCEPT_CLASS_ID" : null
+						},
+						{
+							"CONCEPT_ID" : 8923,
+							"CONCEPT_NAME" : "international unit per liter",
+							"STANDARD_CONCEPT" : null,
+							"STANDARD_CONCEPT_CAPTION" : "Unknown",
+							"INVALID_REASON" : null,
+							"INVALID_REASON_CAPTION" : "Unknown",
+							"CONCEPT_CODE" : "[iU]/L",
 							"DOMAIN_ID" : "Unit",
 							"VOCABULARY_ID" : "UCUM",
 							"CONCEPT_CLASS_ID" : null
@@ -164,6 +188,18 @@
 							"INVALID_REASON" : null,
 							"INVALID_REASON_CAPTION" : "Unknown",
 							"CONCEPT_CODE" : "[U]/L",
+							"DOMAIN_ID" : "Unit",
+							"VOCABULARY_ID" : "UCUM",
+							"CONCEPT_CLASS_ID" : null
+						},
+						{
+							"CONCEPT_ID" : 8923,
+							"CONCEPT_NAME" : "international unit per liter",
+							"STANDARD_CONCEPT" : null,
+							"STANDARD_CONCEPT_CAPTION" : "Unknown",
+							"INVALID_REASON" : null,
+							"INVALID_REASON_CAPTION" : "Unknown",
+							"CONCEPT_CODE" : "[iU]/L",
 							"DOMAIN_ID" : "Unit",
 							"VOCABULARY_ID" : "UCUM",
 							"CONCEPT_CLASS_ID" : null
@@ -2370,6 +2406,18 @@
 										"DOMAIN_ID" : "Unit",
 										"VOCABULARY_ID" : "UCUM",
 										"CONCEPT_CLASS_ID" : null
+									},
+									{
+										"CONCEPT_ID" : 8923,
+										"CONCEPT_NAME" : "international unit per liter",
+										"STANDARD_CONCEPT" : null,
+										"STANDARD_CONCEPT_CAPTION" : "Unknown",
+										"INVALID_REASON" : null,
+										"INVALID_REASON_CAPTION" : "Unknown",
+										"CONCEPT_CODE" : "[iU]/L",
+										"DOMAIN_ID" : "Unit",
+										"VOCABULARY_ID" : "UCUM",
+										"CONCEPT_CLASS_ID" : null
 									}
 								]
 							}
@@ -2467,61 +2515,6 @@
 										"INVALID_REASON" : null,
 										"INVALID_REASON_CAPTION" : "Unknown",
 										"CONCEPT_CODE" : "mg/dL",
-										"DOMAIN_ID" : "Unit",
-										"VOCABULARY_ID" : "UCUM",
-										"CONCEPT_CLASS_ID" : null
-									}
-								]
-							}
-						},
-						"StartWindow" : {
-							"Start" : {
-								"Days" : 90,
-								"Coeff" : -1
-							},
-							"End" : {
-								"Days" : 0,
-								"Coeff" : 1
-							},
-							"UseIndexEnd" : false,
-							"UseEventEnd" : false
-						},
-						"RestrictVisit" : false,
-						"IgnoreObservationPeriod" : false,
-						"Occurrence" : {
-							"Type" : 2,
-							"Count" : 1,
-							"IsDistinct" : false
-						}
-					}
-				],
-				"DemographicCriteriaList" : [],
-				"Groups" : []
-			}
-		},
-		{
-			"name" : "Normal previous ALP test",
-			"expression" : {
-				"Type" : "ANY",
-				"CriteriaList" : [
-					{
-						"Criteria" : {
-							"Measurement" : {
-								"CodesetId" : 3,
-								"MeasurementTypeExclude" : false,
-								"ValueAsNumber" : {
-									"Value" : 41,
-									"Op" : "lte"
-								},
-								"Unit" : [
-									{
-										"CONCEPT_ID" : 8645,
-										"CONCEPT_NAME" : "unit per liter",
-										"STANDARD_CONCEPT" : null,
-										"STANDARD_CONCEPT_CAPTION" : "Unknown",
-										"INVALID_REASON" : null,
-										"INVALID_REASON_CAPTION" : "Unknown",
-										"CONCEPT_CODE" : "[U]/L",
 										"DOMAIN_ID" : "Unit",
 										"VOCABULARY_ID" : "UCUM",
 										"CONCEPT_CLASS_ID" : null
