@@ -1,0 +1,12 @@
+atlas_id,cohort_id,cohort_name,logic_description,generate_stats
+467,11,GLP1R user (vs DPP4i),NA,TRUE
+468,12,DPP4 user (vs GLP1Ra),NA,TRUE
+475,21,GLP1R user (vs SGLT2i),NA,TRUE
+477,22,SGLT2i user (vs GLR1Ra),NA,TRUE
+469,101,Acute Liver Injury without definitive cause,https://ohdsi.github.io/PhenotypeLibrary/articles/CohortDefinitionsInOhdsiPhenotypeLibrary.html,TRUE
+480,102,[GLP1-DILI] Newly developed abnormal liver test ,NA,TRUE
+484,103,[GLP1-DILI] Bile duct or gallbladder disease with hospitalization,NA,TRUE
+471,201,GLP-1 receptor agonists exposures,NA,TRUE
+472,202,DPP4 inhibitors exposures,NA,TRUE
+479,479,SGLT2 inhibitors exposures,NA,TRUE
+473,301,Persons with Type 2 diabetes mellitus and no prior T1DM or secondary diabetes,NA,TRUE

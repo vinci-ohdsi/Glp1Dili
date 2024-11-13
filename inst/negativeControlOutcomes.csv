@@ -1,0 +1,94 @@
+cohort_id,cohort_name,outcome_concept_id
+10001,Abnormal posture,439935
+10002,Abrasion and/or friction burn of multiple sites,443585
+10003,Abrasion and/or friction burn of trunk without infection,199192
+10004,Absence of breast,4088290
+10005,Absent kidney,4092879
+10006,Acquired hallux valgus,75911
+10007,Acquired keratoderma,137951
+10008,Anal and rectal polyp,73241
+10009,Anomaly of jaw size,45757682
+10010,Benign paroxysmal positional vertigo,81878
+10011,Bizarre personal appearance,4216219
+10012,Burn of forearm,133655
+10013,Cachexia,134765
+10014,Calcaneal spur,73560
+10015,Candidiasis of skin,4172458
+10016,Chalazion,381581
+10017,Changes in skin texture,140842
+10018,Chondromalacia of patella,81378
+10019,Cocaine abuse,432303
+10020,Colostomy present,4201390
+10021,Complication due to Crohn's disease,46269889
+10022,Complication of gastrostomy,434675
+10023,Contact dermatitis,134438
+10024,Contusion of knee,78619
+10025,Crohn's disease,201606
+10026,Dental caries,133228
+10027,Derangement of knee,76786
+10028,Developmental delay,436077
+10029,Deviated nasal septum,377910
+10030,Disease due to Papilloma virus,4147672
+10031,Disproportion of reconstructed breast,45757370
+10032,Endometriosis,433527
+10033,Epidermoid cyst,4170770
+10034,Exhaustion due to excessive exertion,437448
+10035,Feces contents abnormal,4092896
+10036,Foreign body in ear,374801
+10037,Foreign body in orifice,259995
+10038,Foreskin deficient,4096540
+10039,Galactosemia,439788
+10040,Ganglion cyst,40481632
+10041,Genetic disorder carrier,4168318
+10042,Genital herpes simplex,74855
+10043,Hammer toe,433577
+10044,Hereditary thrombophilia,4231770
+10045,High risk sexual behavior,4012570
+10046,Homocystinuria,4012934
+10047,Human papilloma virus infection,441788
+10048,Impacted cerumen,374375
+10049,Impingement syndrome of shoulder region,4344500
+10050,Inadequate sleep hygiene,40481897
+10051,Ingrowing nail,139099
+10052,Injury of knee,444132
+10053,Jellyfish poisoning,4265896
+10054,Late effect of contusion,434203
+10055,Late effect of motor vehicle accident,438329
+10056,Lipid storage disease,4027782
+10057,Lymphangioma,433997
+10058,Malingering,4051630
+10059,Marfan's syndrome,258540
+10060,"Mechanical complication of internal orthopedic device, implant AND/OR graft",432798
+10061,Melena,4103703
+10062,Minimal cognitive impairment,439795
+10063,Nicotine dependence,4209423
+10064,Noise effects on inner ear,377572
+10065,Non-toxic multinodular goiter,136368
+10066,Nonspecific tuberculin test reaction,40480893
+10067,Passing flatus,4091513
+10068,Physiological development failure,437092
+10069,Pneumothorax,253796
+10070,Postviral fatigue syndrome,4202045
+10071,Prolapse of intestine,4295888
+10072,Prostatitis,194997
+10073,Psychalgia,439790
+10074,Ptotic breast,81634
+10075,Regular astigmatism,380706
+10076,Senile hyperkeratosis,141932
+10077,Social exclusion,4019836
+10078,Somatic dysfunction of lumbar region,36713918
+10079,"Splinter of face, without major open wound",443172
+10080,Sprain of ankle,81151
+10081,Symbolic dysfunction,432436
+10082,Tear film insufficiency,378427
+10083,Tinea pedis,133141
+10084,Tobacco dependence syndrome,437264
+10085,Tooth loss,433244
+10086,Toxic effect of lead compound,436876
+10087,Toxic effect of tobacco and nicotine,440612
+10088,Tracheostomy present,4201387
+10089,Unsatisfactory tooth restoration,45757285
+10090,Uterine prolapse,4092565
+10091,Verruca vulgaris,140641
+10092,Wrist joint pain,4115367
+10093,Wristdrop,440193
