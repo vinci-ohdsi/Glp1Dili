@@ -5,7 +5,7 @@ atlas_id,cohort_id,cohort_name,logic_description,generate_stats
 477,22,SGLT2i user (vs GLR1Ra),NA,TRUE
 469,101,Acute Liver Injury without definitive cause,https://ohdsi.github.io/PhenotypeLibrary/articles/CohortDefinitionsInOhdsiPhenotypeLibrary.html,TRUE
 480,102,[GLP1-DILI] Newly developed abnormal liver test ,NA,TRUE
-484,103,[GLP1-DILI] Newly developed bile duct or gallbladder disease,NA,TRUE
+484,103,[GLP1-DILI] Bile duct or gallbladder disease with hospitalization,NA,TRUE
 471,201,GLP-1 receptor agonists exposures,NA,TRUE
 472,202,DPP4 inhibitors exposures,NA,TRUE
 479,479,SGLT2 inhibitors exposures,NA,TRUE
