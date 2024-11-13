@@ -99,16 +99,16 @@ CohortGeneratorModule$set(
   overwrite = TRUE
 )
 
-# Stand-alone execution the CG Module             
-cgModule <- CohortGeneratorModule$new()
-cgModule$execute(
-  connectionDetails = connectionDetails,
-  analysisSpecifications = analysisSpecifications,
-  executionSettings = executionSettings
-)
-
-# Remove CG module from the analysis specification
-analysisSpecifications$moduleSpecifications <- analysisSpecifications$moduleSpecifications[2:5]
+# # Stand-alone execution the CG Module             
+# cgModule <- CohortGeneratorModule$new()
+# cgModule$execute(
+#   connectionDetails = connectionDetails,
+#   analysisSpecifications = analysisSpecifications,
+#   executionSettings = executionSettings
+# )
+# 
+# # Remove CG module from the analysis specification
+# analysisSpecifications$moduleSpecifications <- analysisSpecifications$moduleSpecifications[2:5]
 
 # Note that given the redefinition of `CohortGeneratorModule` there is no need to
 # separate out its execution as is done above.
