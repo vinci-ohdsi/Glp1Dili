@@ -101,7 +101,7 @@ cModuleSettingsCreator <- CharacterizationModule$new()
 covariateSettings <- FeatureExtraction::createDefaultCovariateSettings(
   addDescendantsToExclude = TRUE # Keep TRUE because you're excluding concepts
 )
-covariateSettings$useMeasurementValueShortTerm = TRUE #Adding measurement values to adjusting variables when they are available
+covariateSettings$MeasurementValueShortTerm = TRUE #Adding measurement values to adjusting variables when they are available
 
 characterizationModuleSpecifications <- cModuleSettingsCreator$createModuleSpecifications(
   targetIds = cohortDefinitionSet$cohortId, # NOTE: This is all T/C/I/O
