@@ -25,6 +25,14 @@ useCleanWindowForPriorOutcomeLookback <- TRUE # If FALSE, lookback window is all
 priorOutcomeLookback365 <- 365
 psMatchMaxRatio <- 99 # If bigger than 1, the outcome model will be conditioned on the matched set
 # OneToOnePsMatchMaxRatio <- 1 # If bigger than 1, the outcome model will be conditioned on the matched set
+# Define timeAtRisks
+timeAtRisks <- tibble(
+  labelTar = c("On treatment", "90-day"),
+  riskWindowStart = c(1, 1),
+  startAnchor = c("cohort start", "cohort start"),
+  riskWindowEnd = c(0, 91),
+  endAnchor = c("cohort end", "cohort start")
+)
 
 # Don't change below this line (unless you know what you're doing) -------------
 
@@ -169,16 +177,6 @@ cohortIncidenceModuleSpecifications <- ciModuleSettingsCreator$createModuleSpeci
 
 
 # CohortMethodModule -----------------------------------------------------------
-
-# Define timeAtRisks
-timeAtRisks <- tibble(
-  labelTar = c("On treatment", "90-day"),
-  riskWindowStart = c(1, 1),
-  startAnchor = c("cohort start", "cohort start"),
-  riskWindowEnd = c(0, 91),
-  endAnchor = c("cohort end", "cohort start")
-)
-
 # Define psArgs
 psArgs <- tibble(
   labelPs = c("Variable matching", "PS stratification"),
