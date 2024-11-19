@@ -36,18 +36,17 @@ psMatchMaxRatio <- 1 # If bigger than 1, the outcome model will be conditioned o
 # Shared Resources -------------------------------------------------------------
 # Get the design assets
 cmTcList <- CohortGenerator::readCsv("inst/cmTcList.csv")
-sccsTList <- CohortGenerator::readCsv("inst/sccsTList.csv")
-sccsIList <- CohortGenerator::readCsv("inst/sccsIList.csv")
 oList <- CohortGenerator::readCsv("inst/oList.csv")
 ncoList <- CohortGenerator::readCsv("inst/negativeControlOutcomes.csv")
 excludedCovariateConcepts <- CohortGenerator::readCsv("inst/excludedCovariateConcepts.csv")
 
 # Get the list of cohorts
-cohortDefinitionSet <- CohortGenerator::getCohortDefinitionSet(
-  settingsFileName = "inst/Cohorts.csv",
-  jsonFolder = "inst/cohorts",
-  sqlFolder = "inst/sql/sql_server"
-)
+# cohortDefinitionSet <- CohortGenerator::getCohortDefinitionSet(
+#   settingsFileName = "inst/Cohorts.csv",
+#   jsonFolder = "inst/cohorts",
+#   sqlFolder = "inst/sql/sql_server"
+# )
+cohortDefinitionSet <- readr::read_csv("inst/Cohorts.csv", show_col_types = FALSE)
 
 negativeControlOutcomeCohortSet <- ncoList 
 
@@ -90,7 +89,6 @@ characterizationModuleSpecifications <- cModuleSettingsCreator$createModuleSpeci
 ciModuleSettingsCreator <- CohortIncidenceModule$new()
 tciIds <- cohortDefinitionSet %>%
   filter(!cohortId %in% oList$outcomeCohortId) %>%
-  filter(!cohortId %in% sccsTList$targetCohortId) %>%
   pull(cohortId)
 targetList <- lapply(
   tciIds,
