@@ -760,7 +760,10 @@
                   "mediumTermStartDays": -180,
                   "endDays": 0,
                   "longTermStartDays": -365,
-                  "MeasurementValueShortTerm": true,
+                  "DemographicsAge": true,
+                  "DemographicsPriorObservationTime": true,
+                  "DemographicsPostObservationTime": true,
+                  "DemographicsTimeInCohort": true,
                   "attr_class": "covariateSettings",
                   "attr_fun": "getDbDefaultCovariateData"
                 }
@@ -839,7 +842,10 @@
                   "mediumTermStartDays": -180,
                   "endDays": 0,
                   "longTermStartDays": -365,
-                  "MeasurementValueShortTerm": true,
+                  "DemographicsAge": true,
+                  "DemographicsPriorObservationTime": true,
+                  "DemographicsPostObservationTime": true,
+                  "DemographicsTimeInCohort": true,
                   "attr_class": "covariateSettings",
                   "attr_fun": "getDbDefaultCovariateData"
                 }

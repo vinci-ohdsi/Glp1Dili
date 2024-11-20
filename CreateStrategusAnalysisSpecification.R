@@ -72,7 +72,10 @@ cModuleSettingsCreator <- CharacterizationModule$new()
 covariateSettings <- FeatureExtraction::createDefaultCovariateSettings(
   addDescendantsToExclude = TRUE # Keep TRUE because you're excluding concepts
 )
-covariateSettings$MeasurementValueShortTerm = TRUE #Adding measurement values to adjusting variables when they are available
+covariateSettings$DemographicsAge <- TRUE
+covariateSettings$DemographicsPriorObservationTime <- TRUE
+covariateSettings$DemographicsPostObservationTime <- TRUE
+covariateSettings$DemographicsTimeInCohort <- TRUE
 
 characterizationModuleSpecifications <- cModuleSettingsCreator$createModuleSpecifications(
   targetIds = cohortDefinitionSet$cohortId, # NOTE: This is all T/C/I/O
