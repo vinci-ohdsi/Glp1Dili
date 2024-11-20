@@ -27,6 +27,7 @@ timeAtRisks <- tibble(
 
 # Probably don't change below this line ----------------------------------------
 useCleanWindowForPriorOutcomeLookback <- FALSE # If FALSE, lookback window is all time prior, i.e., including only first events
+psMatchMaxRatio <- 1 # If bigger than 1, the outcome model will be conditioned on the matched set
 
 
 ########## Don't change below this line (unless you know what you're doing) ############
@@ -152,12 +153,17 @@ cohortIncidenceModuleSpecifications <- ciModuleSettingsCreator$createModuleSpeci
 
 # CohortMethodModule -----------------------------------------------------------
 
-stratifyByPsArgs <- CohortMethod::createStratifyByPsArgs(numberOfStrata = 20)
-
+matchOnPsArgs <- CohortMethod::createMatchOnPsArgs(
+  maxRatio = psMatchMaxRatio,
+  caliper = 0.2,
+  caliperScale = "standardized logit",
+  allowReverseMatch = FALSE,
+  stratificationColumns = c()
+)
 
 fitOutcomeModelArgs <- CohortMethod::createFitOutcomeModelArgs(
   modelType = "cox",
-  stratified = TRUE, 
+  stratified = if (psMatchMaxRatio == 1) FALSE else TRUE, 
   useCovariates = FALSE,
   inversePtWeighting = FALSE,
   prior = Cyclops::createPrior(
@@ -273,13 +279,14 @@ for (i in seq_len(nrow(timeAtRisks))) {
   cmAnalysisList[[i]] <- CohortMethod::createCmAnalysis(
     analysisId = i,
     description = sprintf(
-      "Cohort method, %s, stratification",
-      timeAtRisks$labelTar[i]
+      "Cohort method, %s, 1-%d matching",
+      timeAtRisks$labelTar[i],
+      psMatchMaxRatio
     ),
     getDbCohortMethodDataArgs = getDbCohortMethodDataArgs,
     createStudyPopArgs = createStudyPopArgs,
     createPsArgs = createPsArgs,
-    stratifyByPsArgs = stratifyByPsArgs,
+    matchOnPsArgs = matchOnPsArgs,
     computeSharedCovariateBalanceArgs = computeSharedCovariateBalanceArgs,
     computeCovariateBalanceArgs = computeCovariateBalanceArgs,
     fitOutcomeModelArgs = fitOutcomeModelArgs
